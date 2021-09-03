@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\bin\Debug\netcoreapp3.1\04.Renovation.exe
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\bin\Debug\netcoreapp3.1\04.Renovation.deps.json
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\bin\Debug\netcoreapp3.1\04.Renovation.runtimeconfig.json
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\bin\Debug\netcoreapp3.1\04.Renovation.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\bin\Debug\netcoreapp3.1\04.Renovation.dll
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\bin\Debug\netcoreapp3.1\04.Renovation.pdb
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.AssemblyInfo.cs
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.dll
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.pdb
+D:\Programming\Programing Basic\ExamPreparation\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.genruntimeconfig.cache

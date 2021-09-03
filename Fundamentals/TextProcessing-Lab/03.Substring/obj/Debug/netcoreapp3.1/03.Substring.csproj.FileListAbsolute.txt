@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\bin\Debug\netcoreapp3.1\03.Substring.exe
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\bin\Debug\netcoreapp3.1\03.Substring.deps.json
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\bin\Debug\netcoreapp3.1\03.Substring.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\bin\Debug\netcoreapp3.1\03.Substring.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\bin\Debug\netcoreapp3.1\03.Substring.dll
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\bin\Debug\netcoreapp3.1\03.Substring.pdb
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\obj\Debug\netcoreapp3.1\03.Substring.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\obj\Debug\netcoreapp3.1\03.Substring.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\obj\Debug\netcoreapp3.1\03.Substring.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\obj\Debug\netcoreapp3.1\03.Substring.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\obj\Debug\netcoreapp3.1\03.Substring.dll
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\obj\Debug\netcoreapp3.1\03.Substring.pdb
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\03.Substring\obj\Debug\netcoreapp3.1\03.Substring.genruntimeconfig.cache

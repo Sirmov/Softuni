@@ -1,0 +1,12 @@
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\06.Courses\bin\Debug\netcoreapp3.1\06.Courses.exe
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\06.Courses\bin\Debug\netcoreapp3.1\06.Courses.deps.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\06.Courses\bin\Debug\netcoreapp3.1\06.Courses.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\06.Courses\bin\Debug\netcoreapp3.1\06.Courses.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\06.Courses\bin\Debug\netcoreapp3.1\06.Courses.dll
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\06.Courses\bin\Debug\netcoreapp3.1\06.Courses.pdb
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\06.Courses\obj\Debug\netcoreapp3.1\06.Courses.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\06.Courses\obj\Debug\netcoreapp3.1\06.Courses.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\06.Courses\obj\Debug\netcoreapp3.1\06.Courses.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\06.Courses\obj\Debug\netcoreapp3.1\06.Courses.dll
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\06.Courses\obj\Debug\netcoreapp3.1\06.Courses.pdb
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\06.Courses\obj\Debug\netcoreapp3.1\06.Courses.genruntimeconfig.cache

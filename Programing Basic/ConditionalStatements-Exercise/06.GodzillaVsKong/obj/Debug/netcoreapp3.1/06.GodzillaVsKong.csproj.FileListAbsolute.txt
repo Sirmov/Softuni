@@ -1,0 +1,12 @@
+D:\Programming\Programing Basic\ConditionalStatements-Exercise\06.GodzillaVsKong\bin\Debug\netcoreapp3.1\06.GodzillaVsKong.exe
+D:\Programming\Programing Basic\ConditionalStatements-Exercise\06.GodzillaVsKong\bin\Debug\netcoreapp3.1\06.GodzillaVsKong.deps.json
+D:\Programming\Programing Basic\ConditionalStatements-Exercise\06.GodzillaVsKong\bin\Debug\netcoreapp3.1\06.GodzillaVsKong.runtimeconfig.json
+D:\Programming\Programing Basic\ConditionalStatements-Exercise\06.GodzillaVsKong\bin\Debug\netcoreapp3.1\06.GodzillaVsKong.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ConditionalStatements-Exercise\06.GodzillaVsKong\bin\Debug\netcoreapp3.1\06.GodzillaVsKong.dll
+D:\Programming\Programing Basic\ConditionalStatements-Exercise\06.GodzillaVsKong\bin\Debug\netcoreapp3.1\06.GodzillaVsKong.pdb
+D:\Programming\Programing Basic\ConditionalStatements-Exercise\06.GodzillaVsKong\obj\Debug\netcoreapp3.1\06.GodzillaVsKong.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ConditionalStatements-Exercise\06.GodzillaVsKong\obj\Debug\netcoreapp3.1\06.GodzillaVsKong.AssemblyInfo.cs
+D:\Programming\Programing Basic\ConditionalStatements-Exercise\06.GodzillaVsKong\obj\Debug\netcoreapp3.1\06.GodzillaVsKong.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ConditionalStatements-Exercise\06.GodzillaVsKong\obj\Debug\netcoreapp3.1\06.GodzillaVsKong.dll
+D:\Programming\Programing Basic\ConditionalStatements-Exercise\06.GodzillaVsKong\obj\Debug\netcoreapp3.1\06.GodzillaVsKong.pdb
+D:\Programming\Programing Basic\ConditionalStatements-Exercise\06.GodzillaVsKong\obj\Debug\netcoreapp3.1\06.GodzillaVsKong.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\bin\Debug\netcoreapp3.1\04.Number100.200.exe
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\bin\Debug\netcoreapp3.1\04.Number100.200.deps.json
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\bin\Debug\netcoreapp3.1\04.Number100.200.runtimeconfig.json
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\bin\Debug\netcoreapp3.1\04.Number100.200.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\bin\Debug\netcoreapp3.1\04.Number100.200.dll
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\bin\Debug\netcoreapp3.1\04.Number100.200.pdb
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\obj\Debug\netcoreapp3.1\04.Number100.200.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\obj\Debug\netcoreapp3.1\04.Number100.200.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\obj\Debug\netcoreapp3.1\04.Number100.200.AssemblyInfo.cs
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\obj\Debug\netcoreapp3.1\04.Number100.200.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\obj\Debug\netcoreapp3.1\04.Number100.200.dll
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\obj\Debug\netcoreapp3.1\04.Number100.200.pdb
+D:\Programming\Programing Basic\ConditionalStatements-Lab\04.Number100.200\obj\Debug\netcoreapp3.1\04.Number100.200.genruntimeconfig.cache

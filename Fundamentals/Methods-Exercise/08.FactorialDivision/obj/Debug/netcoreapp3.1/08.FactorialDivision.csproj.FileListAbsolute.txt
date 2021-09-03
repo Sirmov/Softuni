@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\bin\Debug\netcoreapp3.1\08.FactorialDivision.exe
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\bin\Debug\netcoreapp3.1\08.FactorialDivision.deps.json
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\bin\Debug\netcoreapp3.1\08.FactorialDivision.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\bin\Debug\netcoreapp3.1\08.FactorialDivision.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\bin\Debug\netcoreapp3.1\08.FactorialDivision.dll
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\bin\Debug\netcoreapp3.1\08.FactorialDivision.pdb
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\obj\Debug\netcoreapp3.1\08.FactorialDivision.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\obj\Debug\netcoreapp3.1\08.FactorialDivision.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\obj\Debug\netcoreapp3.1\08.FactorialDivision.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\obj\Debug\netcoreapp3.1\08.FactorialDivision.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\obj\Debug\netcoreapp3.1\08.FactorialDivision.dll
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\obj\Debug\netcoreapp3.1\08.FactorialDivision.pdb
+D:\Programming\SoftUni\Fundamentals\Methods-Exercise\08.FactorialDivision\obj\Debug\netcoreapp3.1\08.FactorialDivision.genruntimeconfig.cache

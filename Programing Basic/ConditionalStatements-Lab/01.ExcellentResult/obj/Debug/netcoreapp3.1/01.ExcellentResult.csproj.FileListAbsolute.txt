@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\bin\Debug\netcoreapp3.1\01.ExcellentResult.exe
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\bin\Debug\netcoreapp3.1\01.ExcellentResult.deps.json
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\bin\Debug\netcoreapp3.1\01.ExcellentResult.runtimeconfig.json
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\bin\Debug\netcoreapp3.1\01.ExcellentResult.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\bin\Debug\netcoreapp3.1\01.ExcellentResult.dll
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\bin\Debug\netcoreapp3.1\01.ExcellentResult.pdb
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\netcoreapp3.1\01.ExcellentResult.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\netcoreapp3.1\01.ExcellentResult.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\netcoreapp3.1\01.ExcellentResult.AssemblyInfo.cs
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\netcoreapp3.1\01.ExcellentResult.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\netcoreapp3.1\01.ExcellentResult.dll
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\netcoreapp3.1\01.ExcellentResult.pdb
+D:\Programming\Programing Basic\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\netcoreapp3.1\01.ExcellentResult.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "11.ArrayManipulator/1.0.0": {
+        "runtime": {
+          "11.ArrayManipulator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "11.ArrayManipulator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\bin\Debug\netcoreapp3.1\04.TransportPrice.exe
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\bin\Debug\netcoreapp3.1\04.TransportPrice.deps.json
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\bin\Debug\netcoreapp3.1\04.TransportPrice.runtimeconfig.json
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\bin\Debug\netcoreapp3.1\04.TransportPrice.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\bin\Debug\netcoreapp3.1\04.TransportPrice.dll
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\bin\Debug\netcoreapp3.1\04.TransportPrice.pdb
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\obj\Debug\netcoreapp3.1\04.TransportPrice.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\obj\Debug\netcoreapp3.1\04.TransportPrice.AssemblyInfo.cs
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\obj\Debug\netcoreapp3.1\04.TransportPrice.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\obj\Debug\netcoreapp3.1\04.TransportPrice.dll
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\obj\Debug\netcoreapp3.1\04.TransportPrice.pdb
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\obj\Debug\netcoreapp3.1\04.TransportPrice.genruntimeconfig.cache
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\04.TransportPrice\obj\Debug\netcoreapp3.1\04.TransportPrice.csprojAssemblyReference.cache

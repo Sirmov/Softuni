@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\bin\Debug\netcoreapp3.1\02.PascalTriangle.exe
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\bin\Debug\netcoreapp3.1\02.PascalTriangle.deps.json
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\bin\Debug\netcoreapp3.1\02.PascalTriangle.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\bin\Debug\netcoreapp3.1\02.PascalTriangle.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\bin\Debug\netcoreapp3.1\02.PascalTriangle.dll
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\bin\Debug\netcoreapp3.1\02.PascalTriangle.pdb
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\obj\Debug\netcoreapp3.1\02.PascalTriangle.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\obj\Debug\netcoreapp3.1\02.PascalTriangle.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\obj\Debug\netcoreapp3.1\02.PascalTriangle.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\obj\Debug\netcoreapp3.1\02.PascalTriangle.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\obj\Debug\netcoreapp3.1\02.PascalTriangle.dll
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\obj\Debug\netcoreapp3.1\02.PascalTriangle.pdb
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\02.PascalTriangle\obj\Debug\netcoreapp3.1\02.PascalTriangle.genruntimeconfig.cache

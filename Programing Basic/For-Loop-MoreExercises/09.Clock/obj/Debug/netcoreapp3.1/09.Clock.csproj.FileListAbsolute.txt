@@ -1,0 +1,12 @@
+D:\Programming\Programing Basic\For-Loop-MoreExercises\09.Clock\bin\Debug\netcoreapp3.1\09.Clock.exe
+D:\Programming\Programing Basic\For-Loop-MoreExercises\09.Clock\bin\Debug\netcoreapp3.1\09.Clock.deps.json
+D:\Programming\Programing Basic\For-Loop-MoreExercises\09.Clock\bin\Debug\netcoreapp3.1\09.Clock.runtimeconfig.json
+D:\Programming\Programing Basic\For-Loop-MoreExercises\09.Clock\bin\Debug\netcoreapp3.1\09.Clock.runtimeconfig.dev.json
+D:\Programming\Programing Basic\For-Loop-MoreExercises\09.Clock\bin\Debug\netcoreapp3.1\09.Clock.dll
+D:\Programming\Programing Basic\For-Loop-MoreExercises\09.Clock\bin\Debug\netcoreapp3.1\09.Clock.pdb
+D:\Programming\Programing Basic\For-Loop-MoreExercises\09.Clock\obj\Debug\netcoreapp3.1\09.Clock.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\For-Loop-MoreExercises\09.Clock\obj\Debug\netcoreapp3.1\09.Clock.AssemblyInfo.cs
+D:\Programming\Programing Basic\For-Loop-MoreExercises\09.Clock\obj\Debug\netcoreapp3.1\09.Clock.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\For-Loop-MoreExercises\09.Clock\obj\Debug\netcoreapp3.1\09.Clock.dll
+D:\Programming\Programing Basic\For-Loop-MoreExercises\09.Clock\obj\Debug\netcoreapp3.1\09.Clock.pdb
+D:\Programming\Programing Basic\For-Loop-MoreExercises\09.Clock\obj\Debug\netcoreapp3.1\09.Clock.genruntimeconfig.cache

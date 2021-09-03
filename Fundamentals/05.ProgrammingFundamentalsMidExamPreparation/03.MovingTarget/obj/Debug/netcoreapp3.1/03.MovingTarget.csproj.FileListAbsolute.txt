@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\bin\Debug\netcoreapp3.1\03.MovingTarget.exe
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\bin\Debug\netcoreapp3.1\03.MovingTarget.deps.json
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\bin\Debug\netcoreapp3.1\03.MovingTarget.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\bin\Debug\netcoreapp3.1\03.MovingTarget.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\bin\Debug\netcoreapp3.1\03.MovingTarget.dll
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\bin\Debug\netcoreapp3.1\03.MovingTarget.pdb
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\obj\Debug\netcoreapp3.1\03.MovingTarget.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\obj\Debug\netcoreapp3.1\03.MovingTarget.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\obj\Debug\netcoreapp3.1\03.MovingTarget.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\obj\Debug\netcoreapp3.1\03.MovingTarget.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\obj\Debug\netcoreapp3.1\03.MovingTarget.dll
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\obj\Debug\netcoreapp3.1\03.MovingTarget.pdb
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.MovingTarget\obj\Debug\netcoreapp3.1\03.MovingTarget.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\bin\Debug\netcoreapp3.1\03.GamingStore.exe
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\bin\Debug\netcoreapp3.1\03.GamingStore.deps.json
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\bin\Debug\netcoreapp3.1\03.GamingStore.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\bin\Debug\netcoreapp3.1\03.GamingStore.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\bin\Debug\netcoreapp3.1\03.GamingStore.dll
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\bin\Debug\netcoreapp3.1\03.GamingStore.pdb
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\obj\Debug\netcoreapp3.1\03.GamingStore.csprojAssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\obj\Debug\netcoreapp3.1\03.GamingStore.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\obj\Debug\netcoreapp3.1\03.GamingStore.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\obj\Debug\netcoreapp3.1\03.GamingStore.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\obj\Debug\netcoreapp3.1\03.GamingStore.dll
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\obj\Debug\netcoreapp3.1\03.GamingStore.pdb
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\03.GamingStore\obj\Debug\netcoreapp3.1\03.GamingStore.genruntimeconfig.cache

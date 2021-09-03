@@ -1,0 +1,12 @@
+D:\Programming\Programing Basic\Exam\05.PuppyCare\bin\Debug\netcoreapp3.1\05.PuppyCare.exe
+D:\Programming\Programing Basic\Exam\05.PuppyCare\bin\Debug\netcoreapp3.1\05.PuppyCare.deps.json
+D:\Programming\Programing Basic\Exam\05.PuppyCare\bin\Debug\netcoreapp3.1\05.PuppyCare.runtimeconfig.json
+D:\Programming\Programing Basic\Exam\05.PuppyCare\bin\Debug\netcoreapp3.1\05.PuppyCare.runtimeconfig.dev.json
+D:\Programming\Programing Basic\Exam\05.PuppyCare\bin\Debug\netcoreapp3.1\05.PuppyCare.dll
+D:\Programming\Programing Basic\Exam\05.PuppyCare\bin\Debug\netcoreapp3.1\05.PuppyCare.pdb
+D:\Programming\Programing Basic\Exam\05.PuppyCare\obj\Debug\netcoreapp3.1\05.PuppyCare.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\Exam\05.PuppyCare\obj\Debug\netcoreapp3.1\05.PuppyCare.AssemblyInfo.cs
+D:\Programming\Programing Basic\Exam\05.PuppyCare\obj\Debug\netcoreapp3.1\05.PuppyCare.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\Exam\05.PuppyCare\obj\Debug\netcoreapp3.1\05.PuppyCare.dll
+D:\Programming\Programing Basic\Exam\05.PuppyCare\obj\Debug\netcoreapp3.1\05.PuppyCare.pdb
+D:\Programming\Programing Basic\Exam\05.PuppyCare\obj\Debug\netcoreapp3.1\05.PuppyCare.genruntimeconfig.cache

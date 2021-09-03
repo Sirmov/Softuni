@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\bin\Debug\netcoreapp3.1\03.TakeSkipRope.exe
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\bin\Debug\netcoreapp3.1\03.TakeSkipRope.deps.json
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\bin\Debug\netcoreapp3.1\03.TakeSkipRope.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\bin\Debug\netcoreapp3.1\03.TakeSkipRope.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\bin\Debug\netcoreapp3.1\03.TakeSkipRope.dll
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\bin\Debug\netcoreapp3.1\03.TakeSkipRope.pdb
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\obj\Debug\netcoreapp3.1\03.TakeSkipRope.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\obj\Debug\netcoreapp3.1\03.TakeSkipRope.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\obj\Debug\netcoreapp3.1\03.TakeSkipRope.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\obj\Debug\netcoreapp3.1\03.TakeSkipRope.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\obj\Debug\netcoreapp3.1\03.TakeSkipRope.dll
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\obj\Debug\netcoreapp3.1\03.TakeSkipRope.pdb
+D:\Programming\SoftUni\Fundamentals\Lists-MoreExercise\03.TakeSkipRope\obj\Debug\netcoreapp3.1\03.TakeSkipRope.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\bin\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.exe
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\bin\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.deps.json
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\bin\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\bin\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\bin\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.dll
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\bin\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.pdb
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\obj\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\obj\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\obj\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\obj\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\obj\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.dll
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\obj\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.pdb
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\01.EncryptSortAndPrintArray\obj\Debug\netcoreapp3.1\01.EncryptSortAndPrintArray.genruntimeconfig.cache

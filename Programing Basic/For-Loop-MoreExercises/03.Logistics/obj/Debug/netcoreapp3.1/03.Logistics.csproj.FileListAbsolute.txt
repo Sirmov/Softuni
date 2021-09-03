@@ -1,0 +1,13 @@
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\bin\Debug\netcoreapp3.1\03.Logistics.exe
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\bin\Debug\netcoreapp3.1\03.Logistics.deps.json
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\bin\Debug\netcoreapp3.1\03.Logistics.runtimeconfig.json
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\bin\Debug\netcoreapp3.1\03.Logistics.runtimeconfig.dev.json
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\bin\Debug\netcoreapp3.1\03.Logistics.dll
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\bin\Debug\netcoreapp3.1\03.Logistics.pdb
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\obj\Debug\netcoreapp3.1\03.Logistics.csprojAssemblyReference.cache
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\obj\Debug\netcoreapp3.1\03.Logistics.AssemblyInfoInputs.cache
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\obj\Debug\netcoreapp3.1\03.Logistics.AssemblyInfo.cs
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\obj\Debug\netcoreapp3.1\03.Logistics.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\obj\Debug\netcoreapp3.1\03.Logistics.dll
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\obj\Debug\netcoreapp3.1\03.Logistics.pdb
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\03.Logistics\obj\Debug\netcoreapp3.1\03.Logistics.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\05.Digits,LettersAndOther\bin\Debug\netcoreapp3.1\05.Digits,LettersAndOther.exe
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\05.Digits,LettersAndOther\bin\Debug\netcoreapp3.1\05.Digits,LettersAndOther.deps.json
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\05.Digits,LettersAndOther\bin\Debug\netcoreapp3.1\05.Digits,LettersAndOther.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\05.Digits,LettersAndOther\bin\Debug\netcoreapp3.1\05.Digits,LettersAndOther.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\05.Digits,LettersAndOther\bin\Debug\netcoreapp3.1\05.Digits,LettersAndOther.dll
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\05.Digits,LettersAndOther\bin\Debug\netcoreapp3.1\05.Digits,LettersAndOther.pdb
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\05.Digits,LettersAndOther\obj\Debug\netcoreapp3.1\05.Digits,LettersAndOther.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\05.Digits,LettersAndOther\obj\Debug\netcoreapp3.1\05.Digits,LettersAndOther.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\05.Digits,LettersAndOther\obj\Debug\netcoreapp3.1\05.Digits,LettersAndOther.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\05.Digits,LettersAndOther\obj\Debug\netcoreapp3.1\05.Digits,LettersAndOther.dll
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\05.Digits,LettersAndOther\obj\Debug\netcoreapp3.1\05.Digits,LettersAndOther.pdb
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Lab\05.Digits,LettersAndOther\obj\Debug\netcoreapp3.1\05.Digits,LettersAndOther.genruntimeconfig.cache

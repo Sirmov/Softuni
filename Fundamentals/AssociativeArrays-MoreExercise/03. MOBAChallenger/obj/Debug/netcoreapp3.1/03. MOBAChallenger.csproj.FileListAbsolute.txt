@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\bin\Debug\netcoreapp3.1\03. MOBAChallenger.exe
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\bin\Debug\netcoreapp3.1\03. MOBAChallenger.deps.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\bin\Debug\netcoreapp3.1\03. MOBAChallenger.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\bin\Debug\netcoreapp3.1\03. MOBAChallenger.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\bin\Debug\netcoreapp3.1\03. MOBAChallenger.dll
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\bin\Debug\netcoreapp3.1\03. MOBAChallenger.pdb
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\obj\Debug\netcoreapp3.1\03. MOBAChallenger.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\obj\Debug\netcoreapp3.1\03. MOBAChallenger.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\obj\Debug\netcoreapp3.1\03. MOBAChallenger.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\obj\Debug\netcoreapp3.1\03. MOBAChallenger.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\obj\Debug\netcoreapp3.1\03. MOBAChallenger.dll
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\obj\Debug\netcoreapp3.1\03. MOBAChallenger.pdb
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\03. MOBAChallenger\obj\Debug\netcoreapp3.1\03. MOBAChallenger.genruntimeconfig.cache

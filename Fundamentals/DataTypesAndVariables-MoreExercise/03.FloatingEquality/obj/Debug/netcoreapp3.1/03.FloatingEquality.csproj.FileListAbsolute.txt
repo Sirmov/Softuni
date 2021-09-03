@@ -1,0 +1,12 @@
+D:\Programming\SoftUni\Fundamentals\DataTypesAndVariables-MoreExercise\03.FloatingEquality\obj\Debug\netcoreapp3.1\03.FloatingEquality.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\DataTypesAndVariables-MoreExercise\03.FloatingEquality\obj\Debug\netcoreapp3.1\03.FloatingEquality.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\DataTypesAndVariables-MoreExercise\03.FloatingEquality\obj\Debug\netcoreapp3.1\03.FloatingEquality.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\DataTypesAndVariables-MoreExercise\03.FloatingEquality\bin\Debug\netcoreapp3.1\03.FloatingEquality.exe
+D:\Programming\SoftUni\Fundamentals\DataTypesAndVariables-MoreExercise\03.FloatingEquality\bin\Debug\netcoreapp3.1\03.FloatingEquality.deps.json
+D:\Programming\SoftUni\Fundamentals\DataTypesAndVariables-MoreExercise\03.FloatingEquality\bin\Debug\netcoreapp3.1\03.FloatingEquality.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\DataTypesAndVariables-MoreExercise\03.FloatingEquality\bin\Debug\netcoreapp3.1\03.FloatingEquality.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\DataTypesAndVariables-MoreExercise\03.FloatingEquality\bin\Debug\netcoreapp3.1\03.FloatingEquality.dll
+D:\Programming\SoftUni\Fundamentals\DataTypesAndVariables-MoreExercise\03.FloatingEquality\bin\Debug\netcoreapp3.1\03.FloatingEquality.pdb
+D:\Programming\SoftUni\Fundamentals\DataTypesAndVariables-MoreExercise\03.FloatingEquality\obj\Debug\netcoreapp3.1\03.FloatingEquality.dll
+D:\Programming\SoftUni\Fundamentals\DataTypesAndVariables-MoreExercise\03.FloatingEquality\obj\Debug\netcoreapp3.1\03.FloatingEquality.pdb
+D:\Programming\SoftUni\Fundamentals\DataTypesAndVariables-MoreExercise\03.FloatingEquality\obj\Debug\netcoreapp3.1\03.FloatingEquality.genruntimeconfig.cache

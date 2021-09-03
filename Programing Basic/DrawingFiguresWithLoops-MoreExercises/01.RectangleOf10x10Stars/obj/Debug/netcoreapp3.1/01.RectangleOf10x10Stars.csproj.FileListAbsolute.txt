@@ -1,0 +1,13 @@
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\bin\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.exe
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\bin\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.deps.json
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\bin\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.runtimeconfig.json
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\bin\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.runtimeconfig.dev.json
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\bin\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.dll
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\bin\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.pdb
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\obj\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.csprojAssemblyReference.cache
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\obj\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.AssemblyInfoInputs.cache
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\obj\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.AssemblyInfo.cs
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\obj\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\obj\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.dll
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\obj\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.pdb
+C:\Users\Nikola\source\repos\DrawingFiguresWithLoops-MoreExercises\01.RectangleOf10x10Stars\obj\Debug\netcoreapp3.1\01.RectangleOf10x10Stars.genruntimeconfig.cache

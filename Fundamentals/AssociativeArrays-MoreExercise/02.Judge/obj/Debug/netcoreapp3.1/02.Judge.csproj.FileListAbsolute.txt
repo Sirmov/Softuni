@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\bin\Debug\netcoreapp3.1\02.Judge.exe
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\bin\Debug\netcoreapp3.1\02.Judge.deps.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\bin\Debug\netcoreapp3.1\02.Judge.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\bin\Debug\netcoreapp3.1\02.Judge.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\bin\Debug\netcoreapp3.1\02.Judge.dll
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\bin\Debug\netcoreapp3.1\02.Judge.pdb
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\obj\Debug\netcoreapp3.1\02.Judge.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\obj\Debug\netcoreapp3.1\02.Judge.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\obj\Debug\netcoreapp3.1\02.Judge.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\obj\Debug\netcoreapp3.1\02.Judge.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\obj\Debug\netcoreapp3.1\02.Judge.dll
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\obj\Debug\netcoreapp3.1\02.Judge.pdb
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-MoreExercise\02.Judge\obj\Debug\netcoreapp3.1\02.Judge.genruntimeconfig.cache

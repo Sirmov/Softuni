@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\bin\Debug\netcoreapp3.1\07.StringExplosion.exe
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\bin\Debug\netcoreapp3.1\07.StringExplosion.deps.json
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\bin\Debug\netcoreapp3.1\07.StringExplosion.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\bin\Debug\netcoreapp3.1\07.StringExplosion.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\bin\Debug\netcoreapp3.1\07.StringExplosion.dll
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\bin\Debug\netcoreapp3.1\07.StringExplosion.pdb
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\obj\Debug\netcoreapp3.1\07.StringExplosion.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\obj\Debug\netcoreapp3.1\07.StringExplosion.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\obj\Debug\netcoreapp3.1\07.StringExplosion.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\obj\Debug\netcoreapp3.1\07.StringExplosion.dll
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\obj\Debug\netcoreapp3.1\07.StringExplosion.pdb
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\obj\Debug\netcoreapp3.1\07.StringExplosion.genruntimeconfig.cache
+D:\Programming\SoftUni\Fundamentals\TextProcessing-Exercise\07.StringExplosion\obj\Debug\netcoreapp3.1\07.StringExplosion.csproj.AssemblyReference.cache

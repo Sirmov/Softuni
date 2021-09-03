@@ -1,0 +1,13 @@
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\bin\Debug\netcoreapp3.1\02.Hospital.exe
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\bin\Debug\netcoreapp3.1\02.Hospital.deps.json
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\bin\Debug\netcoreapp3.1\02.Hospital.runtimeconfig.json
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\bin\Debug\netcoreapp3.1\02.Hospital.runtimeconfig.dev.json
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\bin\Debug\netcoreapp3.1\02.Hospital.dll
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\bin\Debug\netcoreapp3.1\02.Hospital.pdb
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\obj\Debug\netcoreapp3.1\02.Hospital.csprojAssemblyReference.cache
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\obj\Debug\netcoreapp3.1\02.Hospital.AssemblyInfoInputs.cache
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\obj\Debug\netcoreapp3.1\02.Hospital.AssemblyInfo.cs
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\obj\Debug\netcoreapp3.1\02.Hospital.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\obj\Debug\netcoreapp3.1\02.Hospital.dll
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\obj\Debug\netcoreapp3.1\02.Hospital.pdb
+C:\Users\Nikola\source\repos\For-Loop-MoreExercises\02.Hospital\obj\Debug\netcoreapp3.1\02.Hospital.genruntimeconfig.cache

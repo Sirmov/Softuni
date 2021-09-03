@@ -1,0 +1,12 @@
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\07.WaterOverflow\bin\Debug\netcoreapp3.1\07.WaterOverflow.exe
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\07.WaterOverflow\bin\Debug\netcoreapp3.1\07.WaterOverflow.deps.json
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\07.WaterOverflow\bin\Debug\netcoreapp3.1\07.WaterOverflow.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\07.WaterOverflow\bin\Debug\netcoreapp3.1\07.WaterOverflow.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\07.WaterOverflow\bin\Debug\netcoreapp3.1\07.WaterOverflow.dll
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\07.WaterOverflow\bin\Debug\netcoreapp3.1\07.WaterOverflow.pdb
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\07.WaterOverflow\obj\Debug\netcoreapp3.1\07.WaterOverflow.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\07.WaterOverflow\obj\Debug\netcoreapp3.1\07.WaterOverflow.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\07.WaterOverflow\obj\Debug\netcoreapp3.1\07.WaterOverflow.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\07.WaterOverflow\obj\Debug\netcoreapp3.1\07.WaterOverflow.dll
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\07.WaterOverflow\obj\Debug\netcoreapp3.1\07.WaterOverflow.pdb
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\07.WaterOverflow\obj\Debug\netcoreapp3.1\07.WaterOverflow.genruntimeconfig.cache

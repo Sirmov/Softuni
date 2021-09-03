@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\bin\Debug\netcoreapp3.1\03.RecursiveFibonacci.exe
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\bin\Debug\netcoreapp3.1\03.RecursiveFibonacci.deps.json
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\bin\Debug\netcoreapp3.1\03.RecursiveFibonacci.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\bin\Debug\netcoreapp3.1\03.RecursiveFibonacci.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\bin\Debug\netcoreapp3.1\03.RecursiveFibonacci.dll
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\bin\Debug\netcoreapp3.1\03.RecursiveFibonacci.pdb
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\obj\Debug\netcoreapp3.1\03.RecursiveFibonacci.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\obj\Debug\netcoreapp3.1\03.RecursiveFibonacci.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\obj\Debug\netcoreapp3.1\03.RecursiveFibonacci.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\obj\Debug\netcoreapp3.1\03.RecursiveFibonacci.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\obj\Debug\netcoreapp3.1\03.RecursiveFibonacci.dll
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\obj\Debug\netcoreapp3.1\03.RecursiveFibonacci.pdb
+D:\Programming\SoftUni\Fundamentals\Arrays-MoreExercise\03.RecursiveFibonacci\obj\Debug\netcoreapp3.1\03.RecursiveFibonacci.genruntimeconfig.cache

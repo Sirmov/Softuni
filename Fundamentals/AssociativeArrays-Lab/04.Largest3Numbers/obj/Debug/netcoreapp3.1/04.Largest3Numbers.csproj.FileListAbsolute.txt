@@ -1,0 +1,12 @@
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\04.Largest3Numbers\bin\Debug\netcoreapp3.1\04.Largest3Numbers.exe
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\04.Largest3Numbers\bin\Debug\netcoreapp3.1\04.Largest3Numbers.deps.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\04.Largest3Numbers\bin\Debug\netcoreapp3.1\04.Largest3Numbers.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\04.Largest3Numbers\bin\Debug\netcoreapp3.1\04.Largest3Numbers.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\04.Largest3Numbers\bin\Debug\netcoreapp3.1\04.Largest3Numbers.dll
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\04.Largest3Numbers\bin\Debug\netcoreapp3.1\04.Largest3Numbers.pdb
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\04.Largest3Numbers\obj\Debug\netcoreapp3.1\04.Largest3Numbers.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\04.Largest3Numbers\obj\Debug\netcoreapp3.1\04.Largest3Numbers.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\04.Largest3Numbers\obj\Debug\netcoreapp3.1\04.Largest3Numbers.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\04.Largest3Numbers\obj\Debug\netcoreapp3.1\04.Largest3Numbers.dll
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\04.Largest3Numbers\obj\Debug\netcoreapp3.1\04.Largest3Numbers.pdb
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\04.Largest3Numbers\obj\Debug\netcoreapp3.1\04.Largest3Numbers.genruntimeconfig.cache

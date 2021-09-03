@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\obj\Debug\netcoreapp3.1\03.ComputerRoom.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\obj\Debug\netcoreapp3.1\03.ComputerRoom.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\obj\Debug\netcoreapp3.1\03.ComputerRoom.AssemblyInfo.cs
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\obj\Debug\netcoreapp3.1\03.ComputerRoom.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\bin\Debug\netcoreapp3.1\03.ComputerRoom.exe
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\bin\Debug\netcoreapp3.1\03.ComputerRoom.deps.json
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\bin\Debug\netcoreapp3.1\03.ComputerRoom.runtimeconfig.json
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\bin\Debug\netcoreapp3.1\03.ComputerRoom.runtimeconfig.dev.json
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\bin\Debug\netcoreapp3.1\03.ComputerRoom.dll
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\bin\Debug\netcoreapp3.1\03.ComputerRoom.pdb
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\obj\Debug\netcoreapp3.1\03.ComputerRoom.dll
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\obj\Debug\netcoreapp3.1\03.ComputerRoom.pdb
+D:\Programming\Programing Basic\Exam\03.ComputerRoom\obj\Debug\netcoreapp3.1\03.ComputerRoom.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\bin\Debug\netcoreapp3.1\03.Harvest.exe
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\bin\Debug\netcoreapp3.1\03.Harvest.deps.json
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\bin\Debug\netcoreapp3.1\03.Harvest.runtimeconfig.json
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\bin\Debug\netcoreapp3.1\03.Harvest.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\bin\Debug\netcoreapp3.1\03.Harvest.dll
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\bin\Debug\netcoreapp3.1\03.Harvest.pdb
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\obj\Debug\netcoreapp3.1\03.Harvest.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\obj\Debug\netcoreapp3.1\03.Harvest.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\obj\Debug\netcoreapp3.1\03.Harvest.AssemblyInfo.cs
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\obj\Debug\netcoreapp3.1\03.Harvest.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\obj\Debug\netcoreapp3.1\03.Harvest.dll
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\obj\Debug\netcoreapp3.1\03.Harvest.pdb
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\03.Harvest\obj\Debug\netcoreapp3.1\03.Harvest.genruntimeconfig.cache

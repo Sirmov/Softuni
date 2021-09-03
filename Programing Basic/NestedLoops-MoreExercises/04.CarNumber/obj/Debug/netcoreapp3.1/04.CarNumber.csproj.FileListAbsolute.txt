@@ -1,0 +1,12 @@
+C:\Users\Nikola\source\repos\NestedLoops-MoreExercises\04.CarNumber\bin\Debug\netcoreapp3.1\04.CarNumber.exe
+C:\Users\Nikola\source\repos\NestedLoops-MoreExercises\04.CarNumber\bin\Debug\netcoreapp3.1\04.CarNumber.deps.json
+C:\Users\Nikola\source\repos\NestedLoops-MoreExercises\04.CarNumber\bin\Debug\netcoreapp3.1\04.CarNumber.runtimeconfig.json
+C:\Users\Nikola\source\repos\NestedLoops-MoreExercises\04.CarNumber\bin\Debug\netcoreapp3.1\04.CarNumber.runtimeconfig.dev.json
+C:\Users\Nikola\source\repos\NestedLoops-MoreExercises\04.CarNumber\bin\Debug\netcoreapp3.1\04.CarNumber.dll
+C:\Users\Nikola\source\repos\NestedLoops-MoreExercises\04.CarNumber\bin\Debug\netcoreapp3.1\04.CarNumber.pdb
+C:\Users\Nikola\source\repos\NestedLoops-MoreExercises\04.CarNumber\obj\Debug\netcoreapp3.1\04.CarNumber.AssemblyInfoInputs.cache
+C:\Users\Nikola\source\repos\NestedLoops-MoreExercises\04.CarNumber\obj\Debug\netcoreapp3.1\04.CarNumber.AssemblyInfo.cs
+C:\Users\Nikola\source\repos\NestedLoops-MoreExercises\04.CarNumber\obj\Debug\netcoreapp3.1\04.CarNumber.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\source\repos\NestedLoops-MoreExercises\04.CarNumber\obj\Debug\netcoreapp3.1\04.CarNumber.dll
+C:\Users\Nikola\source\repos\NestedLoops-MoreExercises\04.CarNumber\obj\Debug\netcoreapp3.1\04.CarNumber.pdb
+C:\Users\Nikola\source\repos\NestedLoops-MoreExercises\04.CarNumber\obj\Debug\netcoreapp3.1\04.CarNumber.genruntimeconfig.cache

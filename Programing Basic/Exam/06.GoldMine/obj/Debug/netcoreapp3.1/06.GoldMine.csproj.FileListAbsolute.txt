@@ -1,0 +1,12 @@
+D:\Programming\Programing Basic\Exam\06.GoldMine\bin\Debug\netcoreapp3.1\06.GoldMine.exe
+D:\Programming\Programing Basic\Exam\06.GoldMine\bin\Debug\netcoreapp3.1\06.GoldMine.deps.json
+D:\Programming\Programing Basic\Exam\06.GoldMine\bin\Debug\netcoreapp3.1\06.GoldMine.runtimeconfig.json
+D:\Programming\Programing Basic\Exam\06.GoldMine\bin\Debug\netcoreapp3.1\06.GoldMine.runtimeconfig.dev.json
+D:\Programming\Programing Basic\Exam\06.GoldMine\bin\Debug\netcoreapp3.1\06.GoldMine.dll
+D:\Programming\Programing Basic\Exam\06.GoldMine\bin\Debug\netcoreapp3.1\06.GoldMine.pdb
+D:\Programming\Programing Basic\Exam\06.GoldMine\obj\Debug\netcoreapp3.1\06.GoldMine.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\Exam\06.GoldMine\obj\Debug\netcoreapp3.1\06.GoldMine.AssemblyInfo.cs
+D:\Programming\Programing Basic\Exam\06.GoldMine\obj\Debug\netcoreapp3.1\06.GoldMine.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\Exam\06.GoldMine\obj\Debug\netcoreapp3.1\06.GoldMine.dll
+D:\Programming\Programing Basic\Exam\06.GoldMine\obj\Debug\netcoreapp3.1\06.GoldMine.pdb
+D:\Programming\Programing Basic\Exam\06.GoldMine\obj\Debug\netcoreapp3.1\06.GoldMine.genruntimeconfig.cache

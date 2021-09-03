@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\Exam\01.MiningRig\bin\Debug\netcoreapp3.1\01.MiningRig.exe
+D:\Programming\Programing Basic\Exam\01.MiningRig\bin\Debug\netcoreapp3.1\01.MiningRig.deps.json
+D:\Programming\Programing Basic\Exam\01.MiningRig\bin\Debug\netcoreapp3.1\01.MiningRig.runtimeconfig.json
+D:\Programming\Programing Basic\Exam\01.MiningRig\bin\Debug\netcoreapp3.1\01.MiningRig.runtimeconfig.dev.json
+D:\Programming\Programing Basic\Exam\01.MiningRig\bin\Debug\netcoreapp3.1\01.MiningRig.dll
+D:\Programming\Programing Basic\Exam\01.MiningRig\bin\Debug\netcoreapp3.1\01.MiningRig.pdb
+D:\Programming\Programing Basic\Exam\01.MiningRig\obj\Debug\netcoreapp3.1\01.MiningRig.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\Exam\01.MiningRig\obj\Debug\netcoreapp3.1\01.MiningRig.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\Exam\01.MiningRig\obj\Debug\netcoreapp3.1\01.MiningRig.AssemblyInfo.cs
+D:\Programming\Programing Basic\Exam\01.MiningRig\obj\Debug\netcoreapp3.1\01.MiningRig.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\Exam\01.MiningRig\obj\Debug\netcoreapp3.1\01.MiningRig.dll
+D:\Programming\Programing Basic\Exam\01.MiningRig\obj\Debug\netcoreapp3.1\01.MiningRig.pdb
+D:\Programming\Programing Basic\Exam\01.MiningRig\obj\Debug\netcoreapp3.1\01.MiningRig.genruntimeconfig.cache

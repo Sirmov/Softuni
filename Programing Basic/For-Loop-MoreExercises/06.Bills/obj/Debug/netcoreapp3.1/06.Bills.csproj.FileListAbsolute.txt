@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\bin\Debug\netcoreapp3.1\06.Bills.exe
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\bin\Debug\netcoreapp3.1\06.Bills.deps.json
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\bin\Debug\netcoreapp3.1\06.Bills.runtimeconfig.json
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\bin\Debug\netcoreapp3.1\06.Bills.runtimeconfig.dev.json
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\bin\Debug\netcoreapp3.1\06.Bills.dll
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\bin\Debug\netcoreapp3.1\06.Bills.pdb
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\obj\Debug\netcoreapp3.1\06.Bills.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\obj\Debug\netcoreapp3.1\06.Bills.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\obj\Debug\netcoreapp3.1\06.Bills.AssemblyInfo.cs
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\obj\Debug\netcoreapp3.1\06.Bills.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\obj\Debug\netcoreapp3.1\06.Bills.dll
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\obj\Debug\netcoreapp3.1\06.Bills.pdb
+D:\Programming\Programing Basic\For-Loop-MoreExercises\06.Bills\obj\Debug\netcoreapp3.1\06.Bills.genruntimeconfig.cache

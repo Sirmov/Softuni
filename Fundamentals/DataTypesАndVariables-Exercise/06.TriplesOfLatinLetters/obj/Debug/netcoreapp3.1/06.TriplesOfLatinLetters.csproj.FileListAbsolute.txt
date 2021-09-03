@@ -1,0 +1,12 @@
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\06.TriplesOfLatinLetters\bin\Debug\netcoreapp3.1\06.TriplesOfLatinLetters.exe
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\06.TriplesOfLatinLetters\bin\Debug\netcoreapp3.1\06.TriplesOfLatinLetters.deps.json
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\06.TriplesOfLatinLetters\bin\Debug\netcoreapp3.1\06.TriplesOfLatinLetters.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\06.TriplesOfLatinLetters\bin\Debug\netcoreapp3.1\06.TriplesOfLatinLetters.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\06.TriplesOfLatinLetters\bin\Debug\netcoreapp3.1\06.TriplesOfLatinLetters.dll
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\06.TriplesOfLatinLetters\bin\Debug\netcoreapp3.1\06.TriplesOfLatinLetters.pdb
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\06.TriplesOfLatinLetters\obj\Debug\netcoreapp3.1\06.TriplesOfLatinLetters.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\06.TriplesOfLatinLetters\obj\Debug\netcoreapp3.1\06.TriplesOfLatinLetters.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\06.TriplesOfLatinLetters\obj\Debug\netcoreapp3.1\06.TriplesOfLatinLetters.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\06.TriplesOfLatinLetters\obj\Debug\netcoreapp3.1\06.TriplesOfLatinLetters.dll
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\06.TriplesOfLatinLetters\obj\Debug\netcoreapp3.1\06.TriplesOfLatinLetters.pdb
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\06.TriplesOfLatinLetters\obj\Debug\netcoreapp3.1\06.TriplesOfLatinLetters.genruntimeconfig.cache

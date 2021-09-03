@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\bin\Debug\netcoreapp3.1\01.NationalCourt.exe
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\bin\Debug\netcoreapp3.1\01.NationalCourt.deps.json
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\bin\Debug\netcoreapp3.1\01.NationalCourt.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\bin\Debug\netcoreapp3.1\01.NationalCourt.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\bin\Debug\netcoreapp3.1\01.NationalCourt.dll
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\bin\Debug\netcoreapp3.1\01.NationalCourt.pdb
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\obj\Debug\netcoreapp3.1\01.NationalCourt.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\obj\Debug\netcoreapp3.1\01.NationalCourt.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\obj\Debug\netcoreapp3.1\01.NationalCourt.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\obj\Debug\netcoreapp3.1\01.NationalCourt.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\obj\Debug\netcoreapp3.1\01.NationalCourt.dll
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\obj\Debug\netcoreapp3.1\01.NationalCourt.pdb
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\01.NationalCourt\obj\Debug\netcoreapp3.1\01.NationalCourt.genruntimeconfig.cache

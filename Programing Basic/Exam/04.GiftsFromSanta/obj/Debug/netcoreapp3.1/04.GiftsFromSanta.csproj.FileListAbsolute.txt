@@ -1,0 +1,12 @@
+D:\Programming\Programing Basic\Exam\04.GiftsFromSanta\bin\Debug\netcoreapp3.1\04.GiftsFromSanta.exe
+D:\Programming\Programing Basic\Exam\04.GiftsFromSanta\bin\Debug\netcoreapp3.1\04.GiftsFromSanta.deps.json
+D:\Programming\Programing Basic\Exam\04.GiftsFromSanta\bin\Debug\netcoreapp3.1\04.GiftsFromSanta.runtimeconfig.json
+D:\Programming\Programing Basic\Exam\04.GiftsFromSanta\bin\Debug\netcoreapp3.1\04.GiftsFromSanta.runtimeconfig.dev.json
+D:\Programming\Programing Basic\Exam\04.GiftsFromSanta\bin\Debug\netcoreapp3.1\04.GiftsFromSanta.dll
+D:\Programming\Programing Basic\Exam\04.GiftsFromSanta\bin\Debug\netcoreapp3.1\04.GiftsFromSanta.pdb
+D:\Programming\Programing Basic\Exam\04.GiftsFromSanta\obj\Debug\netcoreapp3.1\04.GiftsFromSanta.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\Exam\04.GiftsFromSanta\obj\Debug\netcoreapp3.1\04.GiftsFromSanta.AssemblyInfo.cs
+D:\Programming\Programing Basic\Exam\04.GiftsFromSanta\obj\Debug\netcoreapp3.1\04.GiftsFromSanta.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\Exam\04.GiftsFromSanta\obj\Debug\netcoreapp3.1\04.GiftsFromSanta.dll
+D:\Programming\Programing Basic\Exam\04.GiftsFromSanta\obj\Debug\netcoreapp3.1\04.GiftsFromSanta.pdb
+D:\Programming\Programing Basic\Exam\04.GiftsFromSanta\obj\Debug\netcoreapp3.1\04.GiftsFromSanta.genruntimeconfig.cache

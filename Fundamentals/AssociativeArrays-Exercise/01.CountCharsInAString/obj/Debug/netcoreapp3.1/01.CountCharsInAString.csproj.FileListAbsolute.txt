@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\bin\Debug\netcoreapp3.1\01.CountCharsInAString.exe
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\bin\Debug\netcoreapp3.1\01.CountCharsInAString.deps.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\bin\Debug\netcoreapp3.1\01.CountCharsInAString.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\bin\Debug\netcoreapp3.1\01.CountCharsInAString.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\bin\Debug\netcoreapp3.1\01.CountCharsInAString.dll
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\bin\Debug\netcoreapp3.1\01.CountCharsInAString.pdb
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\obj\Debug\netcoreapp3.1\01.CountCharsInAString.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\obj\Debug\netcoreapp3.1\01.CountCharsInAString.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\obj\Debug\netcoreapp3.1\01.CountCharsInAString.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\obj\Debug\netcoreapp3.1\01.CountCharsInAString.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\obj\Debug\netcoreapp3.1\01.CountCharsInAString.dll
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\obj\Debug\netcoreapp3.1\01.CountCharsInAString.pdb
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Exercise\01.CountCharsInAString\obj\Debug\netcoreapp3.1\01.CountCharsInAString.genruntimeconfig.cache

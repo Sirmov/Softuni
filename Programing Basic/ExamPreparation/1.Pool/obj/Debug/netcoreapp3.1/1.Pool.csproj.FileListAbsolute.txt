@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\bin\Debug\netcoreapp3.1\1.Pool.exe
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\bin\Debug\netcoreapp3.1\1.Pool.deps.json
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\bin\Debug\netcoreapp3.1\1.Pool.runtimeconfig.json
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\bin\Debug\netcoreapp3.1\1.Pool.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\bin\Debug\netcoreapp3.1\1.Pool.dll
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\bin\Debug\netcoreapp3.1\1.Pool.pdb
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\obj\Debug\netcoreapp3.1\1.Pool.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\obj\Debug\netcoreapp3.1\1.Pool.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\obj\Debug\netcoreapp3.1\1.Pool.AssemblyInfo.cs
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\obj\Debug\netcoreapp3.1\1.Pool.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\obj\Debug\netcoreapp3.1\1.Pool.dll
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\obj\Debug\netcoreapp3.1\1.Pool.pdb
+D:\Programming\Programing Basic\ExamPreparation\1.Pool\obj\Debug\netcoreapp3.1\1.Pool.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\bin\Debug\netcoreapp3.1\01.WorldTour.exe
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\bin\Debug\netcoreapp3.1\01.WorldTour.deps.json
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\bin\Debug\netcoreapp3.1\01.WorldTour.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\bin\Debug\netcoreapp3.1\01.WorldTour.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\bin\Debug\netcoreapp3.1\01.WorldTour.dll
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\bin\Debug\netcoreapp3.1\01.WorldTour.pdb
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\obj\Debug\netcoreapp3.1\01.WorldTour.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\obj\Debug\netcoreapp3.1\01.WorldTour.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\obj\Debug\netcoreapp3.1\01.WorldTour.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\obj\Debug\netcoreapp3.1\01.WorldTour.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\obj\Debug\netcoreapp3.1\01.WorldTour.dll
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\obj\Debug\netcoreapp3.1\01.WorldTour.pdb
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.WorldTour\obj\Debug\netcoreapp3.1\01.WorldTour.genruntimeconfig.cache

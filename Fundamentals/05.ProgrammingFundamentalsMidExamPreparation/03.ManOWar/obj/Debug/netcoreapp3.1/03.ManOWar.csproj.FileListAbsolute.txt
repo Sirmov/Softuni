@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\bin\Debug\netcoreapp3.1\03.ManOWar.exe
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\bin\Debug\netcoreapp3.1\03.ManOWar.deps.json
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\bin\Debug\netcoreapp3.1\03.ManOWar.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\bin\Debug\netcoreapp3.1\03.ManOWar.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\bin\Debug\netcoreapp3.1\03.ManOWar.dll
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\bin\Debug\netcoreapp3.1\03.ManOWar.pdb
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\obj\Debug\netcoreapp3.1\03.ManOWar.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\obj\Debug\netcoreapp3.1\03.ManOWar.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\obj\Debug\netcoreapp3.1\03.ManOWar.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\obj\Debug\netcoreapp3.1\03.ManOWar.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\obj\Debug\netcoreapp3.1\03.ManOWar.dll
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\obj\Debug\netcoreapp3.1\03.ManOWar.pdb
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\03.ManOWar\obj\Debug\netcoreapp3.1\03.ManOWar.genruntimeconfig.cache

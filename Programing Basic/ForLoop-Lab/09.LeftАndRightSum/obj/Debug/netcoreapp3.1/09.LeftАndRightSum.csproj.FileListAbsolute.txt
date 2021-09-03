@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\bin\Debug\netcoreapp3.1\09.LeftАndRightSum.exe
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\bin\Debug\netcoreapp3.1\09.LeftАndRightSum.deps.json
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\bin\Debug\netcoreapp3.1\09.LeftАndRightSum.runtimeconfig.json
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\bin\Debug\netcoreapp3.1\09.LeftАndRightSum.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\bin\Debug\netcoreapp3.1\09.LeftАndRightSum.dll
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\bin\Debug\netcoreapp3.1\09.LeftАndRightSum.pdb
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\obj\Debug\netcoreapp3.1\09.LeftАndRightSum.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\obj\Debug\netcoreapp3.1\09.LeftАndRightSum.AssemblyInfo.cs
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\obj\Debug\netcoreapp3.1\09.LeftАndRightSum.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\obj\Debug\netcoreapp3.1\09.LeftАndRightSum.dll
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\obj\Debug\netcoreapp3.1\09.LeftАndRightSum.pdb
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\obj\Debug\netcoreapp3.1\09.LeftАndRightSum.genruntimeconfig.cache
+D:\Programming\Programing Basic\ForLoop-Lab\09.LeftАndRightSum\obj\Debug\netcoreapp3.1\09.LeftАndRightSum.csprojAssemblyReference.cache

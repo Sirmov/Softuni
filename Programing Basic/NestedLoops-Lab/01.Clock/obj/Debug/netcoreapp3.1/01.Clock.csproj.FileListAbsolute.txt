@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\bin\Debug\netcoreapp3.1\01.Clock.exe
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\bin\Debug\netcoreapp3.1\01.Clock.deps.json
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\bin\Debug\netcoreapp3.1\01.Clock.runtimeconfig.json
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\bin\Debug\netcoreapp3.1\01.Clock.runtimeconfig.dev.json
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\bin\Debug\netcoreapp3.1\01.Clock.dll
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\bin\Debug\netcoreapp3.1\01.Clock.pdb
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\obj\Debug\netcoreapp3.1\01.Clock.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\obj\Debug\netcoreapp3.1\01.Clock.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\obj\Debug\netcoreapp3.1\01.Clock.AssemblyInfo.cs
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\obj\Debug\netcoreapp3.1\01.Clock.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\obj\Debug\netcoreapp3.1\01.Clock.dll
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\obj\Debug\netcoreapp3.1\01.Clock.pdb
+D:\Programming\Programing Basic\NestedLoops-Lab\01.Clock\obj\Debug\netcoreapp3.1\01.Clock.genruntimeconfig.cache

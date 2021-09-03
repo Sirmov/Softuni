@@ -1,0 +1,12 @@
+D:\Programming\SoftUni\Fundamentals\RegularExpressions-Exercise\06.ExtractEmails\bin\Debug\netcoreapp3.1\06.ExtractEmails.exe
+D:\Programming\SoftUni\Fundamentals\RegularExpressions-Exercise\06.ExtractEmails\bin\Debug\netcoreapp3.1\06.ExtractEmails.deps.json
+D:\Programming\SoftUni\Fundamentals\RegularExpressions-Exercise\06.ExtractEmails\bin\Debug\netcoreapp3.1\06.ExtractEmails.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\RegularExpressions-Exercise\06.ExtractEmails\bin\Debug\netcoreapp3.1\06.ExtractEmails.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\RegularExpressions-Exercise\06.ExtractEmails\bin\Debug\netcoreapp3.1\06.ExtractEmails.dll
+D:\Programming\SoftUni\Fundamentals\RegularExpressions-Exercise\06.ExtractEmails\bin\Debug\netcoreapp3.1\06.ExtractEmails.pdb
+D:\Programming\SoftUni\Fundamentals\RegularExpressions-Exercise\06.ExtractEmails\obj\Debug\netcoreapp3.1\06.ExtractEmails.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\RegularExpressions-Exercise\06.ExtractEmails\obj\Debug\netcoreapp3.1\06.ExtractEmails.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\RegularExpressions-Exercise\06.ExtractEmails\obj\Debug\netcoreapp3.1\06.ExtractEmails.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\RegularExpressions-Exercise\06.ExtractEmails\obj\Debug\netcoreapp3.1\06.ExtractEmails.dll
+D:\Programming\SoftUni\Fundamentals\RegularExpressions-Exercise\06.ExtractEmails\obj\Debug\netcoreapp3.1\06.ExtractEmails.pdb
+D:\Programming\SoftUni\Fundamentals\RegularExpressions-Exercise\06.ExtractEmails\obj\Debug\netcoreapp3.1\06.ExtractEmails.genruntimeconfig.cache

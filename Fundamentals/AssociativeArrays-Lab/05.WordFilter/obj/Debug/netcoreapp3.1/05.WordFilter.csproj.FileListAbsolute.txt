@@ -1,0 +1,12 @@
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\05.WordFilter\bin\Debug\netcoreapp3.1\05.WordFilter.exe
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\05.WordFilter\bin\Debug\netcoreapp3.1\05.WordFilter.deps.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\05.WordFilter\bin\Debug\netcoreapp3.1\05.WordFilter.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\05.WordFilter\bin\Debug\netcoreapp3.1\05.WordFilter.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\05.WordFilter\bin\Debug\netcoreapp3.1\05.WordFilter.dll
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\05.WordFilter\bin\Debug\netcoreapp3.1\05.WordFilter.pdb
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\05.WordFilter\obj\Debug\netcoreapp3.1\05.WordFilter.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\05.WordFilter\obj\Debug\netcoreapp3.1\05.WordFilter.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\05.WordFilter\obj\Debug\netcoreapp3.1\05.WordFilter.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\05.WordFilter\obj\Debug\netcoreapp3.1\05.WordFilter.dll
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\05.WordFilter\obj\Debug\netcoreapp3.1\05.WordFilter.pdb
+D:\Programming\SoftUni\Fundamentals\AssociativeArrays-Lab\05.WordFilter\obj\Debug\netcoreapp3.1\05.WordFilter.genruntimeconfig.cache

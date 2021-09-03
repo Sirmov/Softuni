@@ -1,0 +1,12 @@
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\06.Pets\bin\Debug\netcoreapp3.1\06.Pets.exe
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\06.Pets\bin\Debug\netcoreapp3.1\06.Pets.deps.json
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\06.Pets\bin\Debug\netcoreapp3.1\06.Pets.runtimeconfig.json
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\06.Pets\bin\Debug\netcoreapp3.1\06.Pets.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\06.Pets\bin\Debug\netcoreapp3.1\06.Pets.dll
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\06.Pets\bin\Debug\netcoreapp3.1\06.Pets.pdb
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\06.Pets\obj\Debug\netcoreapp3.1\06.Pets.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\06.Pets\obj\Debug\netcoreapp3.1\06.Pets.AssemblyInfo.cs
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\06.Pets\obj\Debug\netcoreapp3.1\06.Pets.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\06.Pets\obj\Debug\netcoreapp3.1\06.Pets.dll
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\06.Pets\obj\Debug\netcoreapp3.1\06.Pets.pdb
+D:\Programming\Programing Basic\ConditionalStatements-MoreExercises\06.Pets\obj\Debug\netcoreapp3.1\06.Pets.genruntimeconfig.cache

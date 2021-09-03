@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\bin\Debug\netcoreapp3.1\02.ReportSystem.exe
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\bin\Debug\netcoreapp3.1\02.ReportSystem.deps.json
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\bin\Debug\netcoreapp3.1\02.ReportSystem.runtimeconfig.json
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\bin\Debug\netcoreapp3.1\02.ReportSystem.runtimeconfig.dev.json
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\bin\Debug\netcoreapp3.1\02.ReportSystem.dll
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\bin\Debug\netcoreapp3.1\02.ReportSystem.pdb
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.AssemblyInfo.cs
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.dll
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.pdb
+D:\Programming\Programing Basic\While-Loop-MoreExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.genruntimeconfig.cache

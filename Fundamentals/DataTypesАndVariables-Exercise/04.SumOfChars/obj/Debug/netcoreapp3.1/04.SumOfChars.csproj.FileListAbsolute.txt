@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\bin\Debug\netcoreapp3.1\04.SumOfChars.exe
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\bin\Debug\netcoreapp3.1\04.SumOfChars.deps.json
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\bin\Debug\netcoreapp3.1\04.SumOfChars.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\bin\Debug\netcoreapp3.1\04.SumOfChars.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\bin\Debug\netcoreapp3.1\04.SumOfChars.dll
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\bin\Debug\netcoreapp3.1\04.SumOfChars.pdb
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\obj\Debug\netcoreapp3.1\04.SumOfChars.csprojAssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\obj\Debug\netcoreapp3.1\04.SumOfChars.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\obj\Debug\netcoreapp3.1\04.SumOfChars.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\obj\Debug\netcoreapp3.1\04.SumOfChars.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\obj\Debug\netcoreapp3.1\04.SumOfChars.dll
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\obj\Debug\netcoreapp3.1\04.SumOfChars.pdb
+D:\Programming\SoftUni\Fundamentals\DataTypesАndVariables-Exercise\04.SumOfChars\obj\Debug\netcoreapp3.1\04.SumOfChars.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\bin\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.exe
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\bin\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.deps.json
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\bin\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.runtimeconfig.json
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\bin\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.runtimeconfig.dev.json
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\bin\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.dll
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\bin\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.pdb
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\obj\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.csprojAssemblyReference.cache
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\obj\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.AssemblyInfoInputs.cache
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\obj\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.AssemblyInfo.cs
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\obj\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\obj\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.dll
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\obj\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.pdb
+C:\Users\Nikola\source\repos\BasicSyntax,ConditionalStatementsAndLoops-Lab\BasicSyntax,ConditionalStatementsAndLoops-Lab\obj\Debug\netcoreapp3.1\BasicSyntax,ConditionalStatementsAndLoops-Lab.genruntimeconfig.cache

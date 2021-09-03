@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\bin\Debug\netcoreapp3.1\02.MultiplicationTable.exe
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\bin\Debug\netcoreapp3.1\02.MultiplicationTable.deps.json
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\bin\Debug\netcoreapp3.1\02.MultiplicationTable.runtimeconfig.json
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\bin\Debug\netcoreapp3.1\02.MultiplicationTable.runtimeconfig.dev.json
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\bin\Debug\netcoreapp3.1\02.MultiplicationTable.dll
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\bin\Debug\netcoreapp3.1\02.MultiplicationTable.pdb
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\obj\Debug\netcoreapp3.1\02.MultiplicationTable.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\obj\Debug\netcoreapp3.1\02.MultiplicationTable.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\obj\Debug\netcoreapp3.1\02.MultiplicationTable.AssemblyInfo.cs
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\obj\Debug\netcoreapp3.1\02.MultiplicationTable.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\obj\Debug\netcoreapp3.1\02.MultiplicationTable.dll
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\obj\Debug\netcoreapp3.1\02.MultiplicationTable.pdb
+D:\Programming\Programing Basic\NestedLoops-Lab\02.MultiplicationTable\obj\Debug\netcoreapp3.1\02.MultiplicationTable.genruntimeconfig.cache

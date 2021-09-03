@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\bin\Debug\netcoreapp3.1\07.OrderByAge.exe
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\bin\Debug\netcoreapp3.1\07.OrderByAge.deps.json
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\bin\Debug\netcoreapp3.1\07.OrderByAge.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\bin\Debug\netcoreapp3.1\07.OrderByAge.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\bin\Debug\netcoreapp3.1\07.OrderByAge.dll
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\bin\Debug\netcoreapp3.1\07.OrderByAge.pdb
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\obj\Debug\netcoreapp3.1\07.OrderByAge.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\obj\Debug\netcoreapp3.1\07.OrderByAge.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\obj\Debug\netcoreapp3.1\07.OrderByAge.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\obj\Debug\netcoreapp3.1\07.OrderByAge.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\obj\Debug\netcoreapp3.1\07.OrderByAge.dll
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\obj\Debug\netcoreapp3.1\07.OrderByAge.pdb
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\07.OrderByAge\obj\Debug\netcoreapp3.1\07.OrderByAge.genruntimeconfig.cache

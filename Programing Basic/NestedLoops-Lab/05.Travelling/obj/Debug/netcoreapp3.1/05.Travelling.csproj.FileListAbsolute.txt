@@ -1,0 +1,12 @@
+D:\Programming\Programing Basic\NestedLoops-Lab\05.Travelling\bin\Debug\netcoreapp3.1\05.Travelling.exe
+D:\Programming\Programing Basic\NestedLoops-Lab\05.Travelling\bin\Debug\netcoreapp3.1\05.Travelling.deps.json
+D:\Programming\Programing Basic\NestedLoops-Lab\05.Travelling\bin\Debug\netcoreapp3.1\05.Travelling.runtimeconfig.json
+D:\Programming\Programing Basic\NestedLoops-Lab\05.Travelling\bin\Debug\netcoreapp3.1\05.Travelling.runtimeconfig.dev.json
+D:\Programming\Programing Basic\NestedLoops-Lab\05.Travelling\bin\Debug\netcoreapp3.1\05.Travelling.dll
+D:\Programming\Programing Basic\NestedLoops-Lab\05.Travelling\bin\Debug\netcoreapp3.1\05.Travelling.pdb
+D:\Programming\Programing Basic\NestedLoops-Lab\05.Travelling\obj\Debug\netcoreapp3.1\05.Travelling.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\NestedLoops-Lab\05.Travelling\obj\Debug\netcoreapp3.1\05.Travelling.AssemblyInfo.cs
+D:\Programming\Programing Basic\NestedLoops-Lab\05.Travelling\obj\Debug\netcoreapp3.1\05.Travelling.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\NestedLoops-Lab\05.Travelling\obj\Debug\netcoreapp3.1\05.Travelling.dll
+D:\Programming\Programing Basic\NestedLoops-Lab\05.Travelling\obj\Debug\netcoreapp3.1\05.Travelling.pdb
+D:\Programming\Programing Basic\NestedLoops-Lab\05.Travelling\obj\Debug\netcoreapp3.1\05.Travelling.genruntimeconfig.cache

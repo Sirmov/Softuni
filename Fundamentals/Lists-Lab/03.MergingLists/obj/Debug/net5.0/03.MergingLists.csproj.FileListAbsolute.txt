@@ -1,0 +1,16 @@
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\bin\Debug\net5.0\03.MergingLists.exe
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\bin\Debug\net5.0\03.MergingLists.deps.json
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\bin\Debug\net5.0\03.MergingLists.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\bin\Debug\net5.0\03.MergingLists.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\bin\Debug\net5.0\03.MergingLists.dll
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\bin\Debug\net5.0\ref\03.MergingLists.dll
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\bin\Debug\net5.0\03.MergingLists.pdb
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\obj\Debug\net5.0\03.MergingLists.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\obj\Debug\net5.0\03.MergingLists.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\obj\Debug\net5.0\03.MergingLists.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\obj\Debug\net5.0\03.MergingLists.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\obj\Debug\net5.0\03.MergingLists.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\obj\Debug\net5.0\03.MergingLists.dll
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\obj\Debug\net5.0\ref\03.MergingLists.dll
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\obj\Debug\net5.0\03.MergingLists.pdb
+D:\Programming\SoftUni\Fundamentals\Lists-Lab\03.MergingLists\obj\Debug\net5.0\03.MergingLists.genruntimeconfig.cache

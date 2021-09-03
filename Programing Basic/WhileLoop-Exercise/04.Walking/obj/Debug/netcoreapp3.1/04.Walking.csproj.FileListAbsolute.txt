@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\bin\Debug\netcoreapp3.1\04.Walking.exe
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\bin\Debug\netcoreapp3.1\04.Walking.deps.json
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\bin\Debug\netcoreapp3.1\04.Walking.runtimeconfig.json
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\bin\Debug\netcoreapp3.1\04.Walking.runtimeconfig.dev.json
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\bin\Debug\netcoreapp3.1\04.Walking.dll
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\bin\Debug\netcoreapp3.1\04.Walking.pdb
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.AssemblyInfo.cs
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.dll
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.pdb
+D:\Programming\Programing Basic\WhileLoop-Exercise\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.genruntimeconfig.cache

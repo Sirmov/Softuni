@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\bin\Debug\netcoreapp3.1\02.Articles.exe
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\bin\Debug\netcoreapp3.1\02.Articles.deps.json
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\bin\Debug\netcoreapp3.1\02.Articles.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\bin\Debug\netcoreapp3.1\02.Articles.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\bin\Debug\netcoreapp3.1\02.Articles.dll
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\bin\Debug\netcoreapp3.1\02.Articles.pdb
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\obj\Debug\netcoreapp3.1\02.Articles.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\obj\Debug\netcoreapp3.1\02.Articles.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\obj\Debug\netcoreapp3.1\02.Articles.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\obj\Debug\netcoreapp3.1\02.Articles.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\obj\Debug\netcoreapp3.1\02.Articles.dll
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\obj\Debug\netcoreapp3.1\02.Articles.pdb
+D:\Programming\SoftUni\Fundamentals\ObjectsAndClasses-Exercise\02.Articles\obj\Debug\netcoreapp3.1\02.Articles.genruntimeconfig.cache

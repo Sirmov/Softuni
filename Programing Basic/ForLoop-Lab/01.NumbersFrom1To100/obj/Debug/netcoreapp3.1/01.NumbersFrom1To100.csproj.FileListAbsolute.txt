@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\bin\Debug\netcoreapp3.1\01.NumbersFrom1To100.exe
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\bin\Debug\netcoreapp3.1\01.NumbersFrom1To100.deps.json
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\bin\Debug\netcoreapp3.1\01.NumbersFrom1To100.runtimeconfig.json
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\bin\Debug\netcoreapp3.1\01.NumbersFrom1To100.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\bin\Debug\netcoreapp3.1\01.NumbersFrom1To100.dll
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\bin\Debug\netcoreapp3.1\01.NumbersFrom1To100.pdb
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\obj\Debug\netcoreapp3.1\01.NumbersFrom1To100.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\obj\Debug\netcoreapp3.1\01.NumbersFrom1To100.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\obj\Debug\netcoreapp3.1\01.NumbersFrom1To100.AssemblyInfo.cs
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\obj\Debug\netcoreapp3.1\01.NumbersFrom1To100.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\obj\Debug\netcoreapp3.1\01.NumbersFrom1To100.dll
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\obj\Debug\netcoreapp3.1\01.NumbersFrom1To100.pdb
+D:\Programming\Programing Basic\ForLoop-Lab\01.NumbersFrom1To100\obj\Debug\netcoreapp3.1\01.NumbersFrom1To100.genruntimeconfig.cache

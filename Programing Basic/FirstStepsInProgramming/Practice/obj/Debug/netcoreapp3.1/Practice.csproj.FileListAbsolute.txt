@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\bin\Debug\netcoreapp3.1\Practice.exe
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\bin\Debug\netcoreapp3.1\Practice.deps.json
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\bin\Debug\netcoreapp3.1\Practice.runtimeconfig.json
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\bin\Debug\netcoreapp3.1\Practice.runtimeconfig.dev.json
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\bin\Debug\netcoreapp3.1\Practice.dll
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\bin\Debug\netcoreapp3.1\Practice.pdb
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\obj\Debug\netcoreapp3.1\Practice.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\obj\Debug\netcoreapp3.1\Practice.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\obj\Debug\netcoreapp3.1\Practice.AssemblyInfo.cs
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\obj\Debug\netcoreapp3.1\Practice.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\obj\Debug\netcoreapp3.1\Practice.dll
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\obj\Debug\netcoreapp3.1\Practice.pdb
+D:\Programming\Programing Basic\FirstStepsInProgramming\Practice\obj\Debug\netcoreapp3.1\Practice.genruntimeconfig.cache

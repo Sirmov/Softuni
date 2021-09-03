@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\bin\Debug\netcoreapp3.1\02.MirrorWords.exe
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\bin\Debug\netcoreapp3.1\02.MirrorWords.deps.json
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\bin\Debug\netcoreapp3.1\02.MirrorWords.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\bin\Debug\netcoreapp3.1\02.MirrorWords.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\bin\Debug\netcoreapp3.1\02.MirrorWords.dll
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\bin\Debug\netcoreapp3.1\02.MirrorWords.pdb
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\obj\Debug\netcoreapp3.1\02.MirrorWords.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\obj\Debug\netcoreapp3.1\02.MirrorWords.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\obj\Debug\netcoreapp3.1\02.MirrorWords.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\obj\Debug\netcoreapp3.1\02.MirrorWords.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\obj\Debug\netcoreapp3.1\02.MirrorWords.dll
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\obj\Debug\netcoreapp3.1\02.MirrorWords.pdb
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\02.MirrorWords\obj\Debug\netcoreapp3.1\02.MirrorWords.genruntimeconfig.cache

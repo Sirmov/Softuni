@@ -1,0 +1,12 @@
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\05.Messages\bin\Debug\netcoreapp3.1\05.Messages.exe
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\05.Messages\bin\Debug\netcoreapp3.1\05.Messages.deps.json
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\05.Messages\bin\Debug\netcoreapp3.1\05.Messages.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\05.Messages\bin\Debug\netcoreapp3.1\05.Messages.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\05.Messages\bin\Debug\netcoreapp3.1\05.Messages.dll
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\05.Messages\bin\Debug\netcoreapp3.1\05.Messages.pdb
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\05.Messages\obj\Debug\netcoreapp3.1\05.Messages.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\05.Messages\obj\Debug\netcoreapp3.1\05.Messages.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\05.Messages\obj\Debug\netcoreapp3.1\05.Messages.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\05.Messages\obj\Debug\netcoreapp3.1\05.Messages.dll
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\05.Messages\obj\Debug\netcoreapp3.1\05.Messages.pdb
+D:\Programming\SoftUni\Fundamentals\BasicSyntax,ConditionalStatementsAndLoops-MoreExercise\05.Messages\obj\Debug\netcoreapp3.1\05.Messages.genruntimeconfig.cache

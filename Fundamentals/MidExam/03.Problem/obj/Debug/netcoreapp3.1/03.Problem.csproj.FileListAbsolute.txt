@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\bin\Debug\netcoreapp3.1\03.Problem.exe
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\bin\Debug\netcoreapp3.1\03.Problem.deps.json
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\bin\Debug\netcoreapp3.1\03.Problem.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\bin\Debug\netcoreapp3.1\03.Problem.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\bin\Debug\netcoreapp3.1\03.Problem.dll
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\bin\Debug\netcoreapp3.1\03.Problem.pdb
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\obj\Debug\netcoreapp3.1\03.Problem.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\obj\Debug\netcoreapp3.1\03.Problem.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\obj\Debug\netcoreapp3.1\03.Problem.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\obj\Debug\netcoreapp3.1\03.Problem.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\obj\Debug\netcoreapp3.1\03.Problem.dll
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\obj\Debug\netcoreapp3.1\03.Problem.pdb
+D:\Programming\SoftUni\Fundamentals\MidExam\03.Problem\obj\Debug\netcoreapp3.1\03.Problem.genruntimeconfig.cache

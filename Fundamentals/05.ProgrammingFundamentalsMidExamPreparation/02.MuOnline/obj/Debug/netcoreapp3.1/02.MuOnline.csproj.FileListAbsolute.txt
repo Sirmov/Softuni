@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\bin\Debug\netcoreapp3.1\02.MuOnline.exe
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\bin\Debug\netcoreapp3.1\02.MuOnline.deps.json
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\bin\Debug\netcoreapp3.1\02.MuOnline.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\bin\Debug\netcoreapp3.1\02.MuOnline.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\bin\Debug\netcoreapp3.1\02.MuOnline.dll
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\bin\Debug\netcoreapp3.1\02.MuOnline.pdb
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\obj\Debug\netcoreapp3.1\02.MuOnline.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\obj\Debug\netcoreapp3.1\02.MuOnline.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\obj\Debug\netcoreapp3.1\02.MuOnline.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\obj\Debug\netcoreapp3.1\02.MuOnline.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\obj\Debug\netcoreapp3.1\02.MuOnline.dll
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\obj\Debug\netcoreapp3.1\02.MuOnline.pdb
+D:\Programming\SoftUni\Fundamentals\05.ProgrammingFundamentalsMidExamPreparation\02.MuOnline\obj\Debug\netcoreapp3.1\02.MuOnline.genruntimeconfig.cache

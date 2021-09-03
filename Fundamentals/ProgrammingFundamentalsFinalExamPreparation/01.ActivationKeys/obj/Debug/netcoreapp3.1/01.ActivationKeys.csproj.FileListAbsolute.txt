@@ -1,0 +1,13 @@
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\bin\Debug\netcoreapp3.1\01.ActivationKeys.exe
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\bin\Debug\netcoreapp3.1\01.ActivationKeys.deps.json
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\bin\Debug\netcoreapp3.1\01.ActivationKeys.runtimeconfig.json
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\bin\Debug\netcoreapp3.1\01.ActivationKeys.runtimeconfig.dev.json
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\bin\Debug\netcoreapp3.1\01.ActivationKeys.dll
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\bin\Debug\netcoreapp3.1\01.ActivationKeys.pdb
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\obj\Debug\netcoreapp3.1\01.ActivationKeys.csproj.AssemblyReference.cache
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\obj\Debug\netcoreapp3.1\01.ActivationKeys.AssemblyInfoInputs.cache
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\obj\Debug\netcoreapp3.1\01.ActivationKeys.AssemblyInfo.cs
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\obj\Debug\netcoreapp3.1\01.ActivationKeys.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\obj\Debug\netcoreapp3.1\01.ActivationKeys.dll
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\obj\Debug\netcoreapp3.1\01.ActivationKeys.pdb
+D:\Programming\SoftUni\Fundamentals\ProgrammingFundamentalsFinalExamPreparation\01.ActivationKeys\obj\Debug\netcoreapp3.1\01.ActivationKeys.genruntimeconfig.cache

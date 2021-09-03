@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\bin\Debug\netcoreapp3.1\02.SummerOutfit.exe
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\bin\Debug\netcoreapp3.1\02.SummerOutfit.deps.json
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\bin\Debug\netcoreapp3.1\02.SummerOutfit.runtimeconfig.json
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\bin\Debug\netcoreapp3.1\02.SummerOutfit.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\bin\Debug\netcoreapp3.1\02.SummerOutfit.dll
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\bin\Debug\netcoreapp3.1\02.SummerOutfit.pdb
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\obj\Debug\netcoreapp3.1\02.SummerOutfit.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\obj\Debug\netcoreapp3.1\02.SummerOutfit.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\obj\Debug\netcoreapp3.1\02.SummerOutfit.AssemblyInfo.cs
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\obj\Debug\netcoreapp3.1\02.SummerOutfit.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\obj\Debug\netcoreapp3.1\02.SummerOutfit.dll
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\obj\Debug\netcoreapp3.1\02.SummerOutfit.pdb
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Exercise\02.SummerOutfit\obj\Debug\netcoreapp3.1\02.SummerOutfit.genruntimeconfig.cache

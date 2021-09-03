@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\obj\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\obj\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\obj\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.AssemblyInfo.cs
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\obj\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\bin\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.exe
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\bin\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.deps.json
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\bin\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.runtimeconfig.json
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\bin\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\bin\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.dll
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\bin\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.pdb
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\obj\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.dll
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\obj\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.pdb
+D:\Programming\Programing Basic\ConditionalStatementsAdvanced-Lab\ConditionalStatementsAdvanced-Lab\obj\Debug\netcoreapp3.1\ConditionalStatementsAdvanced-Lab.genruntimeconfig.cache

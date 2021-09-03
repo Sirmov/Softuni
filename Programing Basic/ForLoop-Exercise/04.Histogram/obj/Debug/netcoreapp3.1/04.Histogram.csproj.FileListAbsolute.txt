@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\bin\Debug\netcoreapp3.1\04.Histogram.exe
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\bin\Debug\netcoreapp3.1\04.Histogram.deps.json
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\bin\Debug\netcoreapp3.1\04.Histogram.runtimeconfig.json
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\bin\Debug\netcoreapp3.1\04.Histogram.runtimeconfig.dev.json
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\bin\Debug\netcoreapp3.1\04.Histogram.dll
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\bin\Debug\netcoreapp3.1\04.Histogram.pdb
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\obj\Debug\netcoreapp3.1\04.Histogram.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\obj\Debug\netcoreapp3.1\04.Histogram.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\obj\Debug\netcoreapp3.1\04.Histogram.AssemblyInfo.cs
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\obj\Debug\netcoreapp3.1\04.Histogram.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\obj\Debug\netcoreapp3.1\04.Histogram.dll
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\obj\Debug\netcoreapp3.1\04.Histogram.pdb
+D:\Programming\Programing Basic\ForLoop-Exercise\04.Histogram\obj\Debug\netcoreapp3.1\04.Histogram.genruntimeconfig.cache

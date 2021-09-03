@@ -1,0 +1,13 @@
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\bin\Debug\netcoreapp3.1\04.VacationBooksList.exe
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\bin\Debug\netcoreapp3.1\04.VacationBooksList.deps.json
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\bin\Debug\netcoreapp3.1\04.VacationBooksList.runtimeconfig.json
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\bin\Debug\netcoreapp3.1\04.VacationBooksList.runtimeconfig.dev.json
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\bin\Debug\netcoreapp3.1\04.VacationBooksList.dll
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\bin\Debug\netcoreapp3.1\04.VacationBooksList.pdb
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\obj\Debug\netcoreapp3.1\04.VacationBooksList.csprojAssemblyReference.cache
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\obj\Debug\netcoreapp3.1\04.VacationBooksList.AssemblyInfoInputs.cache
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\obj\Debug\netcoreapp3.1\04.VacationBooksList.AssemblyInfo.cs
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\obj\Debug\netcoreapp3.1\04.VacationBooksList.csproj.CoreCompileInputs.cache
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\obj\Debug\netcoreapp3.1\04.VacationBooksList.dll
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\obj\Debug\netcoreapp3.1\04.VacationBooksList.pdb
+D:\Programming\Programing Basic\FirstStepsInCoding-Exercise\04.VacationBooksList\obj\Debug\netcoreapp3.1\04.VacationBooksList.genruntimeconfig.cache
