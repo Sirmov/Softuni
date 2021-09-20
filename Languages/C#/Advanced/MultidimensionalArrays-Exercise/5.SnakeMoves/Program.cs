@@ -12,6 +12,7 @@ namespace _5.SnakeMoves
                 .Select(int.Parse)
                 .ToArray();
             char[,] matrix = new char[sizes[0], sizes[1]];
+            // Can implement with queue
             string snake = Console.ReadLine();
             int snakeHead = 0;
 
