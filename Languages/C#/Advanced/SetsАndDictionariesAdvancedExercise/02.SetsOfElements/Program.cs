@@ -9,31 +9,31 @@ namespace _02.SetsOfElements
         static void Main(string[] args)
         {
             int[] sizes = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            Dictionary<string, int> firstSet = new Dictionary<string, int>(sizes[0]);
-            HashSet<string> secondSet = new HashSet<string>(sizes[1]);
+            Dictionary<int, int> firstSet = new Dictionary<int, int>(sizes[0]);
+            HashSet<int> secondSet = new HashSet<int>(sizes[1]);
 
             for (int i = 0; i < sizes[0]; i++)
             {
-                string str = Console.ReadLine();
+                int num = int.Parse(Console.ReadLine());
 
-                if (!firstSet.ContainsKey(str))
+                if (!firstSet.ContainsKey(num))
                 {
-                    firstSet.Add(str, 0);
+                    firstSet.Add(num, 0);
                 }
 
-                firstSet[str]++;
+                firstSet[num]++;
             }
+
             for (int i = 0; i < sizes[1]; i++)
             {
-                secondSet.Add(Console.ReadLine());
+                secondSet.Add(int.Parse(Console.ReadLine()));
             }
 
-
-            foreach (var str in firstSet)
+            foreach (var num in firstSet)
             {
-                if (secondSet.Contains(str.Key) && str.Value == 1)
+                if (secondSet.Contains(num.Key))
                 {
-                    Console.Write(str.Key + " ");
+                    Console.Write(num.Key + " ");
                 }
             }
         }
