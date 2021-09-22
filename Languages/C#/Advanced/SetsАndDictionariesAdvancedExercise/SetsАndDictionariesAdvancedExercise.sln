@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.PeriodicTable", "03.Peri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.EvenTimes", "04.EvenTimes\04.EvenTimes.csproj", "{EEABD352-1C1F-469D-84A7-6964466F9354}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CountSymbols", "05.CountSymbols\05.CountSymbols.csproj", "{6FA7ABCB-55FD-401B-A180-AB00BD89944D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Wardrobe", "06.Wardrobe\06.Wardrobe.csproj", "{6D20C4CB-95AE-40CC-99D4-D2CF0D8018B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{EEABD352-1C1F-469D-84A7-6964466F9354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEABD352-1C1F-469D-84A7-6964466F9354}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEABD352-1C1F-469D-84A7-6964466F9354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA7ABCB-55FD-401B-A180-AB00BD89944D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA7ABCB-55FD-401B-A180-AB00BD89944D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA7ABCB-55FD-401B-A180-AB00BD89944D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA7ABCB-55FD-401B-A180-AB00BD89944D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D20C4CB-95AE-40CC-99D4-D2CF0D8018B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D20C4CB-95AE-40CC-99D4-D2CF0D8018B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D20C4CB-95AE-40CC-99D4-D2CF0D8018B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D20C4CB-95AE-40CC-99D4-D2CF0D8018B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
