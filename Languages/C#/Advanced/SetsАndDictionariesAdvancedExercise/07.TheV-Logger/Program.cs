@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace _07.TheV_Logger
 {
@@ -27,19 +28,37 @@ namespace _07.TheV_Logger
                     string follower = line[0];
                     string following = line[1];
 
-                    bool areValid = vloggers.ContainsKey(follower) && vloggers.ContainsKey(following);
-                    bool isUnique = follower != following;
-                    bool notFollowed = !vloggers[follower].Following.Contains(following);
-
-                    if (areValid)
+                    if (vloggers.ContainsKey(follower) && vloggers.ContainsKey(following))
                     {
-                        if (isUnique && notFollowed)
+                        if (follower != following && !vloggers[follower].Following.Contains(following))
                         {
                             vloggers[follower].Following.Add(following);
                             vloggers[following].Followers.Add(follower);
                         }
                     }
                 }
+            }
+
+            Console.WriteLine($"The V-Logger has a total of {vloggers.Count} vloggers in its logs.");
+
+            int num = 1;
+            foreach (var vlogger in vloggers.OrderByDescending(x => x.Value.Followers.Count).ThenBy(x => x.Value.Following.Count))
+            {
+                if (num == 1)
+                {
+                    Console.WriteLine($"1. {vlogger.Key} : {vlogger.Value.Followers.Count} followers, {vlogger.Value.Following.Count} following");
+
+                    foreach (var follower in vlogger.Value.Followers.OrderBy(x => x))
+                    {
+                        Console.WriteLine($"*  {follower}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"{num}. {vlogger.Key} : {vlogger.Value.Followers.Count} followers, {vlogger.Value.Following.Count} following");
+                }
+
+                num++;
             }
         }
     }
@@ -53,6 +72,8 @@ namespace _07.TheV_Logger
         public Vlogger(string name)
         {
             Name = name;
+            Following = new List<string>();
+            Followers = new List<string>();
         }
     }
 }
