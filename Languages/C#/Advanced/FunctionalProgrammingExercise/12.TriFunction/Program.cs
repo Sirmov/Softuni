@@ -11,7 +11,7 @@ namespace _12.TriFunction
             string[] names = Console.ReadLine().Split();
 
             Func<string, int, bool> isBigger = (name, threshold) => 
-            name.ToCharArray().Select(Convert.ToInt32).Sum() >= threshold;
+            name.Sum(x => x) >= threshold;
 
 
             Action<string[], int, Func<string, int, bool>> firstValid = (names, threshold, filter) => 
