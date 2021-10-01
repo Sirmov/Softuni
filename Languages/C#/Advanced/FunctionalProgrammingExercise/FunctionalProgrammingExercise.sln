@@ -15,13 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.ReverseAndExclude", "06.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.FindEvensOrOdds", "04.FindEvensOrOdds\04.FindEvensOrOdds.csproj", "{76C48CEA-9A32-4299-9E43-6001D4CFBF1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.PredicateForNames", "07.PredicateForNames\07.PredicateForNames.csproj", "{78E9B6FB-6553-453E-91CD-C1DE6E35B8D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.PredicateForNames", "07.PredicateForNames\07.PredicateForNames.csproj", "{78E9B6FB-6553-453E-91CD-C1DE6E35B8D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CustomComparator", "08.CustomComparator\08.CustomComparator.csproj", "{D3A60FD3-0BD6-4106-A845-01E2405C1946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.CustomComparator", "08.CustomComparator\08.CustomComparator.csproj", "{D3A60FD3-0BD6-4106-A845-01E2405C1946}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ListOfPredicates", "09.ListOfPredicates\09.ListOfPredicates.csproj", "{66AC28CF-D510-402F-88B5-D62F1BAC02B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.ListOfPredicates", "09.ListOfPredicates\09.ListOfPredicates.csproj", "{66AC28CF-D510-402F-88B5-D62F1BAC02B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.PredicateParty!", "10.PredicateParty!\10.PredicateParty!.csproj", "{FA137866-FF5B-489F-B0C8-D248907E9143}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.PredicateParty!", "10.PredicateParty!\10.PredicateParty!.csproj", "{FA137866-FF5B-489F-B0C8-D248907E9143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.ThePartyReservationFilterModule", "11.ThePartyReservationFilterModule\11.ThePartyReservationFilterModule.csproj", "{36FAB342-2A17-486F-8A31-B6064182420B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.TriFunction", "12.TriFunction\12.TriFunction.csproj", "{D9B94C75-2572-4AF2-81D1-F3EED0DD7000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{FA137866-FF5B-489F-B0C8-D248907E9143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA137866-FF5B-489F-B0C8-D248907E9143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA137866-FF5B-489F-B0C8-D248907E9143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36FAB342-2A17-486F-8A31-B6064182420B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36FAB342-2A17-486F-8A31-B6064182420B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36FAB342-2A17-486F-8A31-B6064182420B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36FAB342-2A17-486F-8A31-B6064182420B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B94C75-2572-4AF2-81D1-F3EED0DD7000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B94C75-2572-4AF2-81D1-F3EED0DD7000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B94C75-2572-4AF2-81D1-F3EED0DD7000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B94C75-2572-4AF2-81D1-F3EED0DD7000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
