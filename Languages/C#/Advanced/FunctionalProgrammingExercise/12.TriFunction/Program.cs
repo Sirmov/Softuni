@@ -14,19 +14,21 @@ namespace _12.TriFunction
             name.Sum(x => x) >= threshold;
 
 
-            Action<string[], int, Func<string, int, bool>> printFirstValid = (names, threshold, filter) => 
-            {
-                foreach (var name in names)
-                {
-                    if (filter(name, threshold))
-                    {
-                        Console.WriteLine(name);
-                        break;
-                    }
-                }
-            };
+            Action<string[], int, Func<string, int, bool>> printFirstValid = (names, threshold, filter) =>
+            Console.WriteLine(names.FirstOrDefault(n => filter(n, threshold)));
 
-            firstValid(names, threshold, isBigger);
+            //{
+            //    foreach (var name in names)
+            //    {
+            //        if (filter(name, threshold))
+            //        {
+            //            Console.WriteLine(name);
+            //            break;
+            //        }
+            //    }
+            //};
+
+            printFirstValid(names, threshold, isBigger);
         }
     }
 }
