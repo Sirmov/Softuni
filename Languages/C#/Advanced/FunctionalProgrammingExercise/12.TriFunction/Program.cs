@@ -14,7 +14,7 @@ namespace _12.TriFunction
             name.Sum(x => x) >= threshold;
 
 
-            Action<string[], int, Func<string, int, bool>> firstValid = (names, threshold, filter) => 
+            Action<string[], int, Func<string, int, bool>> printFirstValid = (names, threshold, filter) => 
             {
                 foreach (var name in names)
                 {
