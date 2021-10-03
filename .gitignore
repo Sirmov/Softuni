@@ -4,6 +4,8 @@ obj
 Properties
 .user
 
+*.rar
+*.zip
 
 
 ## Ignore Visual Studio temporary files, build results, and
