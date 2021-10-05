@@ -10,8 +10,6 @@ namespace _08.CarSalesman
         {
             Model = model;
             Engine = engine;
-            Weight = null;
-            Color = null;
         }
 
         public Car(string model, Engine engine, int weight) : this(model, engine)
