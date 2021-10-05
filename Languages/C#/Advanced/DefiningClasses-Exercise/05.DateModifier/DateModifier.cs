@@ -9,11 +9,8 @@ namespace _05.DateModifier
     {
         public static int DateDifference(string firstDate, string secondDate)
         {
-            int[] firstDateArgs = firstDate.Split().Select(int.Parse).ToArray();
-            int[] secondDateArgs = secondDate.Split().Select(int.Parse).ToArray();
-
-            DateTime first = new DateTime(firstDateArgs[0], firstDateArgs[1], firstDateArgs[2]);
-            DateTime second = new DateTime(secondDateArgs[0], secondDateArgs[1], secondDateArgs[2]);
+            DateTime first = DateTime.Parse(firstDate);
+            DateTime second = DateTime.Parse(secondDate);
 
             return Math.Abs((first - second).Days);
         }

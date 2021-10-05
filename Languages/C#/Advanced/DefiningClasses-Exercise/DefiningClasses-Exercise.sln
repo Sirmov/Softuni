@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.DateModifier", "05.DateM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.SpeedRacing", "06.SpeedRacing\06.SpeedRacing.csproj", "{4A339A6A-543A-4122-9A43-B29A8AEAB225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.RawData", "07.RawData\07.RawData.csproj", "{25AFB334-374F-4E63-BF7F-67EFB0D84E3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.RawData", "07.RawData\07.RawData.csproj", "{25AFB334-374F-4E63-BF7F-67EFB0D84E3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CarSalesman", "08.CarSalesman\08.CarSalesman.csproj", "{06194C36-B491-476B-AE9D-3D0739F0099B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.CarSalesman", "08.CarSalesman\08.CarSalesman.csproj", "{06194C36-B491-476B-AE9D-3D0739F0099B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.PokemonTrainer", "09.PokemonTrainer\09.PokemonTrainer.csproj", "{4B6E7D79-5DBB-42F2-8F7D-0A57078EF064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.SoftUniParking", "10.SoftUniParking\10.SoftUniParking.csproj", "{3A7C80A4-4165-4BCC-A5AE-D84CF737842A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{06194C36-B491-476B-AE9D-3D0739F0099B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06194C36-B491-476B-AE9D-3D0739F0099B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06194C36-B491-476B-AE9D-3D0739F0099B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6E7D79-5DBB-42F2-8F7D-0A57078EF064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6E7D79-5DBB-42F2-8F7D-0A57078EF064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6E7D79-5DBB-42F2-8F7D-0A57078EF064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6E7D79-5DBB-42F2-8F7D-0A57078EF064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7C80A4-4165-4BCC-A5AE-D84CF737842A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7C80A4-4165-4BCC-A5AE-D84CF737842A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7C80A4-4165-4BCC-A5AE-D84CF737842A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7C80A4-4165-4BCC-A5AE-D84CF737842A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
