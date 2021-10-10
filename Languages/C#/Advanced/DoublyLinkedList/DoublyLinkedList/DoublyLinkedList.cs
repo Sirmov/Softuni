@@ -49,7 +49,7 @@ namespace DoublyLinkedList
             Count++;
         }
 
-        public Node<T> RemoveFirst()
+        public T RemoveFirst()
         {
             Node<T> returnNode;
 
@@ -65,7 +65,7 @@ namespace DoublyLinkedList
                 last = null;
                 Count--;
 
-                return returnNode;
+                return returnNode.Value;
             }
             else
             {
@@ -75,11 +75,11 @@ namespace DoublyLinkedList
                 first = first.Next;
                 Count--;
 
-                return returnNode;
+                return returnNode.Value;
             }
         }
 
-        public Node<T> RemoveLast()
+        public T RemoveLast()
         {
             Node<T> returnNode;
 
@@ -95,7 +95,7 @@ namespace DoublyLinkedList
                 last = null;
                 Count--;
 
-                return returnNode;
+                return returnNode.Value;
             }
             else
             {
@@ -105,7 +105,7 @@ namespace DoublyLinkedList
                 last = last.Previous;
                 Count--;
 
-                return returnNode;
+                return returnNode.Value;
             }
         }
 
