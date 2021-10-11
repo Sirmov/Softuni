@@ -5,12 +5,10 @@
 
 :mortar_board: Hello I'm Nikola Sirmov and this Github repository is about my education in [SoftUni](https://softuni.org/).
 
-## Certificates
+## Modules
 
-### Programming Basics
-
-[Programming Basics - January 2021](https://softuni.bg/Certificates/Details/100323/6f3cc46c)
-
-### Programming Fundamentals
-
-[Programming Fundamentals with C# - May 2021](https://softuni.bg/certificates/details/111597/4e53d063)
+| Course | Certificate |
+|:-------------------------------------------------------------------------------------------------------------------|:---:|
+| [Programming Basics - January 2021](https://softuni.bg/trainings/3199/programming-basics-with-csharp-january-2021) | [Certificate](https://softuni.bg/Certificates/Details/100323/6f3cc46c) |
+| [Programming Fundamentals with C# - May 2021](https://softuni.bg/trainings/3365/csharp-fundamentals-may-2021)      | [Certificate](https://softuni.bg/certificates/details/111597/4e53d063) |
+|                                                         |                                                          |
