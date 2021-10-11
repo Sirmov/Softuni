@@ -19,18 +19,17 @@ namespace _08.CarSalesman
 
                 if (engineInfo.Length == 4)
                 {
-                    string displacement = engineInfo[2];
+                    int displacement = int.Parse(engineInfo[2]);
                     string efficiency = engineInfo[3];
 
                     engines.Add(model, new Engine(model, power, displacement, efficiency));
                 }
                 else if (engineInfo.Length == 3)
                 {
-                    bool isDisplacement = int.TryParse(engineInfo[2], out _);
+                    bool isDisplacement = int.TryParse(engineInfo[2], out int displacement);
 
                     if (isDisplacement)
                     {
-                        int displacement = int.Parse(engineInfo[2]);
                         engines.Add(model, new Engine(model, power, displacement));
                     }
                     else
@@ -56,18 +55,17 @@ namespace _08.CarSalesman
 
                 if (carInfo.Length == 4)
                 {
-                    string weight = carInfo[2];
+                    int weight = int.Parse(carInfo[2]);
                     string color = carInfo[3];
 
                     cars.Add(new Car(model, engines[engineModel], weight, color));
                 }
                 else if (carInfo.Length == 3)
                 {
-                    bool isWeight = int.TryParse(carInfo[2], out _);
+                    bool isWeight = int.TryParse(carInfo[2], out int weight);
 
                     if (isWeight)
                     {
-                        int weight = int.Parse(carInfo[2]);
                         cars.Add(new Car(model, engines[engineModel], weight));
                     }
                     else

@@ -14,7 +14,7 @@ namespace _08.CarSalesman
 
         public Car(string model, Engine engine, int weight) : this(model, engine)
         {
-            Weight = weight.ToString();
+            Weight = weight;
         }
 
         public Car(string model, Engine engine, string color) : this(model, engine)
@@ -22,7 +22,7 @@ namespace _08.CarSalesman
             Color = color;
         }
 
-        public Car(string model, Engine engine, string weight, string color) : this(model, engine)
+        public Car(string model, Engine engine, int weight, string color) : this(model, engine)
         {
             Weight = weight;
             Color = color;
@@ -33,11 +33,8 @@ namespace _08.CarSalesman
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine($"{Model}:");
-            sb.AppendLine($"  {Engine.Model}:");
-            sb.AppendLine($"    Power: {Engine.Power}");
-            sb.AppendLine($"    Displacement: {Engine.Displacement ?? "n/a"}");
-            sb.AppendLine($"    Efficiency: {Engine.Efficiency ?? "n/a"}");
-            sb.AppendLine($"  Weight: {Weight ?? "n/a"}");
+            sb.Append(Engine.ToString());
+            sb.AppendLine($"  Weight: {(Weight.HasValue ? Weight.Value.ToString() : "n/a")}");
             sb.Append($"  Color: {Color ?? "n/a"}");
 
             return sb.ToString();
@@ -45,7 +42,7 @@ namespace _08.CarSalesman
 
         public string Model { get; set; }
         public Engine Engine { get; set; }
-        public string Weight { get; set; }
+        public int? Weight { get; set; }
         public string Color { get; set; }
 
     }
