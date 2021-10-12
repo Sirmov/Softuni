@@ -1,8 +1,8 @@
+# Custom
 bin
 obj
 .vs
 Properties
-.user
 
 # Archive files
 *.rar
