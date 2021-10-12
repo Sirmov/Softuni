@@ -11,8 +11,7 @@ function division(num) {
         message = 'The number is divisible by 3';
     } else if (num % 2 == 0) {
         message = 'The number is divisible by 2';
-    }
-    else {
+    } else {
         message = 'Not divisible';
     }
 
