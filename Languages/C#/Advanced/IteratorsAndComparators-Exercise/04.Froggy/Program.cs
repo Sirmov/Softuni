@@ -10,14 +10,7 @@ namespace _04.Froggy
         {
             int[] stones = Console.ReadLine().Split(", ").Select(int.Parse).ToArray();
             Lake lake = new Lake(stones);
-            List<int> path = new List<int>(stones.Length);
-
-            foreach (var stone in lake)
-            {
-                path.Add(stone);
-            }
-
-            Console.WriteLine(string.Join(", ", path));
+            Console.WriteLine(string.Join(", ", lake));
         }
     }
 }
