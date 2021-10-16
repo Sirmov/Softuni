@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Masterchef", "01.Masterchef\01.Masterchef.csproj", "{6672B137-5340-4FA6-A6B9-C5ABC3DE768B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.TheBattleOfTheFiveArmies", "02.TheBattleOfTheFiveArmies\02.TheBattleOfTheFiveArmies.csproj", "{65FC92E0-B5E8-401F-A5E3-247788BF4D9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6672B137-5340-4FA6-A6B9-C5ABC3DE768B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6672B137-5340-4FA6-A6B9-C5ABC3DE768B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6672B137-5340-4FA6-A6B9-C5ABC3DE768B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6672B137-5340-4FA6-A6B9-C5ABC3DE768B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65FC92E0-B5E8-401F-A5E3-247788BF4D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FC92E0-B5E8-401F-A5E3-247788BF4D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FC92E0-B5E8-401F-A5E3-247788BF4D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FC92E0-B5E8-401F-A5E3-247788BF4D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84F3CC92-6B8B-4952-967A-B4431F35C4A8}
+	EndGlobalSection
+EndGlobal
