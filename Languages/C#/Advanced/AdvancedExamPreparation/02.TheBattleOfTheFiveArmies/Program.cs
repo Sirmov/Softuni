@@ -8,111 +8,124 @@ namespace _02.TheBattleOfTheFiveArmies
         static void Main(string[] args)
         {
             int armyArmor = int.Parse(Console.ReadLine());
+            int[] armyCoordinates = new int[2];
+
             int rows = int.Parse(Console.ReadLine());
-            char[][] jagged = new char[rows][];
-            int[] armyPossition = new int[2];
+            char[][] map = new char[rows][];
 
-            for (int row = 0; row < jagged.Length; row++)
+            for (int i = 0; i < rows; i++)
             {
-                char[] line = Console.ReadLine().ToCharArray();
-                jagged[row] = line;
+                char[] row = Console.ReadLine().ToCharArray();
+                map[i] = row;
 
-                for (int col = 0; col < line.Length; col++)
+                for (int col = 0; col < row.Length; col++)
                 {
-                    if (line[col] == 'A')
+                    if (row[col] == 'A')
                     {
-                        armyPossition[0] = row;
-                        armyPossition[1] = col;
+                        armyCoordinates[0] = i;
+                        armyCoordinates[1] = col;
+                        break;
                     }
                 }
             }
 
-            while (true)
+            bool hasDied = false;
+            bool hasWon = false;
+
+            while (!hasDied && !hasWon)
             {
-                string[] turnInfo = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                string[] turnInfo = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
                 string direction = turnInfo[0];
-                int[] orcPossition = turnInfo.Skip(1).Select(int.Parse).ToArray();
+                int orcRow = int.Parse(turnInfo[1]);
+                int orcCol = int.Parse(turnInfo[2]);
 
-                jagged[orcPossition[0]][orcPossition[1]] = 'O';
+                map[orcRow][orcCol] = 'O';
 
-                int[] estimatedPossition = new int[2];
+                int estimatedRow = 0;
+                int estimatedCol = 0;
+
                 switch (direction)
                 {
                     case "up":
-                        estimatedPossition[0] = armyPossition[0] - 1;
-                        estimatedPossition[1] = armyPossition[1];
+                        estimatedRow = armyCoordinates[0] - 1;
+                        estimatedCol = armyCoordinates[1];
                         break;
                     case "down":
-                        estimatedPossition[0] = armyPossition[0] + 1;
-                        estimatedPossition[1] = armyPossition[1];
+                        estimatedRow = armyCoordinates[0] + 1;
+                        estimatedCol = armyCoordinates[1];
                         break;
                     case "left":
-                        estimatedPossition[0] = armyPossition[0];
-                        estimatedPossition[1] = armyPossition[1] - 1;
+                        estimatedRow = armyCoordinates[0];
+                        estimatedCol = armyCoordinates[1] - 1;
                         break;
                     case "right":
-                        estimatedPossition[0] = armyPossition[0];
-                        estimatedPossition[1] = armyPossition[1] + 1;
+                        estimatedRow = armyCoordinates[0];
+                        estimatedCol = armyCoordinates[1] + 1;
                         break;
+                    default:
+                        continue;
                 }
 
                 armyArmor--;
 
-                if (IsInJagged(jagged, estimatedPossition[0], estimatedPossition[1]))
+                if (IsInJagged(map, estimatedRow, estimatedCol))
                 {
-                    if (jagged[estimatedPossition[0]][estimatedPossition[1]] == 'O')
+                    if (map[estimatedRow][estimatedCol] == 'O')
                     {
                         armyArmor -= 2;
-
-                        if (armyArmor < 1)
-                        {
-                            jagged[estimatedPossition[0]][estimatedPossition[1]] = 'X';
-                            jagged[armyPossition[0]][armyPossition[1]] = '-';
-
-                            Console.WriteLine($"The army was defeated at {estimatedPossition[0]};{estimatedPossition[1]}.");
-                            PrintJagged(jagged);
-                            Environment.Exit(0);
-                        }
                     }
-                    else if (jagged[estimatedPossition[0]][estimatedPossition[1]] == 'M')
+
+
+                    if (map[estimatedRow][estimatedCol] == 'M')
                     {
-                        jagged[estimatedPossition[0]][estimatedPossition[1]] = '-';
-                        jagged[armyPossition[0]][armyPossition[1]] = '-';
-                        Console.WriteLine($"The army managed to free the Middle World! Armor left: {armyArmor}");
-                        PrintJagged(jagged);
-                        Environment.Exit(0);
+                        hasWon = true;
+                        map[estimatedRow][estimatedCol] = '-';
+                        map[armyCoordinates[0]][armyCoordinates[1]] = '-';
+                        break;
                     }
 
-                    jagged[estimatedPossition[0]][estimatedPossition[1]] = 'A';
-                    jagged[armyPossition[0]][armyPossition[1]] = '-';
-                    armyPossition[0] = estimatedPossition[0];
-                    armyPossition[1] = estimatedPossition[1];
+                    if (armyArmor <= 0)
+                    {
+                        hasDied = true;
+                        map[estimatedRow][estimatedCol] = 'X';
+                        map[armyCoordinates[0]][armyCoordinates[1]] = '-';
+                        armyCoordinates[0] = estimatedRow;
+                        armyCoordinates[1] = estimatedCol;
+                        break;
+                    }
+
+
+                    map[estimatedRow][estimatedCol] = 'A';
+                    map[armyCoordinates[0]][armyCoordinates[1]] = '-';
+                    armyCoordinates[0] = estimatedRow;
+                    armyCoordinates[1] = estimatedCol;
                 }
+            }
+
+            if (hasDied)
+            {
+                Console.WriteLine($"The army was defeated at {armyCoordinates[0]};{armyCoordinates[1]}.");
+            }
+            else if (hasWon)
+            {
+                Console.WriteLine($"The army managed to free the Middle World! Armor left: {armyArmor}");
+            }
+
+            for (int row = 0; row < map.Length; row++)
+            {
+                Console.WriteLine(new string(map[row]));
             }
         }
 
-        private static void PrintJagged(char[][] jagged)
+        static bool IsInJagged<T>(T[][] jagged, int row, int col)
         {
-            for (int row = 0; row < jagged.Length; row++)
+            if (row >= 0 && row < jagged.Length &&
+                col >= 0 && col < jagged[row].Length)
             {
-                for (int col = 0; col < jagged[row].Length; col++)
-                {
-                    Console.Write(jagged[row][col]);
-                }
-
-                Console.WriteLine();
-            }
-        }
-
-        static bool IsInJagged(char[][] jagged, int row, int col)
-        {
-            if (row < 0 || row > jagged.Length - 1 ||
-                col < 0 || col > jagged[row].Length - 1)
-            {
-                return false;
+                return true;
             }
 
-            return true;
+            return false;
         }
     }
 }
