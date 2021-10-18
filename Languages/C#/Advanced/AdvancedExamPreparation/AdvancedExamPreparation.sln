@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Masterchef", "01.Masterchef\01.Masterchef.csproj", "{6672B137-5340-4FA6-A6B9-C5ABC3DE768B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Masterchef", "01.Masterchef\01.Masterchef.csproj", "{6672B137-5340-4FA6-A6B9-C5ABC3DE768B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.TheBattleOfTheFiveArmies", "02.TheBattleOfTheFiveArmies\02.TheBattleOfTheFiveArmies.csproj", "{65FC92E0-B5E8-401F-A5E3-247788BF4D9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.TheBattleOfTheFiveArmies", "02.TheBattleOfTheFiveArmies\02.TheBattleOfTheFiveArmies.csproj", "{65FC92E0-B5E8-401F-A5E3-247788BF4D9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreetRacing", "03.StreetRacing\StreetRacing\StreetRacing.csproj", "{9472CACB-2C8E-44B6-BED9-C3FC543C5222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.BirthdayCelebration", "01.BirthdayCelebration\01.BirthdayCelebration.csproj", "{9A31C3EA-D233-4FF2-97EA-6CECB02591B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{65FC92E0-B5E8-401F-A5E3-247788BF4D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65FC92E0-B5E8-401F-A5E3-247788BF4D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65FC92E0-B5E8-401F-A5E3-247788BF4D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9472CACB-2C8E-44B6-BED9-C3FC543C5222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9472CACB-2C8E-44B6-BED9-C3FC543C5222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9472CACB-2C8E-44B6-BED9-C3FC543C5222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9472CACB-2C8E-44B6-BED9-C3FC543C5222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A31C3EA-D233-4FF2-97EA-6CECB02591B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A31C3EA-D233-4FF2-97EA-6CECB02591B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A31C3EA-D233-4FF2-97EA-6CECB02591B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A31C3EA-D233-4FF2-97EA-6CECB02591B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
