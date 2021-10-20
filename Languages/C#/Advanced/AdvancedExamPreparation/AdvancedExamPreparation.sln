@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guild", "03.Guild\Guild\Gui
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.TheFightForGondor", "01.TheFightForGondor\01.TheFightForGondor.csproj", "{6482483A-A26A-45E6-8167-0B89C768281B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Warships", "02.Warships\02.Warships.csproj", "{004FD5C1-F705-4E30-8F91-C8715A315994}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheRace", "03.TheRace\The Race - skeleton\TheRace.csproj", "{2FB3CE3B-B0EA-43B1-A7C5-86F51CFAC527}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{6482483A-A26A-45E6-8167-0B89C768281B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6482483A-A26A-45E6-8167-0B89C768281B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6482483A-A26A-45E6-8167-0B89C768281B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004FD5C1-F705-4E30-8F91-C8715A315994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004FD5C1-F705-4E30-8F91-C8715A315994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004FD5C1-F705-4E30-8F91-C8715A315994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004FD5C1-F705-4E30-8F91-C8715A315994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB3CE3B-B0EA-43B1-A7C5-86F51CFAC527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB3CE3B-B0EA-43B1-A7C5-86F51CFAC527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB3CE3B-B0EA-43B1-A7C5-86F51CFAC527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB3CE3B-B0EA-43B1-A7C5-86F51CFAC527}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
