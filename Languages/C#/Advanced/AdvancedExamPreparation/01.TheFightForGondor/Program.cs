@@ -62,7 +62,6 @@ namespace _01.TheFightForGondor
 
             Console.WriteLine("The people successfully repulsed the orc's attack.");
             Console.WriteLine($"Plates left: {string.Join(", ", plates)}");
-
         }
     }
 }
