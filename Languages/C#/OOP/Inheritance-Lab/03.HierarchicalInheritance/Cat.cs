@@ -6,7 +6,7 @@ namespace Farm
 {
     public class Cat : Animal
     {
-        public void Moew()
+        public void Meow()
         {
             Console.WriteLine("meowing...");
         }
