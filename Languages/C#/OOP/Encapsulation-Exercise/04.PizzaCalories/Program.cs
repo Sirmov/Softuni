@@ -6,63 +6,54 @@ namespace _04.PizzaCalories
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
-            Pizza pizza = null;
-
-            while (input != "END")
+            try
             {
-                string[] info = input.Split(" ", StringSplitOptions.RemoveEmptyEntries);
-                string operation = info[0];
+                string input = Console.ReadLine();
+                Pizza pizza = null;
 
-                if (operation == "Pizza")
+                while (input != "END")
                 {
-                    string name = info[1];
-                    pizza = new Pizza(name);
-                }
-                else if (operation == "Dough")
-                {
-                    string flourType = info[1];
-                    string bakingTechnique = info[2];
-                    int weight = int.Parse(info[3]);
+                    string[] info = input.Split();
+                    string operation = info[0];
 
-                    try
+                    if (operation == "Pizza")
                     {
+                        string name = info[1];
+                        pizza = new Pizza(name);
+                    }
+                    else if (operation == "Dough")
+                    {
+                        string flourType = info[1];
+                        string bakingTechnique = info[2];
+                        double weight = double.Parse(info[3]);
+
                         Dough dough = new Dough(flourType, bakingTechnique, weight);
                         pizza.Dough = dough;
                     }
-                    catch (Exception e)
+                    else if (operation == "Topping")
                     {
-                        Console.WriteLine(e.Message);
-                        Environment.Exit(0);
-                    }
-                }
-                else if (operation == "Topping")
-                {
-                    string type = info[1];
-                    int weight = int.Parse(info[2]);
+                        string type = info[1];
+                        double weight = double.Parse(info[2]);
 
-                    try
-                    {
                         Topping topping = new Topping(type, weight);
                         pizza.AddTopping(topping);
                     }
-                    catch (Exception e)
-                    {
-                        Console.WriteLine(e.Message);
-                        Environment.Exit(0);
-                    }
+
+                    input = Console.ReadLine();
                 }
 
-                input = Console.ReadLine();
-            }
+                if (pizza.ToppingsCount == 0 || pizza.Dough == null)
+                {
+                    Console.WriteLine("Number of toppings should be in range [0..10].");
+                    Environment.Exit(0);
+                }
 
-            if (pizza.ToppingsCount == 0 || pizza.Dough == null)
+                Console.WriteLine($"{pizza.Name} - {pizza.Calories:F2} Calories.");
+            }
+            catch (Exception e)
             {
-                Console.WriteLine("Number of toppings should be in range [0..10].");
-                Environment.Exit(0);
+                Console.WriteLine(e.Message);
             }
-
-            Console.WriteLine($"{pizza.Name} - {pizza.Calories:F2} Calories.");
         }
     }
 }

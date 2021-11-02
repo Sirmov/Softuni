@@ -4,18 +4,20 @@ using System.Text;
 
 namespace _04.PizzaCalories
 {
-    class Dough
+    public class Dough
     {
+        // Argument exceptions + const
+
         private const double defaultModifier = 2;
         private string flourType;
         private string bakingTechnique;
-        private int weight;
+        private double weight;
 
-        public Dough(string flourType, string bakingTechnique, int weight)
+        public Dough(string flourType, string bakingTechnique, double weight)
         {
-            FlourType = flourType;
-            BakingTechnique = bakingTechnique;
-            Weight = weight;
+            this.FlourType = flourType;
+            this.BakingTechnique = bakingTechnique;
+            this.Weight = weight;
         }
 
         private double CaloriesModifier
@@ -61,7 +63,7 @@ namespace _04.PizzaCalories
             {
                 if (value.ToLower() != "white" && value.ToLower() != "wholegrain")
                 {
-                    throw new Exception("Invalid type of dough.");
+                    throw new ArgumentException("Invalid type of dough.");
                 }
 
                 this.flourType = value;
@@ -75,13 +77,13 @@ namespace _04.PizzaCalories
             {
                 if (value.ToLower() != "crispy" && value.ToLower() != "chewy" && value.ToLower() != "homemade")
                 {
-                    throw new Exception("Invalid type of dough.");
+                    throw new ArgumentException("Invalid type of dough.");
                 }
 
                 this.bakingTechnique = value;
             }
         }
-        private int Weight
+        private double Weight
         {
             get => weight;
 
@@ -89,7 +91,7 @@ namespace _04.PizzaCalories
             {
                 if (value < 1 || value > 200)
                 {
-                    throw new Exception("Dough weight should be in the range [1..200].");
+                    throw new ArgumentException("Dough weight should be in the range [1..200].");
                 }
 
                 this.weight = value;

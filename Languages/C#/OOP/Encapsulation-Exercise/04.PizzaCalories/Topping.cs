@@ -6,14 +6,16 @@ namespace _04.PizzaCalories
 {
     class Topping
     {
+        // double weight
+
         private const double defaulModifier = 2;
         private string type;
-        private int weight;
+        private double weight;
 
-        public Topping(string type, int weight)
+        public Topping(string type, double weight)
         {
-            Type = type;
-            Weight = weight;
+            this.Type = type;
+            this.Weight = weight;
         }
 
         public double Calories => defaulModifier * this.Weight * this.CaloriesModifier;
@@ -53,13 +55,13 @@ namespace _04.PizzaCalories
                 if (value.ToLower() != "meat" && value.ToLower() != "veggies" &&
                     value.ToLower() != "cheese" && value.ToLower() != "sauce")
                 {
-                    throw new Exception($"Cannot place {value} on top of your pizza.");
+                    throw new ArgumentException($"Cannot place {value} on top of your pizza.");
                 }
 
                 this.type = value;
             }
         }
-        private int Weight
+        private double Weight
         {
             get => weight;
 
@@ -67,7 +69,7 @@ namespace _04.PizzaCalories
             {
                 if (value < 1 || value > 50)
                 {
-                    throw new Exception($"{this.Type} weight should be in the range [1..50].");
+                    throw new ArgumentException($"{this.Type} weight should be in the range [1..50].");
                 }
 
                 this.weight = value;
