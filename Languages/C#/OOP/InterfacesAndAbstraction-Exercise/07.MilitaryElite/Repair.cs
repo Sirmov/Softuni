@@ -15,5 +15,10 @@ namespace _07.MilitaryElite
         public string PartName { get; set; }
 
         public int RepairTime { get; set; }
+
+        public override string ToString()
+        {
+            return $"Part Name: {PartName} Hours Worked: {RepairTime}";
+        }
     }
 }

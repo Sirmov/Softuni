@@ -14,5 +14,20 @@ namespace _07.MilitaryElite
         }
 
         public List<Repair> Repairs { get; set; }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine(base.ToString());
+            sb.AppendLine("Repairs:");
+
+            foreach (var repair in Repairs)
+            {
+                sb.AppendLine(" " + repair.ToString());
+            }
+
+            return sb.ToString().TrimEnd();
+        }
     }
 }

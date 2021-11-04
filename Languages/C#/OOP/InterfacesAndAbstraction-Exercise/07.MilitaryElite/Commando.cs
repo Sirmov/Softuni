@@ -7,7 +7,7 @@ namespace _07.MilitaryElite
 {
     class Commando : SpecialisedSoldier, ICommando
     {
-        public Commando(string id, string firstName, string lastName, decimal salary, string corps, params Mission[] missions)
+        public Commando(string id, string firstName, string lastName, decimal salary, string corps, Mission[] missions)
             : base(id, firstName, lastName, salary, corps)
         {
             Missions = missions.ToList();
@@ -15,9 +15,29 @@ namespace _07.MilitaryElite
 
         public List<Mission> Missions { get; set; }
 
-        public void CompleteMission()
+        public void CompleteMission(string codeName)
         {
-            throw new NotImplementedException();
+            int index = Missions.FindIndex(m => m.CodeName == codeName);
+
+            if (index != -1)
+            {
+                Missions[index].State = "Finished";
+            }
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine(base.ToString());
+            sb.AppendLine("Missions:");
+
+            foreach (var mission in Missions)
+            {
+                sb.AppendLine(" " + mission.ToString());
+            }
+
+            return sb.ToString().TrimEnd();
         }
     }
 }

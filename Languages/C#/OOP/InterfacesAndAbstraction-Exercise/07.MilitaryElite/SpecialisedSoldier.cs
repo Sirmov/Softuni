@@ -30,5 +30,15 @@ namespace _07.MilitaryElite
                 }
             }
         }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine(base.ToString());
+            sb.AppendLine($"Corps: {Corps}");
+
+            return sb.ToString().TrimEnd();
+        }
     }
 }

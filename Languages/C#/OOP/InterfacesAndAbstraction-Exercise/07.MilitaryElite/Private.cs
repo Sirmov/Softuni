@@ -13,5 +13,14 @@ namespace _07.MilitaryElite
         }
 
         public decimal Salary { get; set; }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Name: {FirstName} {LastName} Id: {Id} Salary: {Salary:F2}");
+
+            return sb.ToString().TrimEnd();
+        }
     }
 }

@@ -8,6 +8,6 @@ namespace _07.MilitaryElite
     {
         public List<Mission> Missions { get; set; }
 
-        public void CompleteMission();
+        public void CompleteMission(string codeName);
     }
 }
