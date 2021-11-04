@@ -11,4 +11,4 @@
 |:-------------------------------------------------------------------------------------------------------------------|:---:|
 | [Programming Basics - January 2021](https://softuni.bg/trainings/3199/programming-basics-with-csharp-january-2021) | [Certificate](https://softuni.bg/Certificates/Details/100323/6f3cc46c) |
 | [Programming Fundamentals with C# - May 2021](https://softuni.bg/trainings/3365/csharp-fundamentals-may-2021)      | [Certificate](https://softuni.bg/certificates/details/111597/4e53d063) |
-|                                                         |                                                          |
+| [C# Advanced - September 2021](https://softuni.bg/trainings/3483/csharp-advanced-september-2021/internal)          | [Certificate](https://softuni.bg/certificates/details/114360/b112f7fd) |
