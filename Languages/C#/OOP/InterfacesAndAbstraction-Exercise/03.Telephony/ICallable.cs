@@ -4,10 +4,8 @@ using System.Text;
 
 namespace _03.Telephony
 {
-    interface ISmartPhone
+    internal interface ICallable
     {
-        string Call(string phoneNumber);
-
-        string Browse(string website);
+        public void Call(string phoneNumber);
     }
 }

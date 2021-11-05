@@ -1,49 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace _03.Telephony
 {
-    class SmartPhone : ISmartPhone
+    internal class SmartPhone : ICallable, IBrowsable
     {
-        public string Browse(string website)
+        public void Browse(string website)
         {
-            bool isValid = true;
-
-            foreach (var ch in website)
-            {
-                if (char.IsDigit(ch))
-                {
-                    isValid = false;
-                }
-            }
-
-            if (isValid)
-            {
-                return $"Browsing: {website}!";
-            }
-
-            return "Invalid URL!";
+            Console.WriteLine($"Browsing: {website}!");
         }
 
-        public string Call(string phoneNumber)
+        public void Call(string phoneNumber)
         {
-            bool isValid = true;
-
-            foreach (var ch in phoneNumber)
-            {
-                if (!char.IsDigit(ch))
-                {
-                    isValid = false;
-                }
-            }
-
-            if (isValid)
-            {
-                return $"Calling... {phoneNumber}";
-            }
-
-            return "Invalid number!";
+            Console.WriteLine($"Calling... {phoneNumber}");
         }
     }
 }

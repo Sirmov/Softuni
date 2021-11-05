@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _07.MilitaryElite
 {
-    class Spy : Soldier, ISpy
+    internal class Spy : Soldier, ISpy
     {
         public Spy(string id, string firstName, string lastName, int codeNumber)
             : base(id, firstName, lastName)
