@@ -23,6 +23,11 @@ namespace _04.WildFarm
 
                 input = Console.ReadLine();
             }
+
+            foreach (var animal in animals)
+            {
+                Console.WriteLine(animal.ToString());
+            }
         }
 
         private static Food FoodFactory(string[] vegetableInfo)
