@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DefineAnInterfaceIPerson", "01.DefineAnInterfaceIPerson\01.DefineAnInterfaceIPerson.csproj", "{35799CC8-0DA2-4241-978B-DE86731932C6}"
 EndProject
@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.BirthdayCelebrations", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.MilitaryElite", "07.MilitaryElite\07.MilitaryElite.csproj", "{297AA65C-B9CC-46D0-AD85-527570E643FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CollectionHierarchy", "08.CollectionHierarchy\08.CollectionHierarchy.csproj", "{561BFE2C-1FCB-408C-BEAD-BCF92DCE199C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.CollectionHierarchy", "08.CollectionHierarchy\08.CollectionHierarchy.csproj", "{561BFE2C-1FCB-408C-BEAD-BCF92DCE199C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ExplicitInterfaces", "09.ExplicitInterfaces\09.ExplicitInterfaces.csproj", "{AFFF5939-E54D-4543-82DB-9F7B75E87EF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{561BFE2C-1FCB-408C-BEAD-BCF92DCE199C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{561BFE2C-1FCB-408C-BEAD-BCF92DCE199C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{561BFE2C-1FCB-408C-BEAD-BCF92DCE199C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFFF5939-E54D-4543-82DB-9F7B75E87EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFF5939-E54D-4543-82DB-9F7B75E87EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFF5939-E54D-4543-82DB-9F7B75E87EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFF5939-E54D-4543-82DB-9F7B75E87EF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
