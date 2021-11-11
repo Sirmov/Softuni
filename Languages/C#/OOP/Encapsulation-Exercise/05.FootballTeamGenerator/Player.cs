@@ -20,7 +20,7 @@ namespace _05.FootballTeamGenerator
         {
             get => this.name;
 
-            set
+            private set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
@@ -31,8 +31,6 @@ namespace _05.FootballTeamGenerator
             }
         }
 
-        public int SkillLevel => (int) Math.Round(this.Stats.Average(s => s.Value));
-
         public Dictionary<string, int> Stats
         {
             get => stats;
@@ -41,7 +39,7 @@ namespace _05.FootballTeamGenerator
             {
                 foreach (var stat in value)
                 {
-                    if (!(stat.Value >= 0 && stat.Value <= 100))
+                    if (stat.Value < 0 || stat.Value > 100)
                     {
                         throw new ArgumentException($"{stat.Key} should be between 0 and 100.");
                     }
@@ -50,5 +48,7 @@ namespace _05.FootballTeamGenerator
                 this.stats = value;
             }
         }
+
+        public int SkillLevel => (int) Math.Round(this.Stats.Average(s => s.Value));
     }
 }

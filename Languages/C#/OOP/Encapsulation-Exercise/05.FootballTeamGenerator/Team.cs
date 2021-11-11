@@ -20,7 +20,7 @@ namespace _05.FootballTeamGenerator
         {
             get => this.name;
             
-            set
+            private set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
@@ -46,7 +46,7 @@ namespace _05.FootballTeamGenerator
 
         public void AddPlayer(Player player)
         {
-            players.Add(player);
+            this.players.Add(player);
         }
 
         public void RemovePlayer(string name)

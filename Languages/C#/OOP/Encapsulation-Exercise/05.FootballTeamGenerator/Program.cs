@@ -24,6 +24,11 @@ namespace _05.FootballTeamGenerator
                     }
                     else if (operation == "Add")
                     {
+                        if (!teams.ContainsKey(teamName))
+                        {
+                            ThrowInvalidTeamException(teamName);
+                        }
+
                         string playerName = commandArgs[2];
                         int endurance = int.Parse(commandArgs[3]);
                         int sprint = int.Parse(commandArgs[4]);
@@ -40,22 +45,16 @@ namespace _05.FootballTeamGenerator
                         { "Shooting", shooting }
                     });
 
-                        if (!teams.ContainsKey(teamName))
-                        {
-                            ThrowInvalidTeamException(teamName);
-                        }
-
                         teams[teamName].AddPlayer(player);
                     }
                     else if (operation == "Remove")
                     {
-                        string playerName = commandArgs[2];
-
                         if (!teams.ContainsKey(teamName))
                         {
                             ThrowInvalidTeamException(teamName);
                         }
 
+                        string playerName = commandArgs[2];
                         teams[teamName].RemovePlayer(playerName);
                     }
                     else if (operation == "Rating")
