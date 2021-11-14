@@ -1,6 +1,10 @@
-﻿namespace Shapes
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Shapes
 {
-    internal interface IDrawable
+    public interface IDrawable
     {
         public void Draw();
     }

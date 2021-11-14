@@ -1,33 +1,33 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace Shapes
 {
     public class Rectangle : IDrawable
     {
+        private int width;
+        private int height;
+
         public Rectangle(int width, int height)
         {
-            this.Width = width;
-            this.Height = height;
+            this.width = width;
+            this.height = height;
         }
-
-        public int Height { get; set; }
-
-        public int Width { get; set; }
 
         public void Draw()
         {
-            DrawLine(this.Width, '*', '*');
+            DrawLine(this.width, '*', '*');
 
-            for (int i = 1; i < this.Height - 1; ++i)
+            for (int i = 1; i < this.height - 1; ++i)
             {
-                DrawLine(this.Width, '*', ' ');
+                DrawLine(this.width, '*', ' ');
             }
 
-            DrawLine(this.Width, '*', '*');
+            DrawLine(this.width, '*', '*');
         }
 
-        public void DrawLine(int width, char end, char mid)
+        private void DrawLine(int width, char end, char mid)
         {
             Console.Write(end);
 
