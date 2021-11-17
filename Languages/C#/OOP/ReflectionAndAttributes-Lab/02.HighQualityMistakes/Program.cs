@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace _02.HighQualityMistakes
+namespace Stealer
 {
-    internal class Program
+    public class StartUp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Spy spy = new Spy();
+            string result = spy.AnalyzeAccessModifiers("Stealer.Hacker");
+            Console.WriteLine(result);
         }
     }
 }
