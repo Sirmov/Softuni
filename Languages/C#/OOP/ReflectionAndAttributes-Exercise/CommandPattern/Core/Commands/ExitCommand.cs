@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CommandPattern.Core
 {
-    internal class ExitCommand : ICommand
+    public class ExitCommand : ICommand
     {
         public string Execute(string[] args)
         {

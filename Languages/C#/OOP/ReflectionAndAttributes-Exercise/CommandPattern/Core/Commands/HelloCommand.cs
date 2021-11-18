@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CommandPattern.Core
 {
-    internal class HelloCommand : ICommand
+    public class HelloCommand : ICommand
     {
         public string Execute(string[] args)
         {

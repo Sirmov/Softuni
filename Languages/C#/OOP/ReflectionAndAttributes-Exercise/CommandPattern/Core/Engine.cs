@@ -16,14 +16,10 @@ namespace CommandPattern.Core
 
         public void Run()
         {
-            string command = Console.ReadLine();
-
-
             while (true)
             {
+                string command = Console.ReadLine();
                 Console.WriteLine(this.commandInterpreter.Read(command));
-
-                command = Console.ReadLine();
             }
         }
     }
