@@ -17,7 +17,14 @@ namespace ValidationAttributes
 
         public override bool IsValid(object obj)
         {
-            
+            int value = (int) obj;
+
+            if (value < minValue || value > maxValue)
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 }
