@@ -1,12 +1,15 @@
 ﻿using System;
 
-[AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true)]
-public class AuthorAttribute : Attribute
+namespace AuthorProblem
 {
-    public AuthorAttribute(string name)
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true)]
+    public class AuthorAttribute : Attribute
     {
-        this.Name = name;
-    }
+        public AuthorAttribute(string name)
+        {
+            this.Name = name;
+        }
 
-    public string Name { get; set; }
+        public string Name { get; set; }
+    }
 }

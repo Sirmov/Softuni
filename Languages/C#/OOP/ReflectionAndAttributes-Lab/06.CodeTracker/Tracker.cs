@@ -12,7 +12,6 @@ namespace AuthorProblem
         {
             Type type = typeof(StartUp);
 
-
             foreach (var method in type.GetMethods(BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static))
             {
                 if (method.CustomAttributes.Any(a => a.AttributeType == typeof(AuthorAttribute)))
