@@ -1,23 +1,54 @@
-using Database;
-using NUnit.Framework;
 using System;
+using System.Linq;
+using NUnit.Framework;
 
 namespace Tests
 {
     [TestFixture]
     public class DatabaseTests
     {
-        private Database.Database database;
-
-        [SetUp]
-        public void Setup()
+        [TestCase()]
+        [TestCase(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16)]
+        [TestCase(-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16)]
+        [TestCase(-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16)]
+        [TestCase(int.MaxValue, int.MinValue, 0)]
+        public void ConstructorShouldWorkWithIntegers(params int[] elements)
         {
-            this.database = new Database.Database();
+            Database database = new Database(elements);
+            Assert.AreEqual(elements.Length, database.Count);
+            CollectionAssert.AreEqual(elements, database.Fetch());
         }
 
         [Test]
-        public void DatabaseShouldNotAdd17thElement()
+        public void ConstructorShouldThrowWhenElementsAreOver16()
         {
+            int[] elements = new int[17];
+            Assert.Throws<InvalidOperationException>(() => new Database(elements));
+        }
+
+        [TestCase(0)]
+        [TestCase(1)]
+        [TestCase(5)]
+        [TestCase(16)]
+        public void AddShouldWorkWithIntegers(int lenght)
+        {
+            Database database = new Database();
+            int[] elements = Enumerable.Range(0, lenght).ToArray();
+
+            for (int i = 0; i < lenght; i++)
+            {
+                database.Add(i);
+            }
+
+            Assert.AreEqual(elements.Length, database.Count);
+            CollectionAssert.AreEqual(elements, database.Fetch());
+        }
+
+        [Test]
+        public void AddShouldThrowExceptionWhenDatabaseIsFull()
+        {
+            Database database = new Database();
+
             for (int i = 0; i < 16; i++)
             {
                 database.Add(i);
@@ -26,74 +57,45 @@ namespace Tests
             Assert.Throws<InvalidOperationException>(() => database.Add(17));
         }
 
-        [Test]
-        public void DatabaseAddShouldAddElementsStackLike()
+        [TestCase(0)]
+        [TestCase(5)]
+        [TestCase(16)]
+        public void RemoveShouldWorkWithIntegers(int count)
         {
-            int[] expectedArray = new int[] { 1, 2, 3, 4, 5, 6 };
-            for (int i = 1; i <= 6; i++)
+            Database database = new Database(Enumerable.Range(0, 16).ToArray());
+
+            for (int i = 0; i < count; i++)
             {
-                this.database.Add(i);
+                database.Remove();
             }
 
-            CollectionAssert.AreEqual(expectedArray, database.Fetch());
+            Assert.AreEqual(16 - count, database.Count);
+            CollectionAssert.AreEqual(Enumerable.Range(0, 16 - count).ToArray(), database.Fetch());
         }
 
-        [Test]
-        public void DatabaseRemoveShouldRemoveFromLast()
+        [TestCase()]
+        [TestCase(1, 2, 3, 4, 5)]
+        public void RemoveShouldThrowExceptionWhenDatabaseIsEmpty(params int[] data)
         {
-            int[] expectedArray = new int[] { 1, 2, 3, 4, 5 };
+            Database database = new Database(data);
 
-            for (int i = 1; i <= 10; i++)
+            for (int i = 0; i < data.Length; i++)
             {
-                this.database.Add(i);
+                database.Remove();
             }
 
-            for (int i = 0; i < 5; i++)
-            {
-                this.database.Remove();
-            }
-
-            CollectionAssert.AreEqual(expectedArray, this.database.Fetch());
+            Assert.Throws<InvalidOperationException>(database.Remove);
         }
 
-        [Test]
-        public void DatabaseSholdRemoveShouldThrowExceptionWhenEmpty()
+        [TestCase()]
+        [TestCase(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)]
+        [TestCase(-5, -6, -7, -8, -9, -10)]
+        public void FetchShouldReturnElementsAsArray(params int[] elements)
         {
-            Assert.Throws<InvalidOperationException>(() => this.database.Remove());
-        }
+            Database database = new Database(elements);
 
-        [Test]
-        public void DatabaseConstructorShouldThrowExceptionWhenArrayIsBiggerThan16Elements()
-        {
-            int[] array = new int[17];
-            Assert.Throws<InvalidOperationException>(() => new Database.Database(array));
-        }
-
-        [Test]
-        public void DatabaseConstructorShouldWorkWithIntegers()
-        {
-            int[] expectedArray = new int[] { 0, -2500, 2500, 1, -1, 2147483647, -2147483647 };
-            CollectionAssert.AreEqual(expectedArray, new Database.Database(0, -2500, 2500, 1, -1, 2147483647, -2147483647).Fetch());
-        }
-
-        [TestCase(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16})]
-        [TestCase(new int[] {-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16})]
-        [TestCase(new int[] { 2147483647, -2147483647 })]
-        public void DatabaseFetchShouldReturnElementsAsArray(int[] expectedArray)
-        {
-            foreach (var num in expectedArray)
-            {
-                this.database.Add(num);
-            }
-
-            CollectionAssert.AreEqual(expectedArray, this.database.Fetch());
-        }
-
-        [Test]
-        public void EmptyDatabaseCountShouldReturnZero()
-        {
-            int result = this.database.Count;
-            Assert.AreEqual(0, result);
+            Assert.AreEqual(elements.Length, database.Count);
+            CollectionAssert.AreEqual(elements, database.Fetch());
         }
     }
 }
