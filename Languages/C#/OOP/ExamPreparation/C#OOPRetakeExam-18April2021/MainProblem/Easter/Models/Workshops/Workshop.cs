@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using Easter.Models.Bunnies.Contracts;
 using Easter.Models.Dyes.Contracts;
 using Easter.Models.Eggs.Contracts;
@@ -11,13 +10,14 @@ namespace Easter.Models.Workshops
     {
         public void Color(IEgg egg, IBunny bunny)
         {
-            IDye[] copy = new IDye[bunny.Dyes.Count];
-            bunny.Dyes.CopyTo(copy, 0);
-            Stack<IDye> dyes = new Stack<IDye>(copy.Where(d => !d.IsFinished()));
+            IDye[] dyes = new IDye[bunny.Dyes.Count];
+            bunny.Dyes.CopyTo(dyes, 0);
+            dyes = dyes.Where(d => !d.IsFinished()).ToArray();
+            int count = 0;
 
-            if (bunny.Energy > 0 && dyes.Count > 0)
+            if (bunny.Energy > 0 && dyes.Length > 0)
             {
-                var dye = dyes.Pop();
+                var dye = dyes[count];
 
                 while (!egg.IsDone() && bunny.Energy > 0)
                 {
@@ -25,11 +25,11 @@ namespace Easter.Models.Workshops
                     dye.Use();
                     egg.GetColored();
 
-                    if (dye.IsFinished() && dyes.Count > 0)
+                    if (dye.IsFinished() && dyes.Any(d => !d.IsFinished()))
                     {
-                        dye = dyes.Pop();
+                        dye = dyes[++count];
                     }
-                    else if (dye.IsFinished() && dyes.Count == 0)
+                    else if (dye.IsFinished() && !dyes.Any(d => !d.IsFinished()))
                     {
                         break;
                     }

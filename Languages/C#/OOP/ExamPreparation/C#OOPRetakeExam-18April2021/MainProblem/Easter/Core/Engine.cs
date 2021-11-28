@@ -1,10 +1,9 @@
 ﻿namespace Easter.Core
 {
     using System;
-
+    using Easter.Core.Contracts;
     using Easter.IO;
     using Easter.IO.Contracts;
-    using Easter.Core.Contracts;
 
     public class Engine : IEngine
     {
@@ -16,7 +15,7 @@
         {
             this.writer = new Writer();
             this.reader = new Reader();
-            //this.controller = new Controller();
+            this.controller = new Controller();
         }
 
         public void Run()
