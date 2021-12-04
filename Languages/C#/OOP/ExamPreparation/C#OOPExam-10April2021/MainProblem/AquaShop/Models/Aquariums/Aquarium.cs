@@ -72,7 +72,7 @@ namespace AquaShop.Models.Aquariums
         public string GetInfo()
         {
             StringBuilder sb = new StringBuilder();
-            string fishes = this.Fish.Count == 0 ? "none" : string.Join(", ", this.Fish);
+            string fishes = this.Fish.Count == 0 ? "none" : string.Join(", ", this.Fish.Select(x => x.Name));
             sb.AppendLine($"{this.Name} ({this.GetType().Name}):");
             sb.AppendLine($"Fish: {fishes}");
             sb.AppendLine($"Decorations: {this.Decorations.Count}");
