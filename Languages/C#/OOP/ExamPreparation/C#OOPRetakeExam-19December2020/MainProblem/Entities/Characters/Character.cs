@@ -9,18 +9,16 @@ namespace WarCroft.Entities.Characters.Contracts
     public abstract class Character
     {
         private string name;
-        private double baseHealth;
         private double health;
-        private double baseArmour;
         private double armor;
 
         protected Character(string name, double health, double armor, double abilityPoints, Bag bag)
         {
             this.Name = name;
+            this.BaseHealth = health;
             this.Health = health;
-            this.baseHealth = health;
+            this.BaseArmor = armor;
             this.Armor = armor;
-            this.baseArmour = armor;
             this.AbilityPoints = abilityPoints;
             this.Bag = bag;
         }
@@ -46,9 +44,9 @@ namespace WarCroft.Entities.Characters.Contracts
 
             set
             {
-                if (value > this.baseHealth)
+                if (value > this.BaseHealth)
                 {
-                    this.health = this.baseHealth;
+                    this.health = this.BaseHealth;
                 }
                 else if (value < 0)
                 {
@@ -77,6 +75,9 @@ namespace WarCroft.Entities.Characters.Contracts
                 }
             }
         }
+
+        public double BaseHealth { get; }
+        public double BaseArmor { get; }
 
         public double AbilityPoints { get; private set; }
 
