@@ -1,4 +1,4 @@
-﻿using WarCroft.Entities.Characters.Contracts;
+﻿using WarCroft.Entities.Characters;
 
 namespace WarCroft.Entities.Items
 {

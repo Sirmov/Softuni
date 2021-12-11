@@ -4,7 +4,7 @@ using WarCroft.Constants;
 using WarCroft.Entities.Inventory;
 using WarCroft.Entities.Items;
 
-namespace WarCroft.Entities.Characters.Contracts
+namespace WarCroft.Entities.Characters
 {
     public abstract class Character
     {
@@ -81,22 +81,24 @@ namespace WarCroft.Entities.Characters.Contracts
 
         public double AbilityPoints { get; private set; }
 
-        public Bag Bag { get; private set; }
+        public Bag Bag { get; }
 
-        public bool IsAlive => this.health > 0;
+        public bool IsAlive => this.Health > 0;
 
         public void TakeDamage(double hitPoints)
         {
             EnsureAlive();
-            double healthDamage = 0;
 
             if (hitPoints > this.Armor)
             {
-                healthDamage = hitPoints - this.Armor;
+                double healthDamage = hitPoints - this.Armor;
+                this.Armor -= hitPoints;
+                this.Health -= healthDamage;
             }
-
-            this.Armor -= hitPoints;
-            this.Health -= healthDamage;
+            else
+            {
+                this.Armor -= hitPoints;
+            }
         }
 
         public void UseItem(Item item)

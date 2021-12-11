@@ -10,7 +10,7 @@ namespace WarCroft.Entities.Inventory
     {
         private List<Item> items;
 
-        protected Bag(int capacity)
+        protected Bag(int capacity = 100)
         {
             this.Capacity = capacity;
             this.items = new List<Item>();
@@ -44,6 +44,7 @@ namespace WarCroft.Entities.Inventory
                 throw new ArgumentException($"No item with name {name} in bag!");
             }
 
+            this.items.Remove(item);
             return item;
         }
     }

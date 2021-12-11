@@ -132,7 +132,7 @@ namespace WarCroft.Core
                 throw new ArgumentException($"Character {recieverName} not found!");
             }
 
-            if (attacker is Warrior warrior)
+            if (attacker is IAttacker warrior)
             {
                 StringBuilder output = new StringBuilder();
                 warrior.Attack(receiver);
@@ -169,7 +169,7 @@ namespace WarCroft.Core
                 throw new ArgumentException($"Character {healingReceiverName} not found!");
             }
 
-            if (healer is Priest priest)
+            if (healer is IHealer priest)
             {
                 priest.Heal(receiver);
                 return $"{healer.Name} heals {receiver.Name} for {healer.AbilityPoints}! {receiver.Name} has {receiver.Health} health now!";
