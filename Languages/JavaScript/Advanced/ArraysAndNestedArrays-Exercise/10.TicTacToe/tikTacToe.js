@@ -5,7 +5,7 @@ function solve(moves) {
         [false, false, false]
     ];
 
-    let isX = true;
+    let player = 'X';
 
     for (const move of moves) {
         let coordinates = move.split(' ').map(Number);
@@ -13,49 +13,42 @@ function solve(moves) {
         let col = coordinates[1];
 
         if (!board[row][col]) {
-            if (isX) {
-                board[row][col] = 'X';
-            } else {
-                board[row][col] = 'O';
-            }
+            board[row][col] = player;
         } else {
             console.log(`This place is already taken. Please choose another!`);
             continue;
         }
 
-        if (checkForWinner(board)) {
+        if (checkForWinner(board, player)) {
             return;
         };
 
-        if (isX) {
-            ixX = false;
+        if (board.every(row => row.every(x => x !== false))) {
+            console.log(`The game ended! Nobody wins :(`);
+            for (const row of board) {
+                console.log(row.join('\t'));
+            }
+
+            return;
+        }
+
+        if (player === 'X') {
+            player = 'O';
         } else {
-            isX = true;
+            player = 'X';
         }
     }
 
-    console.log(`The game ended! Nobody wins :(`);
-    for (const row of board) {
-        console.log(row.join('\t'));
-    }
-
-    function checkForWinner(board) {
+    function checkForWinner(board, player) {
         let isWin = false;
-        let winner;
 
-        // checks rows
-        for (let i = 0; i < board.length; i++) {
-            let player = board[i][0];
-
-            if (board[i].every(x => x === player)) {
+        for (let row = 0; row < board.length; row++) {
+            if (board[row].every(x => x === player)) {
                 isWin = true;
-                winner = player;
             }
         }
 
-        // checks columns
         for (let col = 0; col < board.length; col++) {
-            let player = board[0][col];
             let positions = [];
 
             for (let row = 0; row < board.length; row++) {
@@ -64,57 +57,29 @@ function solve(moves) {
 
             if (positions.every(x => x === player)) {
                 isWin = true;
-                winner = player;
             }
         }
 
-        // checks primary diagonal
+        let primaryDiagonal = [];
+        let secondaryDiagonal = [];
+
         for (let i = 0; i < board.length; i++) {
-            let player = board[0][0];
-            let positions = [];
-
-            for (let j = 0; j < board.length; j++) {
-                positions.push(board[j][j]);
-            }
-
-            if (positions.every(x => x === player)) {
-                isWin = true;
-                winner = player;
-            }
+            primaryDiagonal.push(board[i][i]);
+            secondaryDiagonal.push(board[i][board.length - 1 - i]);
         }
 
-        // checks secondary diagonal
-        for (let i = 0; i < board.length; i++) {
-            let player = board[0][0];
-            let positions = [];
-
-            for (let i = 0; i < board.length; i++) {
-                positions.push(board[i][board.length - 1 - i]);
-            }
-
-            if (positions.every(x => x === player)) {
-                isWin = true;
-                winner = player;
-            }
+        if (primaryDiagonal.every(x => x === player) || secondaryDiagonal.every(x => x === player)) {
+            isWin = true;
         }
 
-        if (isWin && winner !== false) {
-            console.log(`Player ${winner} wins!`);
+        if (isWin) {
+            console.log(`Player ${player} wins!`);
+
             for (const row of board) {
                 console.log(row.join('\t'));
             }
+
             return true;
         }
     }
 }
-
-solve(["0 1",
-    "0 0",
-    "0 2",
-    "2 0",
-    "1 0",
-    "1 1",
-    "1 2",
-    "2 2",
-    "2 1",
-    "0 0"]);
