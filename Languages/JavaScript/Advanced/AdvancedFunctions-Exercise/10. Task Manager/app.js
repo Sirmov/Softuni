@@ -31,9 +31,9 @@ function solve() {
         startBtn.classList.add('green');
         startBtn.textContent = 'Start';
         startBtn.addEventListener('click', (e) => {
-            e.currentTarget.parentElement.parentElement.remove();
+            let inProgressTask = e.currentTarget.parentElement.parentElement;
+            e.currentTarget.parentElement.remove();
 
-            let inProgressTask = createDefaultArticle(task, description, dueDate);
             let divElement = document.createElement('div');
             divElement.classList.add('flex');
 
@@ -41,18 +41,21 @@ function solve() {
             finishBtn.classList.add('orange');
             finishBtn.textContent = 'Finish';
             finishBtn.addEventListener('click', (e) => {
-                e.currentTarget.parentElement.parentElement.remove();
+                let completedTask = e.currentTarget.parentElement.parentElement;
+                e.currentTarget.parentElement.remove();
 
-                let completedTask = createDefaultArticle(task, description, dueDate);
                 completeSectionDivElement.appendChild(completedTask);
             });
 
-            divElement.append(createDeleteButton(), finishBtn);
+            divElement.appendChild(createDeleteButton());
+            divElement.appendChild(finishBtn);
+
             inProgressTask.appendChild(divElement);
             inProgressSectionDivElement.appendChild(inProgressTask);
         });
 
-        divElement.append(startBtn, createDeleteButton());
+        divElement.appendChild(startBtn);
+        divElement.appendChild(createDeleteButton());
 
         articleElement.appendChild(divElement);
         return articleElement;
@@ -79,7 +82,9 @@ function solve() {
         descriptionElement.textContent = `Description: ${description}`;
         dueDateElement.textContent = `Due Date: ${dueDate}`;
 
-        articleElement.append(titleElement, descriptionElement, dueDateElement);
+        articleElement.appendChild(titleElement);
+        articleElement.appendChild(descriptionElement);
+        articleElement.appendChild(dueDateElement);
         return articleElement;
     }
 }
