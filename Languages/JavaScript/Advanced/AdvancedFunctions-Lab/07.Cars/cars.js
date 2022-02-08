@@ -15,12 +15,18 @@ function solve(input) {
         },
         print(name) {
             let object = objects[name];
-            let ownProperties = Object.entries(object);
-            let inheritedProperties = Object.entries(Object.getPrototypeOf(object));
+            // let ownProperties = Object.entries(object);
+            // let inheritedProperties = Object.entries(Object.getPrototypeOf(object));
+            // properties.push(ownProperties.map(kvp => `${kvp[0]}:${kvp[1]}`).join(','));
+            // properties.push(inheritedProperties.map(kvp => `${kvp[0]}:${kvp[1]}`).join(','));
+
             let properties = [];
-            properties.push(ownProperties.map(kvp => `${kvp[0]}:${kvp[1]}`).join(','));
-            properties.push(inheritedProperties.map(kvp => `${kvp[0]}:${kvp[1]}`).join(','));
-            console.log(properties.join(','));
+
+            for (const key in object) {
+                properties.push(`${key}:${object[key]}`);
+            }
+
+            console.log(properties.filter(x => x.length > 0).join(','));
         }
     }
 
@@ -42,5 +48,3 @@ function solve(input) {
         }
     });
 }
-
-solve(['create c1', 'create c2 inherit c1', 'set c1 color red', 'set c2 model new', 'print c1', 'print c2']);
