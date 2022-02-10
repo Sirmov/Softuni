@@ -16,11 +16,7 @@
     }
 
     String.prototype.isEmpty = function () {
-        if (this === '') {
-            return true;
-        } else {
-            return false;
-        }
+        return this.length === 0;
     }
 
     String.prototype.truncate = function (n) {
