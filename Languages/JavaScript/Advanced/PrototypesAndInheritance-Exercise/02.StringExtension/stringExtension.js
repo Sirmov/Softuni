@@ -20,32 +20,27 @@
     }
 
     String.prototype.truncate = function (n) {
-        if (n < 4) {
-            return new Array(n + 1).join('.');
-        }
-        if (this.length < n) {
-            return this.toString();
-        } else if (!this.includes(' ')) {
-            let output = this.slice(0, n - 3);
-            return output + '...';
-        } else {
-            let words = this.split(' ');
-            let length = words.reduce((a, x) => a + x.length, 0) + words.length;
+        if(Number(n) < 4) {
 
-            while (length > n) {
-                words.pop();
-                length = words.reduce((a, x) => a + x.length, 0) + words.length;
-            }
-            return words.join(' ') + '...';
+            return ".".repeat(Number(n));
+
         }
+
+        if (Number(n) >= this.length) {
+                
+            return this.toString();
+
+        }
+
+        let lastWhitespace = this.toString().substring(0, n - 2).lastIndexOf(" ");
+
+        return lastWhitespace !== -1
+            ? `${this.toString().substring(0, lastWhitespace)}...`
+            : `${this.toString().substring(0, n - 3)}...`;
     }
 
     String.format = function (string, ...params) {
-        // use replace to iterate over the string
-        // select the match and check if related argument is present
-        // if yes, replace the match with the argument
         return string.replace(/{([0-9]+)}/g, function (match, index) {
-            // check if the argument is present
             return typeof params[index] == 'undefined' ? match : params[index];
         });
     }
