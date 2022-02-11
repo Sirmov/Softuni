@@ -6,7 +6,7 @@ function solve(input) {
         let hero = {
             name,
             level: Number(levelAsString),
-            items: items ? items.split(', ').filter(x => x.length > 0) : []
+            items: items ? items.split(', ') : []
         }
         heroes.push(hero);
     }
