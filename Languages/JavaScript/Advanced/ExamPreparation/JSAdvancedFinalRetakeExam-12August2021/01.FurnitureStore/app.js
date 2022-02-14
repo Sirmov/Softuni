@@ -48,9 +48,7 @@ function solve() {
         moreBtn.addEventListener('click', (e) => {
             let rows = Array.from(document.querySelectorAll('#furniture-list tr'));
             let index = rows.indexOf(e.currentTarget.parentElement.parentElement) + 1;
-            console.log(index);
             let row = document.querySelector(`tbody tr:nth-child(${index + 1})`);
-            console.log(row);
 
             if (e.currentTarget.textContent === 'More Info') {
                 e.currentTarget.textContent = 'Less Info';
