@@ -11,7 +11,7 @@ const library = {
         return `Price of ${nameOfBook} is ${price.toFixed(2)}`;
     },
 
-    findBook: function(booksArr, desiredBook) {
+    findBook: function (booksArr, desiredBook) {
         if (booksArr.length == 0) {
             throw new Error("No books currently available");
         } else if (booksArr.find(e => e == desiredBook)) {
@@ -35,3 +35,5 @@ const library = {
     }
 
 };
+
+module.exports = library;
