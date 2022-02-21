@@ -1,0 +1,10 @@
+POST /repos/testnakov/test-nakov-repo/issues HTTP/1.1
+Host: api.github.com
+Content-Type: application/json
+Content-Length: 103
+
+{
+    "title": "I have created an issue",
+    "body": "Minor bug",
+    "labels": ["minor", "bug"]
+}
