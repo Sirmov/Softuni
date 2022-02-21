@@ -1,0 +1,2 @@
+GET /repos/testnakov/test-nakov-repo/issues/1 HTTP/1.1
+Host: api.github.com
