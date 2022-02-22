@@ -1,0 +1,11 @@
+{
+    "status": "success",
+    "data": {
+        "id": 13,
+        "employee_name": "Charde Marshall",
+        "employee_salary": 470600,
+        "employee_age": 36,
+        "profile_image": ""
+    },
+    "message": "Successfully! Record has been fetched."
+}

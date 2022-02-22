@@ -1,0 +1,10 @@
+POST /api/v1/create HTTP/1.1
+Host: dummy.restapiexample.com
+Content-Type: application/json
+Content-Length: 67
+
+{
+    "name": "George",
+    "salary": "1000",
+    "age": "22"
+}

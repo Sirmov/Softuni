@@ -1,0 +1,10 @@
+PUT /api/v1/update/13 HTTP/1.1
+Host: dummy.restapiexample.com
+Content-Type: application/json
+Content-Length: 74
+
+{
+    "name": "George Petrov",
+    "salary": "1200",
+    "age": "25"
+}

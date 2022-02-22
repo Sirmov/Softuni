@@ -1,0 +1,9 @@
+{
+    "status": "success",
+    "data": {
+        "name": "George Petrov",
+        "salary": "1200",
+        "age": "25"
+    },
+    "message": "Successfully! Record has been updated."
+}

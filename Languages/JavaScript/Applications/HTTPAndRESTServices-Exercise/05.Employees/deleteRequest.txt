@@ -1,0 +1,2 @@
+DELETE /api/v1/delete/15 HTTP/1.1
+Host: dummy.restapiexample.com
