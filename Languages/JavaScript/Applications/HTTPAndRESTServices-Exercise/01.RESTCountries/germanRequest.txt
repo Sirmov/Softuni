@@ -1,0 +1,2 @@
+GET /v3.1/lang/german?fields=name,region HTTP/1.1
+Host: restcountries.com

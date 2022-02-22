@@ -1,0 +1,115 @@
+[
+    {
+        "name": {
+            "common": "Liechtenstein",
+            "official": "Principality of Liechtenstein",
+            "nativeName": {
+                "deu": {
+                    "official": "Fürstentum Liechtenstein",
+                    "common": "Liechtenstein"
+                }
+            }
+        },
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Germany",
+            "official": "Federal Republic of Germany",
+            "nativeName": {
+                "deu": {
+                    "official": "Bundesrepublik Deutschland",
+                    "common": "Deutschland"
+                }
+            }
+        },
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Namibia",
+            "official": "Republic of Namibia",
+            "nativeName": {
+                "afr": {
+                    "official": "Republiek van Namibië",
+                    "common": "Namibië"
+                },
+                "deu": {
+                    "official": "Republik Namibia",
+                    "common": "Namibia"
+                },
+                "eng": {
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                "her": {
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                "hgm": {
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                "kwn": {
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                "loz": {
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                "ndo": {
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                "tsn": {
+                    "official": "Lefatshe la Namibia",
+                    "common": "Namibia"
+                }
+            }
+        },
+        "region": "Africa"
+    },
+    {
+        "name": {
+            "common": "Luxembourg",
+            "official": "Grand Duchy of Luxembourg",
+            "nativeName": {
+                "deu": {
+                    "official": "Großherzogtum Luxemburg",
+                    "common": "Luxemburg"
+                },
+                "fra": {
+                    "official": "Grand-Duché de Luxembourg",
+                    "common": "Luxembourg"
+                },
+                "ltz": {
+                    "official": "Groussherzogtum Lëtzebuerg",
+                    "common": "Lëtzebuerg"
+                }
+            }
+        },
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Belgium",
+            "official": "Kingdom of Belgium",
+            "nativeName": {
+                "deu": {
+                    "official": "Königreich Belgien",
+                    "common": "Belgien"
+                },
+                "fra": {
+                    "official": "Royaume de Belgique",
+                    "common": "Belgique"
+                },
+                "nld": {
+                    "official": "Koninkrijk België",
+                    "common": "België"
+                }
+            }
+        },
+        "region": "Europe"
+    }
+]
