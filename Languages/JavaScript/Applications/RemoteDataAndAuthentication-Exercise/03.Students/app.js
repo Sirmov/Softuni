@@ -13,6 +13,9 @@ submitBtn.addEventListener('click', async (e) => {
 
     if (firstName && lastName && facultyNumber && grade) {
         grade = Number(grade);
+        if (Number.isNaN(grade)) {
+            document.querySelector('p.notification').textContent = 'Grade should be an number!';
+        }
 
         try {
             let response = await fetch(url, {
