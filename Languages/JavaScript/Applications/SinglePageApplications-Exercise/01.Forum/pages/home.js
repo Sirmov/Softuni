@@ -16,7 +16,7 @@ export function initHome() {
         if (e.target.tagName == 'H2') {
             let response = await fetch(`${url}/${e.target.parentElement.id}`);
             let postInfo = await response.json();
-            initPost(postInfo);
+            await initPost(postInfo);
         }
     });
 
@@ -53,7 +53,7 @@ async function postTopicRequest(title, username, post) {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ title, username, post, dateCreated: Date() })
+            body: JSON.stringify({ title, username, post, dateCreated: new Date().toISOString() })
         });
 
         if (response.status !== 200) {
