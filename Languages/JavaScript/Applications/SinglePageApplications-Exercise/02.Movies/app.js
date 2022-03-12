@@ -6,6 +6,7 @@ import { renderHome } from "./views/home.js";
 import { renderLogin } from "./views/login.js";
 import { renderRegister } from "./views/register.js";
 import { logout } from "./api/request.js";
+import { renderAddMovie } from "./views/addMovie.js";
 
 // Select all views
 const viewContainer = document.getElementById('views');
@@ -25,14 +26,21 @@ const links = {
 }
 const views = {
     'home': renderHome,
-    'addMovie': renderHome,
+    'addMovie': renderAddMovie,
     'movie': renderHome,
     'editMovie': renderHome,
     'login': renderLogin,
     'register': renderRegister,
-    'logout': logout,
+    'logout': renderLogout,
 }
 
+navigator.updateNav();
 const router = initialize(links, views);
 router.route('/');
-navigator.updateNav();
+
+async function renderLogout() {
+    await logout();
+    alert('Successful logout!');
+    navigator.updateNav();
+    router.route('/login');
+}

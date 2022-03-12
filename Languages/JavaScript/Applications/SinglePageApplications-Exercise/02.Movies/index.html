@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
             <a class="navbar-brand text-light" href="/">Movies</a>
             <ul class="navbar-nav ml-auto ">
-                <div class="user">
+                <div class="user" style="display: flex;">
                     <li class="nav-item">
                         <a class="nav-link" id="welcomeMessage">Welcome, email</a>
                     </li>
@@ -24,7 +24,7 @@
                         <a class="nav-link" href="/logout">Logout</a>
                     </li>
                 </div>
-                <div class="guest">
+                <div class="guest" style="display: flex;">
                     <li class="nav-item">
                         <a class="nav-link" href="/login">Login</a>
                     </li>
@@ -49,7 +49,7 @@
                 <h1 class="text-center">Movies</h1>
 
                 <section id="add-movie-button">
-                    <a href="#" class="btn btn-warning ">Add Movie</a>
+                    <a href="/addMovie" class="btn btn-warning ">Add Movie</a>
                 </section>
 
                 <section id="movie">
@@ -57,51 +57,7 @@
                         <div class="row d-flex d-wrap">
 
                             <div class="card-deck d-flex justify-content-center">
-
-                                <div class="card mb-4">
-                                    <img class="card-img-top" src="https://pbs.twimg.com/media/ETINgKwWAAAyA4r.jpg"
-                                        alt="Card image cap" width="400">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Wonder Woman 1984</h4>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="#/details/6lOxMFSMkML09wux6sAF">
-                                            <button type="button" class="btn btn-info">Details</button>
-                                        </a>
-                                    </div>
-
-                                </div>
-
-                                <div class="card mb-4">
-                                    <img class="card-img-top"
-                                        src="https://i.pinimg.com/originals/f2/a4/58/f2a458048757bc6914d559c9e4dc962a.jpg"
-                                        alt="Card image cap" width="400">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Top Gun 2</h4>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="#/details/CUtL9j4qI0XVhn9kTUsx">
-                                            <button type="button" class="btn btn-info">Details</button>
-                                        </a>
-                                    </div>
-
-                                </div>
-
-                                <div class="card mb-4">
-                                    <img class="card-img-top"
-                                        src="https://miro.medium.com/max/735/1*akkAa2CcbKqHsvqVusF3-w.jpeg"
-                                        alt="Card image cap" width="400">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Black Widow</h4>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="#/details/krPgQD6SWf39bM4x00co">
-                                            <button type="button" class="btn btn-info">Details</button>
-                                        </a>
-                                    </div>
-
-                                </div>
-
+                                <!-- movies -->
                             </div>
                         </div>
                     </div>

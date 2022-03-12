@@ -22,7 +22,7 @@ export function getAccessToken() {
 }
 
 export function saveUserData(userData) {
-    storage.setItem(userDataKey, userData);
+    storage.setItem(userDataKey, JSON.stringify(userData));
 }
 
 export function clearUserData() {

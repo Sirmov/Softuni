@@ -50,6 +50,8 @@ function createOptions(method = 'GET', data) {
     if (accessToken !== undefined) {
         options.headers['X-Authorization'] = accessToken;
     }
+
+    return options;
 }
 
 export async function get(url) {
@@ -69,12 +71,12 @@ export async function del(url) {
 }
 
 export async function login(email, password) {
-    const userData = post(endpoints.login, { email, password });
+    const userData = await post(endpoints.login, { email, password });
     auth.saveUserData(userData);
 }
 
 export async function register(email, password) {
-    const userData = post(endpoints.register, { email, password });
+    const userData = await post(endpoints.register, { email, password });
     auth.saveUserData(userData);
 }
 
