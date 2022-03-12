@@ -7,6 +7,7 @@ import { renderLogin } from "./views/login.js";
 import { renderRegister } from "./views/register.js";
 import { logout } from "./api/request.js";
 import { renderAddMovie } from "./views/addMovie.js";
+import { renderMovie } from "./views/movie.js";
 
 // Select all views
 const viewContainer = document.getElementById('views');
@@ -27,8 +28,8 @@ const links = {
 const views = {
     'home': renderHome,
     'addMovie': renderAddMovie,
-    'movie': renderHome,
-    'editMovie': renderHome,
+    'movie': renderMovie,
+    'editMovie': '',
     'login': renderLogin,
     'register': renderRegister,
     'logout': renderLogout,

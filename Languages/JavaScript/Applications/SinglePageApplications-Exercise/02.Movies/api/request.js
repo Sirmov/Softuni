@@ -27,3 +27,11 @@ export async function getAllMovies() {
 export async function postMovie(movie) {
     await api.post(endpoints.movies, movie);
 }
+
+export async function getMovie(movieId) {
+    return api.get(`${endpoints.movies}/${movieId}`);
+}
+
+export async function getMovieLikes(movieId) {
+    return api.get(`/data/likes?where=movieId%3D%22${movieId}%22&distinct=_ownerId&count`);
+}

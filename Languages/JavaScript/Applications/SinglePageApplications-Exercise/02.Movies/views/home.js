@@ -7,11 +7,21 @@ const moviesSection = homeView.querySelector('section#movie div.card-deck');
 const addMovieSection = homeView.querySelector('section#add-movie-button');
 const addMovieBtn = addMovieSection.querySelector('a.btn');
 addMovieBtn.addEventListener('click', addMovieOnClick);
+moviesSection.addEventListener('click', movieOnClick);
 
 export async function renderHome() {
     updateAddMovieBtn();
     await renderMovies();
     showView(homeView);
+}
+
+function movieOnClick(event) {
+    event.preventDefault();
+
+    if (event.target.tagName === 'BUTTON') {
+        const movie = event.target.parentElement.parentElement.parentElement;
+        route('/movie', movie.dataset.id);
+    }
 }
 
 async function renderMovies() {
@@ -28,7 +38,6 @@ function createMovieElement(movie) {
     let divElement = document.createElement('div');
     divElement.classList.add('card', 'mb-4');
     divElement.dataset.id = movie._id;
-    divElement.dataset.ownerId = movie._ownerId;
     divElement.innerHTML = `
         <img class="card-img-top" src="${movie.img}"
             alt="Card image cap" width="400">
@@ -36,9 +45,11 @@ function createMovieElement(movie) {
             <h4 class="card-title">${movie.title}</h4>
         </div>
         <div class="card-footer">
-            <a href="/movie">
+        ${getUserData()
+            ? `<a href="/movie">
                 <button type="button" class="btn btn-info">Details</button>
-            </a>
+               </a>`
+            : ''}
         </div>
     `;
     return divElement;
