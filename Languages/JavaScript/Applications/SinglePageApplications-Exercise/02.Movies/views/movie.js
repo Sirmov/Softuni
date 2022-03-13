@@ -61,7 +61,6 @@ async function deleteMovie(event) {
 }
 
 async function updateButtons(movie) {
-    debugger;
     let userId = getUserId();
 
     if (userId && userId === movie._ownerId) {

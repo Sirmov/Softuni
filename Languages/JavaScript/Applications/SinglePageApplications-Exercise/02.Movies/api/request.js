@@ -9,24 +9,23 @@ const endpoints = {
 };
 
 export async function logout() {
-    return await api.logout();
+    return api.logout();
 }
 
 export async function register(email, password) {
-    return await api.register(email, password);
+    return api.register(email, password);
 }
 
 export async function login(email, password) {
-    return await api.login(email, password);
+    return api.login(email, password);
 }
 
 export async function getAllMovies() {
-    let movies = await api.get(endpoints.movies);
-    return movies;
+    return api.get(endpoints.movies);
 }
 
 export async function postMovie(movie) {
-    return await api.post(endpoints.movies, movie);
+    return api.post(endpoints.movies, movie);
 }
 
 export async function getMovie(movieId) {
@@ -38,15 +37,15 @@ export async function getMovieLikes(movieId) {
 }
 
 export async function putMovie(movieId, movie) {
-    return await api.put(`${endpoints.movies}/${movieId}`, movie);
+    return api.put(`${endpoints.movies}/${movieId}`, movie);
 }
 
 export async function delMovie(movieId) {
-    return await api.del(`${endpoints.movies}/${movieId}`);
+    return api.del(`${endpoints.movies}/${movieId}`);
 }
 
 export async function postLike(movieId) {
-    return await api.post(`${endpoints.likes}`, { movieId })
+    return api.post(`${endpoints.likes}`, { movieId })
 }
 
 export async function getUserLike(movieId, userId) {
