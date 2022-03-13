@@ -21,6 +21,14 @@ export function getAccessToken() {
     }
 }
 
+export function getUserId() {
+    const userData = getUserData();
+
+    if (userData !== undefined) {
+        return userData._id;
+    }
+}
+
 export function saveUserData(userData) {
     storage.setItem(userDataKey, JSON.stringify(userData));
 }

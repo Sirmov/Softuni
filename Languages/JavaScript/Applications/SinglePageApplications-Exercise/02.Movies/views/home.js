@@ -15,15 +15,6 @@ export async function renderHome() {
     showView(homeView);
 }
 
-function movieOnClick(event) {
-    event.preventDefault();
-
-    if (event.target.tagName === 'BUTTON') {
-        const movie = event.target.parentElement.parentElement.parentElement;
-        route('/movie', movie.dataset.id);
-    }
-}
-
 async function renderMovies() {
     let movies = await getAllMovies();
     let moviesFragment = document.createDocumentFragment();
@@ -62,6 +53,15 @@ function updateAddMovieBtn() {
         addMovieSection.replaceChildren(addMovieBtn);
     } else {
         addMovieSection.replaceChildren();
+    }
+}
+
+async function movieOnClick(event) {
+    event.preventDefault();
+
+    if (event.target.tagName === 'BUTTON') {
+        const movie = event.target.parentElement.parentElement.parentElement;
+        await route('/movie', movie.dataset.id);
     }
 }
 

@@ -10,11 +10,11 @@ export function initialize(linksDI, viewsDI) {
     return router;
 }
 
-export function route(path, ...params) {
+export async function route(path, ...params) {
     const view = links[path];
     const renderer = views[view];
     if (typeof renderer === 'function') {
-        renderer(...params);
+        await renderer(...params);
     }
 }
 

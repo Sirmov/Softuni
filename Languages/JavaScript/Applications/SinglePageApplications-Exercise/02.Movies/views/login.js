@@ -23,6 +23,7 @@ async function onLogin(event) {
             alert('Successful login!');
             updateNav();
             route('/');
+            formElement.reset();
         } catch (error) {
             formElement.reset();
         }

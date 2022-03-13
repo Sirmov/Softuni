@@ -1,5 +1,5 @@
 import { postMovie } from "../api/request.js";
-import { getAccessToken } from "../auth/authentication.js";
+import { getUserId } from "../auth/authentication.js";
 import { route, showView } from "../navigation/router.js";
 
 const addMovieView = document.querySelector('div.addMovie-view');
@@ -20,9 +20,10 @@ async function addMovie(event) {
 
     if (title && description && img) {
         try {
-            await postMovie({ title, description, img, _ownerId: getAccessToken() });
+            await postMovie({ title, description, img, _ownerId: getUserId() });
             alert('Successfully added a movie!');
             route('/');
+            formElement.reset();
         } catch (error) {
             formElement.reset();
         }
