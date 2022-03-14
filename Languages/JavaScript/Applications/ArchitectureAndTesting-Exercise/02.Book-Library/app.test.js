@@ -1,7 +1,7 @@
 const { chromium } = require('playwright-chromium');
 const { expect } = require('chai');
 
-describe('Unit tests for messenger app', async function () {
+describe('Unit tests for book library app', async function () {
     this.timeout(6000);
     // Change host if necessary
     const host = 'http://127.0.0.1:5500/02.Book-Library/index.html';
