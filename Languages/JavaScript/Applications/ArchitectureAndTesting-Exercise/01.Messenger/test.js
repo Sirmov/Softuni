@@ -5,10 +5,15 @@ describe('Unit tests for messenger app', async function () {
     this.timeout(6000);
     // Change host if necessary
     const host = 'http://127.0.0.1:5500/01.Messenger/index.html';
+    const debug = false;
     let browser, page;
+    let options = {};
+    if (debug) {
+        options = { headless: false, slowMo: 1500 };
+    }
 
     before(async () => {
-        browser = await chromium.launch();
+        browser = await chromium.launch(options);
     });
     after(async () => {
         await browser.close();
@@ -49,7 +54,7 @@ describe('Unit tests for messenger app', async function () {
         await page.fill('text=Name', 'Nikola');
         await page.fill('text=Message', 'Hi!');
         const [request] = await Promise.all([
-            page.waitForRequest((request) => request.method() == 'POST'),
+            page.waitForRequest((request) => request.method() === 'POST'),
             page.click('text=Send')
         ]);
         const data = JSON.parse(request.postData());
