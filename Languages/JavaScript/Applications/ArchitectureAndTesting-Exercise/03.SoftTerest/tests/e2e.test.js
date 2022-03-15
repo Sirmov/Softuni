@@ -118,7 +118,7 @@ describe('E2E tests', function () {
     describe('Authentication', () => {
         it('register makes correct API call', async () => {
             const endpoint = '**' + endpoints.register;
-            const email = 'john@abv.bg';
+            const email = 'john123@abv.bg';
             const password = '123456';
 
             page.route(endpoint, route => route.fulfill(json({ _id: '0001', email, accessToken: 'AAAA' })));

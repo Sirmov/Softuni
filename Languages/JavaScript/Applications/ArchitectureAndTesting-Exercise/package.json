@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha './{,!(node_modules)/**}/*.test.js'"
+    "test": "mocha './{,!(node_modules)/**}/*.test.js'",
+    "start": "http-server -a localhost -p 3000 -P http://localhost:3000?"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.6",
+    "http-server": "^14.1.0",
     "mocha": "^9.2.2",
     "playwright-chromium": "^1.19.2"
   }
