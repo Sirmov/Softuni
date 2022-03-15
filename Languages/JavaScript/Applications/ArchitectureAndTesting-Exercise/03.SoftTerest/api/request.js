@@ -6,30 +6,30 @@ const endpoints = {
     getIdeas: '/data/ideas?select=_id%2Ctitle%2Cimg&sortBy=_createdOn%20desc'
 };
 
-export async function logout() {
+export function logout() {
     return api.logout();
 }
 
-export async function login(email, password) {
+export function login(email, password) {
     return api.login(email, password);
 }
 
-export async function register(email, password) {
+export function register(email, password) {
     return api.register(email, password);
 }
 
-export async function getIdeas() {
+export function getIdeas() {
     return api.get(endpoints.getIdeas);
 }
 
-export async function postIdea(idea) {
+export function postIdea(idea) {
     return api.post(endpoints.ideas, idea);
 }
 
-export async function getIdea(ideaId) {
+export function getIdea(ideaId) {
     return api.get(`${endpoints.ideas}/${ideaId}`);
 }
 
-export async function deleteIdea(ideaId) {
+export function deleteIdea(ideaId) {
     return api.del(`${endpoints.ideas}/${ideaId}`);
 }
