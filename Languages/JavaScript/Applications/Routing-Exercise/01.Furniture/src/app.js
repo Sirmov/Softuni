@@ -1,24 +1,45 @@
 // Application entry point
 
-// Import router and navigator
-import { initialize } from "./navigation/router.js";
-import * as navigator from "./navigation/navigator.js";
+// Import page, lit-html and updateNav
+import { page } from './lib.js';
+import { html, render, nothing, repeat, until } from './lib.js';
+import { setActive, updateNav } from './navigation/navigator.js';
+
 // Import views render logic
-import { renderHome } from "./views/home.js"
+import { renderDashboard } from './views/dashboard.js';
+import { renderLogin } from './views/login.js';
+import { renderRegister } from './views/register.js';
+import { renderLogout } from './views/logout.js';
+import { renderFurnitureDetails } from './views/details.js';
+import { renderCreatFurniture } from './views/create.js';
+import { renderEditFurniture } from './views/edit.js';
 
 // Select root element
-const viewContainer = document.getElementById('views');
-viewContainer.replaceChildren();
+const viewContainer = document.getElementById('view-container');
 
-// Links to view association
-const links = {
-    '/': 'home'
-}
-// View to render function association
-const views = {
-    'home': renderHome
+// Register routes
+page(decorateContext);
+page('/', renderDashboard);
+page('/dashboard', renderDashboard);
+page('/my-furniture', renderDashboard);
+page('/create-furniture', renderCreatFurniture);
+page('/furniture/:id', renderFurnitureDetails);
+page('/edit/:id', renderEditFurniture);
+page('/login', renderLogin);
+page('/register', renderRegister);
+page('/logout', renderLogout);
+
+function decorateContext(ctx, next) {
+    ctx.render = (content) => render(content, viewContainer);
+    ctx.html = html;
+    ctx.nothing = nothing;
+    ctx.repeat = repeat;
+    ctx.until = until;
+    ctx.updateNav = updateNav;
+    ctx.setActive = () => setActive(ctx);
+
+    next();
 }
 
-navigator.updateNav();
-const router = initialize(links, views);
-await router.route('/');
+page.start();
+updateNav();

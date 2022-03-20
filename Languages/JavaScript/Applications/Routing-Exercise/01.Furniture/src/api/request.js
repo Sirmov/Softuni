@@ -39,6 +39,6 @@ export function updateFurniture(furnitureId, furniture) {
     return api.put(endpoints.specificFurniture(furnitureId), furniture);
 }
 
-export function deleteFurniture(furnitureId) {
+export function delFurniture(furnitureId) {
     return api.del(endpoints.specificFurniture(furnitureId));
 }

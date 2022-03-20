@@ -1,33 +1,26 @@
 // Module handling navigation
 
-import { getUserData } from '../auth/authentication.js';
-import { route } from './router.js';
+import { isLoggedIn } from '../auth/authentication.js';
+import { render } from '../lib.js';
+import { navigationTemplate } from '../templates.js';
 
 // Selects all navigation element and adds events
-const navigationElement = document.querySelector('nav');
-const clientNavigationList = navigationElement.querySelector('ul');
-const userNavigation = navigationElement.querySelector('div.user');
-const guestNavigation = navigationElement.querySelector('div.guest');
-navigationElement.addEventListener('click', navigate);
-clientNavigationList.replaceChildren();
-
-// Handles event delegation
-function navigate(event) {
-    event.preventDefault();
-
-    if (event.target.tagName === 'A' && event.target.href) {
-        const url = new URL(event.target.href);
-        route(url.pathname);
-    }
-}
+const navigationContainer = document.querySelector('header');
 
 // Updates nav
 export function updateNav() {
-    let userData = getUserData();
+    render(navigationTemplate(isLoggedIn()), navigationContainer);
+}
 
-    if (userData) {
-        clientNavigationList.replaceChildren(userNavigation);
-    } else {
-        clientNavigationList.replaceChildren(guestNavigation);
-    }
+export function setActive(ctx) {
+    let linkElements = navigationContainer.querySelectorAll('a');
+    linkElements.forEach((element) => {
+        element.classList.remove('active');
+        let url = new URL(element.href);
+        let current = ctx.page.current === '/' ? '/dashboard' : ctx.page.current;
+
+        if (url.pathname === current && element.id) {
+            element.classList.add('active');
+        }
+    });
 }

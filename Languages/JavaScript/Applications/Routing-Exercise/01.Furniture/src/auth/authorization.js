@@ -1,1 +1,0 @@
-// Module handling user authorization
