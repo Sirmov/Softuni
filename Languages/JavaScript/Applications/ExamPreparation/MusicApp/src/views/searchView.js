@@ -1,37 +1,47 @@
-import { html } from '../utils/lib.js';
+import { html, repeat, nothing, until } from '../utils/lib.js';
 import { loading, spinner } from '../utils/dom.js';
 
-export const searchTemplate = () =>
+export const searchTemplate = (search, resultsPromise) =>
     html`<section id="searchPage">
         <h1>Search by Name</h1>
 
         <div class="search">
             <input id="search-input" type="text" name="search" placeholder="Enter desired albums's name" />
-            <button class="button-list">Search</button>
+            <button class="button-list" @click=${search}>Search</button>
         </div>
-
-        <h2>Results:</h2>
-
-        <!--Show after click Search button-->
-        <div class="search-result">
-            <!--If have matches-->
-            <div class="card-box">
-                <img src="./images/BrandiCarlile.png" />
-                <div>
-                    <div class="text-center">
-                        <p class="name">Name: In These Silent Days</p>
-                        <p class="artist">Artist: Brandi Carlile</p>
-                        <p class="genre">Genre: Low Country Sound Music</p>
-                        <p class="price">Price: $12.80</p>
-                        <p class="date">Release Date: October 1, 2021</p>
-                    </div>
-                    <div class="btn-group">
-                        <a href="#" id="details">Details</a>
-                    </div>
-                </div>
-            </div>
-
-            <!--If there are no matches-->
-            <p class="no-result">No result.</p>
-        </div>
+        ${resultsPromise ? until(resultsPromise, spinner) : nothing}
     </section>`;
+
+export const resultsTemplate = (albums, isLogged) =>
+    html`<!--Show after click Search button-->
+        <h2>Results:</h2>
+        <div class="search-result">
+            ${albums.length === 0
+                ? html`<!--If there are no matches-->
+                      <p class="no-result">No result.</p>`
+                : html`<!--If have matches-->
+                      ${repeat(
+                          albums,
+                          (album) => album._id,
+                          (album, index) => albumTemplate(album, isLogged)
+                      )}`}
+        </div>`;
+
+const albumTemplate = (album, isLogged) =>
+    html` <div class="card-box">
+        <img src=${album.imgUrl} />
+        <div>
+            <div class="text-center">
+                <p class="name">Name: ${album.name}</p>
+                <p class="artist">Artist: ${album.artist}</p>
+                <p class="genre">Genre: ${album.genre}</p>
+                <p class="price">Price: $${album.price}</p>
+                <p class="date">Release Date: ${album.releaseDate}</p>
+            </div>
+            ${isLogged
+                ? html`<div class="btn-group">
+                      <a href="/details/${album._id}" id="details">Details</a>
+                  </div>`
+                : nothing}
+        </div>
+    </div>`;

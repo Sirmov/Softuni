@@ -3,7 +3,7 @@ import { loading, spinner } from '../utils/dom.js';
 
 export const navigationTemplate = (isLogged) =>
     html`<nav>
-        <img src="./images/headphones.png" />
+        <img src="/images/headphones.png" />
         <a href="/">Home</a>
         <ul>
             <!--All user-->

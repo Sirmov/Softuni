@@ -1,4 +1,4 @@
-import { html, until, repeat } from '../utils/lib.js';
+import { html, until, repeat, nothing } from '../utils/lib.js';
 import { loading, spinner } from '../utils/dom.js';
 
 export const catalogTemplate = (albumsPromise) =>
@@ -7,7 +7,7 @@ export const catalogTemplate = (albumsPromise) =>
         ${until(albumsPromise, spinner)}
     </section>`;
 
-export const albumsTemplate = (albums) =>
+export const albumsTemplate = (albums, isLogged) =>
     html`${albums.length === 0
         ? html`<!--No albums in catalog-->
               <p>No Albums in Catalog!</p>`
@@ -15,10 +15,10 @@ export const albumsTemplate = (albums) =>
               ${repeat(
                   albums,
                   (album) => album._id,
-                  (album, index) => albumTemplate(album)
+                  (album, index) => albumTemplate(album, isLogged)
               )}`}`;
 
-const albumTemplate = (album) =>
+const albumTemplate = (album, isLogged) =>
     html`<div class="card-box">
         <img src=${album.imgUrl} />
         <div>
@@ -29,8 +29,10 @@ const albumTemplate = (album) =>
                 <p class="price">Price: $${album.price}</p>
                 <p class="date">Release Date: ${album.releaseDate}</p>
             </div>
-            <div class="btn-group">
-                <a href="/details/${album._id}" id="details">Details</a>
-            </div>
+            ${isLogged
+                ? html`<div class="btn-group">
+                      <a href="/details/${album._id}" id="details">Details</a>
+                  </div>`
+                : nothing}
         </div>
     </div>`;

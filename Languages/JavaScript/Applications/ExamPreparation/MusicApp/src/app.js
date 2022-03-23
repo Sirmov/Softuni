@@ -16,6 +16,9 @@ import { logoutController } from './controllers/logoutController.js';
 import { catalogController } from './controllers/catalogController.js';
 import { createController } from './controllers/createController.js';
 import { detailsController } from './controllers/detailsController.js';
+import { editController } from './controllers/editController.js';
+import { searchController } from './controllers/searchController.js';
+import { deleteController } from './controllers/deleteController.js';
 
 // Select containers
 const rootElement = document.body;
@@ -30,5 +33,8 @@ page('/logout', logoutController);
 page('/catalog', catalogController);
 page('/create', createController);
 page('/details/:id', detailsController);
+page('/edit/:id', editController);
+page('/delete/:id', deleteController);
+page('/search', searchController);
 
 page.start();
