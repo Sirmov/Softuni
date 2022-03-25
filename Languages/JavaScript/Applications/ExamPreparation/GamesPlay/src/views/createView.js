@@ -1,9 +1,9 @@
 import { html, repeat, until, nothing } from '../utils/lib.js';
 import { loading, spinner } from '../utils/dom.js';
 
-export const createTemplate = () =>
+export const createTemplate = (createSubmit) =>
     html`<section id="create-page" class="auth">
-        <form id="create">
+        <form id="create" @submit=${createSubmit}>
             <div class="container">
                 <h1>Create Game</h1>
                 <label for="leg-title">Legendary title:</label>
