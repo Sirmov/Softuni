@@ -1,24 +1,17 @@
 import { html, repeat, until, nothing } from '../utils/lib.js';
 import { loading, spinner } from '../utils/dom.js';
 
-export const detailsTemplate = (game, comments, commentSubmit, isOwner, isLogged) =>
+export const detailsTemplate = (gamePromise, commentsPromise, actionsPromise) =>
     html`<section id="game-details">
         <h1>Game Details</h1>
         <div class="info-section">
-            ${gameTemplate(game)} 
-            ${commentsTemplate(comments)}
-            ${isOwner
-                ? html`<!-- Edit/Delete buttons ( Only for creator of this game )  -->
-                      <div class="buttons">
-                          <a href="/edit/${game._id}" class="button">Edit</a>
-                          <a href="/delete/${game._id}" class="button">Delete</a>
-                      </div>`
-                : nothing}
-            ${isLogged && !isOwner ? commentFormTemplate(commentSubmit) : nothing}
+            ${until(gamePromise, nothing)} 
+            ${until(commentsPromise, nothing)}
+            ${until(actionsPromise, nothing)}
         </div>
     </section>`;
 
-const gameTemplate = (game) =>
+export const gameTemplate = (game) =>
     html`<div class="game-header">
             <img class="game-img" src=${game.imageUrl} />
             <h1>${game.title}</h1>
@@ -44,7 +37,7 @@ const commentTemplate = (comment) =>
         <p>${comment.comment}</p>
     </li>`;
 
-const commentsTemplate = (comments) =>
+export const commentsTemplate = (comments) =>
     html` <!-- Bonus ( for Guests and Users ) -->
         <div class="details-comments">
             <h2>Comments:</h2>
@@ -60,3 +53,13 @@ const commentsTemplate = (comments) =>
                 : html`<!-- Display paragraph: If there are no games in the database -->
                       <p class="no-comment">No comments.</p>`}
         </div>`;
+
+export const actionsTemplate = (commentSubmit, isLogged, isOwner, gameId) => 
+html`${isOwner
+    ? html`<!-- Edit/Delete buttons ( Only for creator of this game )  -->
+          <div class="buttons">
+              <a href="/edit/${gameId}" class="button">Edit</a>
+              <a href="/delete/${gameId}" class="button">Delete</a>
+          </div>`
+    : nothing}
+${isLogged && !isOwner ? commentFormTemplate(commentSubmit) : nothing}`;

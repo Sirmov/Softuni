@@ -1,16 +1,29 @@
 import { createComment, readComments } from '../services/commentsService.js';
 import { getGame } from '../services/gamesService.js';
 import { getUserId, isLogged } from '../utils/auth.js';
-import { detailsTemplate } from '../views/detailsView.js';
+import { actionsTemplate, commentsTemplate, detailsTemplate, gameTemplate } from '../views/detailsView.js';
 
 export async function detailsController(ctx, next) {
-    let [game, comments] = await Promise.all([
-        getGame(ctx.params.id),
-        readComments(ctx.params.id)
-    ]);
-    let isOwner = getUserId() === game._ownerId;
+    ctx.render(detailsTemplate(renderGame(), renderComments(), renderActions()));
 
-    ctx.render(detailsTemplate(game, comments, commentSubmit, isOwner, isLogged()));
+    async function renderActions() {
+        let game = await getGame(ctx.params.id);
+        let isOwner = getUserId() === game._ownerId;
+
+        return actionsTemplate(commentSubmit, isLogged(), isOwner, game._id);
+    }
+
+    async function renderGame() {
+        let game = await getGame(ctx.params.id);
+
+        return gameTemplate(game);
+    }
+
+    async function renderComments() {
+        let comments = await readComments(ctx.params.id);
+
+        return commentsTemplate(comments);
+    }
 
     async function commentSubmit(event) {
         event.preventDefault();
