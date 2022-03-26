@@ -8,12 +8,17 @@ export function detailsController(ctx, next) {
 }
 
 async function renderBook(ctx) {
-    let [book, totalLikes, isLiked] = await Promise.all([
+    let [book, totalLikes] = await Promise.all([
         readBook(ctx.params.id),
-        readBookLikes(ctx.params.id),
-        readUserLike(getUserId(), ctx.params.id)
+        readBookLikes(ctx.params.id)
     ]);
 
+    let isLiked;
+
+    if (isLogged()) {
+        isLiked = await readUserLike(getUserId(), ctx.params.id);
+    }
+    
     let isOwner = getUserId() === book._ownerId;
 
     return bookTemplate(book, isLogged(), isOwner, isLiked, totalLikes);
