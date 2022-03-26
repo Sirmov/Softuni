@@ -41,6 +41,15 @@ export function getUserUsername() {
     }
 }
 
+// Get user email
+export function getUserEmail() {
+    const userData = getUserData();
+
+    if (userData !== undefined) {
+        return userData.email;
+    }
+}
+
 // Is logged in
 export function isLogged() {
     const userData = getUserData();

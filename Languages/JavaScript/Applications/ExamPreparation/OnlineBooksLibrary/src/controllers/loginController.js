@@ -1,4 +1,4 @@
-import { login } from '../services/usersService.js';
+import { loginEmail } from '../services/usersService.js';
 import { createSubmitHandler } from '../utils/handler.js';
 import { loginTemplate } from '../views/loginView.js';
 
@@ -9,7 +9,7 @@ export function loginController(ctx, next) {
 }
 
 async function loginSubmit(ctx, data, event) {
-    await login(data.email, data.password);
+    await loginEmail(data.email, data.password);
     event.target.reset();
     ctx.page.redirect('/');
 }

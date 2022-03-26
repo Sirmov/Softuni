@@ -1,16 +1,17 @@
-import { register } from '../services/usersService.js';
+import { registerEmail } from '../services/usersService.js';
 import { createSubmitHandler } from '../utils/handler.js';
 import { registerTemplate } from '../views/registerView.js';
 
-const allowedData = ['email', 'password', 'conf-pass'];
+const allowedData = ['email', 'password', 'confirm-pass'];
 
 export function registerController(ctx, next) {
     ctx.render(registerTemplate(createSubmitHandler(ctx, registerSubmit, allowedData)));
 }
 
 async function registerSubmit(ctx, data, event) {
-    if (data.confPass === data.password) {
-        await register(email, password);
+    console.log(data);
+    if (data['confirm-pass'] === data.password) {
+        await registerEmail(data.email, data.password);
         event.target.reset();
         ctx.page.redirect('/');
     } else {
