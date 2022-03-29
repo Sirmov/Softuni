@@ -18,10 +18,10 @@ async function request(url, options) {
         }
 
         // Check if response body is empty
-        if (response.status === 204) {
+        try {
+            return await response.json();
+        } catch (error) {
             return response;
-        } else {
-            return response.json();
         }
     } catch (error) {
         alert(error.message);
