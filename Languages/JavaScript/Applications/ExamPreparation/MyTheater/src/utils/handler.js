@@ -13,11 +13,8 @@ export function createSubmitHandler(ctx, handler, allowedData) {
         }
 
         if (Object.values(data).some((x) => x === '')) {
-            throw {
-                isOperational: true,
-                error: new Error('Empty fields!'),
-                message: error.message
-            }
+            alert('Empty fields!');
+            throw new Error('Empty fields!');
         } else {
             handler(ctx, data, event);
         }
@@ -27,15 +24,6 @@ export function createSubmitHandler(ctx, handler, allowedData) {
 export function createEventHandler(ctx, handler) {
     return function (event) {
         event.preventDefault();
-        handler(ctx);
+        handler(ctx, event);
     };
-}
-
-export function errorHandler(event) {
-    const error = event.error;
-
-    if (error.isOperational) {
-        event.preventDefault();
-        alert(error.message);
-    }
 }

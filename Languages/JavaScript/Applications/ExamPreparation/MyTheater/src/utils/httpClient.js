@@ -18,19 +18,15 @@ async function request(url, options) {
         }
 
         // Check if response body is empty
-        if (response.status === 204 || !response.headers.has('Content-Type')) {
+        try {
+            let body = await response.json();
+            return body;
+        } catch (error) {
             return response;
-        } else {
-            return response.json();
         }
     } catch (error) {
-        let trustedError = {
-            isOperational: true,
-            error,
-            message: error.message
-        };
-
-        throw trustedError;
+        alert(error.message);
+        throw error;
     }
 }
 
