@@ -12,9 +12,10 @@ export function detailsController(ctx, next) {
 
 async function renderEvent(ctx) {
     let [event, likes] = await Promise.all([readTheater(ctx.params.id), readTheaterLikes(ctx.params.id)]);
+    event.likes = likes;
     let isOwner = getUserId() === event._ownerId;
 
-    return eventTemplate(event, likes, isOwner, createEventHandler(ctx, deleteAction), renderLike(ctx, isOwner));
+    return eventTemplate(event, isOwner, createEventHandler(ctx, deleteAction), renderLike(ctx, isOwner));
 }
 
 async function renderLike(ctx, isOwner) {

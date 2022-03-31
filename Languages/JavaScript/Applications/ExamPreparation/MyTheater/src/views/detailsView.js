@@ -4,7 +4,7 @@ import { loading, spinner } from '../utils/dom.js';
 export const detailsTemplate = (eventPromise) =>
     html`<section id="detailsPage">${until(eventPromise, spinner)}</section>`;
 
-export const eventTemplate = (event, likes, isOwner, onDelete, likePromise) =>
+export const eventTemplate = (event, isOwner, onDelete, likePromise) =>
     html`<div id="detailsBox">
         <div class="detailsInfo">
             <h1>Title: ${event.title}</h1>
@@ -25,7 +25,8 @@ export const eventTemplate = (event, likes, isOwner, onDelete, likePromise) =>
                     : nothing}
                 ${until(likePromise, spinner)}
             </div>
-            <p class="likes">Likes: ${likes}</p>
+
+            <p class="likes">Likes: ${event.likes}</p>
         </div>
     </div>`;
 
