@@ -1,6 +1,7 @@
 // Module doing http requests
 
 import * as auth from './auth.js';
+import { notification } from './handler.js';
 
 const host = 'http://localhost:3030';
 
@@ -18,13 +19,14 @@ async function request(url, options) {
         }
 
         // Check if response body is empty
-        if (response.status === 204 || !response.headers.has('Content-Type')) {
+        try {
+            let body = await response.json();
+            return body;
+        } catch (error) {
             return response;
-        } else {
-            return response.json();
         }
     } catch (error) {
-        alert(error.message);
+        notification(error.message);
         throw error;
     }
 }

@@ -11,5 +11,5 @@ export function loginController(ctx, next) {
 async function loginSubmit(ctx, data, event) {
     await loginEmail(data.email, data.password);
     event.target.reset();
-    ctx.page.redirect('/');
+    ctx.page.redirect('/all-memes');
 }
