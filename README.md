@@ -14,3 +14,4 @@
 | [C# Advanced - September 2021](https://softuni.bg/trainings/3483/csharp-advanced-september-2021)                   | [Certificate](https://softuni.bg/certificates/details/114360/b112f7fd) |
 | [C# OOP - October 2021](https://softuni.bg/trainings/3484/csharp-oop-october-2021)                                 | [Certificate](https://softuni.bg/certificates/details/120501/71d19e25) |
 | [JS Advanced - January 2022](https://softuni.bg/trainings/3588/js-advanced-january-2022)                           | [Certificate](https://softuni.bg/certificates/details/126492/0542ef98) |
+| [JS Applications - February 2022](https://softuni.bg/trainings/3589/js-applications-february-2022)                 | [Certificate](https://softuni.bg/certificates/details/130450/12e1b118) |
