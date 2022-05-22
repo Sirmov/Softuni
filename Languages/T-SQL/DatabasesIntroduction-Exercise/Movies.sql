@@ -1,9 +1,8 @@
+-- Problem 13.Movies Database
 CREATE DATABASE [Movies]
-
 GO
 
 USE [Movies]
-
 GO
 
 CREATE TABLE [Directors]
@@ -12,7 +11,6 @@ CREATE TABLE [Directors]
     ,[DirectorName] NVARCHAR(50) NOT NULL
     ,[Notes] NVARCHAR(300)
 )
-
 GO
 
 CREATE TABLE [Genres]
@@ -21,7 +19,6 @@ CREATE TABLE [Genres]
     ,[GenreName] NVARCHAR(30) NOT NULL
     ,[Notes] NVARCHAR(300)
 )
-
 GO
 
 CREATE TABLE [Categories]
@@ -30,7 +27,6 @@ CREATE TABLE [Categories]
     ,[CategoryName] NVARCHAR(30) NOT NULL
     ,[Notes] NVARCHAR(300)
 )
-
 GO
 
 CREATE TABLE [Movies]
@@ -46,7 +42,6 @@ CREATE TABLE [Movies]
     CHECK ([Rating] >= 0 AND [Rating] <= 5)
     ,[Notes] NVARCHAR(300)
 )
-
 GO
 
 INSERT INTO [Directors] ([DirectorName])
@@ -55,7 +50,6 @@ VALUES ('Steven Spielberg')
     ,('Stanley Kubrick')
     ,('Quentin Tarantino')
     ,('Tim Burton')
-
 GO
 
 INSERT INTO [Genres] ([GenreName])
@@ -64,7 +58,6 @@ VALUES ('Action')
     ,('Comedy')
     ,('Fantasy')
     ,('Horror')
-
 GO
 
 INSERT INTO [Categories] ([CategoryName])
@@ -73,7 +66,6 @@ VALUES ('Silent film')
     ,('Animation')
     ,('Documentary')
     ,('Western')
-
 GO
 
 INSERT INTO [Movies] ([Title], [DirectorId], [CopyrightYear], [Length], [GenreId], [CategoryId], [Rating])
@@ -82,3 +74,4 @@ VALUES ('The Shawshank Redemption', 1, '1994-01-01', 126, 2, 3, 4.8)
     ,('The lord of the rings', 5, '2003-01-01', 168, 4, 4, 4.2)
     ,('Fight club', 4, '1999-01-01', 132, 3, 5, 4.0)
     ,('The Matrix', 1 ,'1999-01-01', 139, 5, 1, 5.0)
+GO
