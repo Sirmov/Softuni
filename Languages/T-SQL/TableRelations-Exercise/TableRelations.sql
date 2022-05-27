@@ -162,3 +162,18 @@ VALUES
     ,('Mark', 101)
     ,('Greta', 101)
 GO
+
+-- Problem 9.*Peaks in Rila
+USE [Geography]
+GO
+
+SELECT 
+    [m].[MountainRange]
+    ,[p].[PeakName]
+    ,[p].[Elevation]
+FROM [Mountains] AS m
+LEFT JOIN [Peaks] AS p
+ON [p].[MountainID] = m.[Id]
+WHERE [MountainRange] = 'Rila'
+ORDER BY [p].[Elevation] DESC
+GO
