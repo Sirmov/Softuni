@@ -137,7 +137,7 @@ ORDER BY [e].[EmployeeID] ASC
 GO
 
 -- 11.Min Average Salary
-WITH [CTE_AverageSalaryByDepartment] ([DepartmentName], [AverageSalary])
+WITH [CTE_AverageSalary_By_Department] ([DepartmentName], [AverageSalary])
 AS
 (
     SELECT
@@ -151,5 +151,5 @@ AS
 
 SELECT
     MIN([AverageSalary]) AS [MinAverageSalary]
-FROM [CTE_AverageSalaryByDepartment]
+FROM [CTE_AverageSalary_By_Department]
 GO
