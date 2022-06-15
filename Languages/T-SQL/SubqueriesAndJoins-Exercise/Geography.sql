@@ -113,3 +113,32 @@ SELECT TOP 5
 FROM [CTE_HeighestPeak_LogestRiver_By_Country]
 ORDER BY [HighestPeakElevation] DESC, [LongestRiverLength] DESC, [CountryName] ASC
 GO
+
+-- 18.Highest Peak Name and Elevation by Country
+WITH [CTE_Peak_Ranking] ([Country], [PeakName], [Elevation], [MountainRange], [PeakRank])
+AS
+(
+SELECT
+    [CountryName]
+    ,COALESCE([PeakName], '(no highest peak)') AS [PeakName]
+    ,COALESCE([Elevation], 0) AS [Elevation]
+    ,COALESCE([MountainRange], '(no mountain)') AS [MountainRange]
+    ,RANK() OVER (PARTITION BY [CountryName] ORDER BY [Elevation] DESC) AS [PeakRank]
+FROM [Countries] AS [c]
+LEFT JOIN [MountainsCountries] AS [mc]
+ON [c].[CountryCode] = [mc].[CountryCode]
+LEFT JOIN [Mountains] AS [m]
+ON [mc].[MountainId] = [m].[Id]
+LEFT JOIN [Peaks] AS [p]
+ON [m].[Id] = [p].[MountainId]
+)
+
+SELECT TOP 5
+    [Country]
+    ,[PeakName] AS [Highest Peak Name]
+    ,[Elevation] AS [Highest Peak Elevation]
+    ,[MountainRange] AS [Mountain]
+FROM [CTE_Peak_Ranking]
+WHERE [PeakRank] = 1
+ORDER BY [Country] ASC, [PeakName] ASC
+GO
