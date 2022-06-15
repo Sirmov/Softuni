@@ -154,3 +154,8 @@ WHERE [DepartmentId] IN (
                             WHERE [Name] IN ('Engineering', 'Tool Design', 'Marketing', 'Information Services')
                         )
 GO
+
+SELECT
+    [Salary]
+FROM [Employees]
+GO
