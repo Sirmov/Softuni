@@ -3,13 +3,11 @@ GO
 
 -- 13.Departments Total Salaries
 SELECT
-    [d].[DepartmentId]
-    ,SUM([e].[Salary]) AS [TotalSalary]
-FROM [Employees] AS [e]
-RIGHT JOIN [Departments] AS [d]
-ON [e].[DepartmentId] = [d].[DepartmentId]
-GROUP BY [d].[DepartmentId]
-ORDER BY [d].[DepartmentId] ASC
+    [DepartmentId]
+    ,SUM([Salary]) AS [TotalSalary]
+FROM [Employees]
+GROUP BY [DepartmentId]
+ORDER BY [DepartmentId] ASC
 GO
 
 -- 14.Employees Minimum Salaries
