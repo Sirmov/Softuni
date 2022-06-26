@@ -8,7 +8,11 @@ namespace _2.VillainNames
     {
         static void Main(string[] args)
         {
-            const string connectionString = @"Server=localhost;Database=MinionsDB;User Id=username;Password=password;Encrypt=false;";
+            const string connectionString = @"Server=localhost;
+                                            Database=MinionsDB;
+                                            User Id=username;
+                                            Password=password;
+                                            Encrypt=false";
             using SqlConnection sqlConnection = new SqlConnection(connectionString);
             sqlConnection.Open();
             Console.WriteLine(GetVillainsWithMoreThan3Minions(sqlConnection));
