@@ -67,7 +67,7 @@ namespace _5.ChangeTownNamesCasing
                                                   )";
             SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
             sqlCommand.Parameters.AddWithValue("CountryName", countryName);
-            int affectedRows = (int) sqlCommand.ExecuteNonQuery();
+            int affectedRows = sqlCommand.ExecuteNonQuery();
             sqlCommand.Dispose();
             return affectedRows;
         }
