@@ -57,6 +57,7 @@ namespace _6.RemoveVillain
             SqlCommand sqlCommand = new SqlCommand(query, sqlConnection, sqlTransaction);
             sqlCommand.Parameters.AddWithValue("VillainId", villainId);
             string villainName = (string) sqlCommand.ExecuteScalar();
+            sqlCommand.Dispose();
             return villainName;
         }
 
@@ -67,6 +68,7 @@ namespace _6.RemoveVillain
             SqlCommand sqlCommand = new SqlCommand(query, sqlConnection, sqlTransaction);
             sqlCommand.Parameters.AddWithValue("VillainId", villainId);
             int affectedRows = sqlCommand.ExecuteNonQuery();
+            sqlCommand.Dispose();
             return affectedRows;
         }
 
@@ -77,6 +79,7 @@ namespace _6.RemoveVillain
             SqlCommand sqlCommand = new SqlCommand(query, sqlConnection, sqlTransaction);
             sqlCommand.Parameters.AddWithValue("VillainId", villainId);
             int affectedRows = sqlCommand.ExecuteNonQuery();
+            sqlCommand.Dispose();
             return affectedRows;
         }
     }
