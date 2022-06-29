@@ -1,7 +1,9 @@
-﻿using SoftUni.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using SoftUni.Data;
 using SoftUni.Models;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 
@@ -11,7 +13,7 @@ namespace SoftUni
     {
         public static void Main()
         {
-            
+
         }
 
         // Problem 1
@@ -81,21 +83,59 @@ namespace SoftUni
         public static string AddNewAddressToEmployee(SoftUniContext context)
         {
             Address address = new Address() { AddressText = "Vitoshka 15", TownId = 4 };
-            Employee employee = context.Employees.FirstOrDefault(e => e.LastName == "Nakov");
+            Employee employee = context.Employees.Single(e => e.LastName == "Nakov");
             employee.Address = address;
             context.SaveChanges();
 
-            var employees = context.Addresses
-                .Select(a => new
+            var employees = context.Employees
+                .Select(e => new
                 {
-                    a.AddressId,
-                    a.AddressText
+                    e.AddressId,
+                    AddressText = e.Address.AddressText
                 })
-                .OrderByDescending(a => a.AddressId)
+                .OrderByDescending(e => e.AddressId)
                 .Take(10)
                 .ToList();
 
-            return string.Join(Environment.NewLine, employees.Select(a => a.AddressText));
+            return string.Join(Environment.NewLine, employees.Select(e => e.AddressText));
+        }
+
+        // Problem 5
+        public static string GetEmployeesInPeriod(SoftUniContext context)
+        {
+            //Func<EmployeeProject, bool> projectPredicate = ep => ep.Project.StartDate.Year >= 2001 && ep.Project.StartDate.Year <= 2003;
+            
+            var employees = context.Employees
+                    .Include(e => e.Manager)
+                    .Include(e => e.EmployeesProjects)
+                    .ThenInclude(e => e.Project)
+                    .Where(e => e.EmployeesProjects
+                        .Any(ep => ep.Project.StartDate.Year >= 2001 && ep.Project.StartDate.Year <= 2003))
+                    .Take(10)
+                    .ToList();
+            StringBuilder output = new StringBuilder();
+
+            foreach (Employee employee in employees)
+            {
+                Employee manager = employee.Manager;
+                output.AppendLine($"{employee.FirstName} {employee.LastName} - Manager: {manager.FirstName} {manager.LastName}");
+
+                foreach (EmployeeProject employeeProject in employee.EmployeesProjects)
+                {
+                    Project project = employeeProject.Project;
+                    string startDate = project.StartDate.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture);
+                    string endDate = "not finished";
+
+                    if (project.EndDate != null)
+                    {
+                        endDate = ((DateTime) project.EndDate).ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture);
+                    }
+
+                    output.AppendLine($"--{project.Name} - {startDate} - {endDate}");
+                }
+            }
+
+            return output.ToString().TrimEnd();
         }
     }
 }
