@@ -31,7 +31,7 @@ namespace SoftUni.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=localhost;Database=SoftUni;User Id=sa;Password=123Nikola321!");
+                optionsBuilder.UseSqlServer("Server=localhost;Database=SoftUni;User Id=username;Password=password;");
             }
         }
 

@@ -13,7 +13,7 @@ namespace SoftUni
     {
         public static void Main()
         {
-
+            
         }
 
         // Problem 1
@@ -136,6 +136,27 @@ namespace SoftUni
             }
 
             return output.ToString().TrimEnd();
+        }
+
+        // Problem 6
+        public static string GetAddressesByTown(SoftUniContext context)
+        {
+            var addresses = context.Addresses
+                    .Include(a => a.Town)
+                    .Include(a => a.Employees)
+                    .Select(a => new
+                    {
+                        a.AddressText,
+                        TownName = a.Town.Name,
+                        EmployeeCount =  a.Employees.Count()
+                    })
+                    .OrderByDescending(a => a.EmployeeCount)
+                    .ThenBy(a => a.TownName)
+                    .ThenBy(a => a.AddressText)
+                    .Take(10)
+                    .ToList();
+
+            return string.Join(Environment.NewLine, addresses.Select(a => $"{a.AddressText}, {a.TownName} - {a.EmployeeCount} employees"));
         }
     }
 }
