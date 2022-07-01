@@ -13,7 +13,7 @@ namespace SoftUni
     {
         public static void Main()
         {
-
+            
         }
 
         // Problem 1
@@ -185,8 +185,8 @@ namespace SoftUni
         public static string GetDepartmentsWithMoreThan5Employees(SoftUniContext context)
         {
             var departments = context.Departments
-                .Include(d => d.Manager)
                 .Include(d => d.Employees)
+                .ThenInclude(d => d.Manager)
                 .Select(d => new
                 {
                     d.Name,
@@ -232,6 +232,106 @@ namespace SoftUni
             }
 
             return output.ToString().TrimEnd();
+        }
+
+        // Problem 11
+        public static string IncreaseSalaries(SoftUniContext context)
+        {
+            var employees = context.Employees
+                    .Include(e => e.Department)
+                    .Where(e => e.Department.Name == "Engineering"
+                            || e.Department.Name == "Tool Design"
+                            || e.Department.Name == "Marketing"
+                            || e.Department.Name == "Information Services")
+                    .OrderBy(e => e.FirstName)
+                    .ThenBy(e => e.LastName)
+                    .ToList();
+
+            foreach (var employee in employees)
+            {
+                employee.Salary += employee.Salary * 0.12m;
+            }
+
+            context.SaveChanges();
+            StringBuilder output = new StringBuilder();
+
+            foreach (var employee in employees)
+            {
+                output.AppendLine($"{employee.FirstName} {employee.LastName} (${employee.Salary:F2})");
+            }
+
+            return output.ToString().TrimEnd();
+        }
+
+        // Problem 12
+        public static string GetEmployeesByFirstNameStartingWithSa(SoftUniContext context)
+        {
+            var employees = context.Employees
+                .Select(e => new
+                {
+                    e.FirstName,
+                    e.LastName,
+                    e.JobTitle,
+                    e.Salary
+                })
+                .Where(e => e.FirstName.ToLower().StartsWith("sa"))
+                .OrderBy(e => e.FirstName)
+                .ThenBy(e => e.LastName)
+                .ToList();
+
+            StringBuilder output = new StringBuilder();
+            foreach (var employee in employees)
+            {
+                output.AppendLine($"{employee.FirstName} {employee.LastName} - {employee.JobTitle} - (${employee.Salary:F2})");
+            }
+
+            return output.ToString().TrimEnd();
+        }
+
+        // Problem 13
+        public static string DeleteProjectById(SoftUniContext context)
+        {
+            Project projectToBeRemoved = context.Projects.Find(2);
+            var relatedEmployeesProjects = context.EmployeesProjects
+                .Where(ep => ep.ProjectId == 2)
+                .ToList();
+
+            context.EmployeesProjects.RemoveRange(relatedEmployeesProjects);
+            context.Projects.Remove(projectToBeRemoved);
+            context.SaveChanges();
+
+            var projects = context.Projects
+                .Select(p => p.Name)
+                .Take(10)
+                .ToList();
+
+            return string.Join(Environment.NewLine, projects);
+        }
+
+        // Problem 14
+        public static string RemoveTown(SoftUniContext context)
+        {
+            var town = context.Towns.Single(t => t.Name == "Seattle");
+            var addresses = context.Addresses
+                .Where(a => a.TownId == town.TownId)
+                .ToList();
+            var employees = context.Employees
+                .Include(e => e.Address)
+                .Where(e => addresses.Contains(e.Address))
+                .ToList();
+
+            foreach (var employee in employees)
+            {
+                employee.AddressId = null;
+            }
+
+            string output = $"{addresses.Count()} addresses in Seattle were deleted";
+
+            context.Addresses.RemoveRange(addresses);
+            context.Towns.Remove(town);
+            context.SaveChanges();
+
+            return output;
         }
     }
 }
