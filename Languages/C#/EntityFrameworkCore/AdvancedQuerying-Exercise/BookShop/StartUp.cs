@@ -3,7 +3,9 @@
     using BookShop.Models.Enums;
     using Data;
     using Initializer;
+    using Microsoft.EntityFrameworkCore;
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using System.Text;
 
@@ -22,7 +24,13 @@
             //Console.WriteLine(GetGoldenBooks(db));
 
             // Problem 3
-            Console.WriteLine(GetBooksByPrice(db));
+            //Console.WriteLine(GetBooksByPrice(db));
+
+            // Problem 4
+            //Console.WriteLine(GetBooksNotReleasedIn(db, 2000));
+
+            // Problem 5
+            //Console.WriteLine(GetBooksByCategory(db, 'horror mystery drama'));
         }
 
         public static string GetBooksByAgeRestriction(BookShopContext context, string command)
@@ -79,6 +87,52 @@
             foreach (var book in books)
             {
                 output.AppendLine($"{book.Title} - ${book.Price:F2}");
+            }
+
+            return output.ToString().TrimEnd();
+        }
+
+        public static string GetBooksNotReleasedIn(BookShopContext context, int year)
+        {
+            var books = context.Books
+                .Where(b => b.ReleaseDate.Value.Year != year)
+                .OrderBy(b => b.BookId)
+                .Select(b => b.Title)
+                .ToList();
+
+            StringBuilder output = new StringBuilder();
+
+            foreach (var book in books)
+            {
+                output.AppendLine(book);
+            }
+
+            return output.ToString().TrimEnd();
+        }
+
+        public static string GetBooksByCategory(BookShopContext context, string input)
+        {
+            List<string> categories = input
+                .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                .Select(x => x.ToLower())
+                .ToList();
+
+            var books = context.Books
+                .Include(b => b.BookCategories)
+                .ThenInclude(bc => bc.Category)
+                .Where(b => b.BookCategories
+                    .Select(bc => categories
+                    .Contains(bc.Category.Name.ToLower()))
+                    .Any(b => b == true))
+                .OrderBy(b => b.Title)
+                .Select(b => b.Title)
+                .ToList();
+
+            StringBuilder output = new StringBuilder();
+
+            foreach (var book in books)
+            {
+                output.AppendLine(book);
             }
 
             return output.ToString().TrimEnd();
