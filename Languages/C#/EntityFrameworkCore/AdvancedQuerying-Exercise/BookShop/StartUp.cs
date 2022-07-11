@@ -6,6 +6,7 @@
     using Microsoft.EntityFrameworkCore;
     using System;
     using System.Collections.Generic;
+    using System.Globalization;
     using System.Linq;
     using System.Text;
 
@@ -31,6 +32,9 @@
 
             // Problem 5
             //Console.WriteLine(GetBooksByCategory(db, 'horror mystery drama'));
+
+            // Problem 6
+            //Console.WriteLine(GetBooksReleasedBefore(db , "12-04-1992"));
         }
 
         public static string GetBooksByAgeRestriction(BookShopContext context, string command)
@@ -43,14 +47,7 @@
                 .OrderBy(b => b)
                 .ToList();
 
-            StringBuilder output = new StringBuilder();
-
-            foreach (var book in books)
-            {
-                output.AppendLine(book);
-            }
-
-            return output.ToString().TrimEnd();
+            return JoinOnNewLine(books, (b) => b);
         }
 
         public static string GetGoldenBooks(BookShopContext context)
@@ -60,14 +57,7 @@
                 .OrderBy(b => b.BookId)
                 .Select(b => b.Title);
 
-            StringBuilder output = new StringBuilder();
-
-            foreach (var book in books)
-            {
-                output.AppendLine(book);
-            }
-
-            return output.ToString().TrimEnd();
+            return JoinOnNewLine(books, (b) => b);
         }
 
         public static string GetBooksByPrice(BookShopContext context)
@@ -82,14 +72,7 @@
                 })
                 .ToList();
 
-            StringBuilder output = new StringBuilder();
-
-            foreach (var book in books)
-            {
-                output.AppendLine($"{book.Title} - ${book.Price:F2}");
-            }
-
-            return output.ToString().TrimEnd();
+            return JoinOnNewLine(books, (b) => $"{b.Title} - ${b.Price:F2}");
         }
 
         public static string GetBooksNotReleasedIn(BookShopContext context, int year)
@@ -100,14 +83,7 @@
                 .Select(b => b.Title)
                 .ToList();
 
-            StringBuilder output = new StringBuilder();
-
-            foreach (var book in books)
-            {
-                output.AppendLine(book);
-            }
-
-            return output.ToString().TrimEnd();
+            return JoinOnNewLine(books, (b) => b);
         }
 
         public static string GetBooksByCategory(BookShopContext context, string input)
@@ -128,11 +104,34 @@
                 .Select(b => b.Title)
                 .ToList();
 
+            return JoinOnNewLine(books, (b) => b);
+        }
+
+        public static string GetBooksReleasedBefore(BookShopContext context, string date)
+        {
+            DateTime dateTime = DateTime.Parse(date);
+
+            var books = context.Books
+                .Where(b => b.ReleaseDate.Value <= dateTime)
+                .OrderByDescending(b => b.ReleaseDate)
+                .Select(b => new
+                {
+                    b.Title,
+                    b.EditionType,
+                    b.Price
+                })
+                .ToList();
+
+            return JoinOnNewLine(books, (b) => $"{b.Title} - {b.EditionType} - ${b.Price:F2}");
+        }
+
+        private static string JoinOnNewLine<T>(IEnumerable<T> collection, Func<T, string> toString)
+        {
             StringBuilder output = new StringBuilder();
 
-            foreach (var book in books)
+            foreach (var entry in collection)
             {
-                output.AppendLine(book);
+                output.AppendLine(toString(entry));
             }
 
             return output.ToString().TrimEnd();
