@@ -49,6 +49,15 @@
             //int lengthCheck = 12;
             //int booksCount = CountBooks(db, lengthCheck);
             //Console.WriteLine($"There are {booksCount} books with longer title than {lengthCheck} symbols");
+
+            // Problem 11
+            //Console.WriteLine(CountCopiesByAuthor(db));
+
+            // Problem 12
+            //Console.WriteLine(GetTotalProfitByCategory(db));
+
+            // Problem 13
+            Console.WriteLine(GetMostRecentBooks(db));
         }
 
         public static string GetBooksByAgeRestriction(BookShopContext context, string command)
@@ -189,6 +198,74 @@
                 .Count();
 
             return booksCount;
+        }
+
+        public static string CountCopiesByAuthor(BookShopContext context)
+        {
+            var authors = context.Authors
+                .Include(a => a.Books)
+                .Select(a => new
+                {
+                    Name = $"{a.FirstName} {a.LastName}",
+                    BookCopies = a.Books.Sum(b => b.Copies)
+                })
+                .OrderByDescending(a => a.BookCopies)
+                .ToList();
+
+            return JoinOnNewLine(authors, (a) => $"{a.Name} - {a.BookCopies}");
+        }
+
+        public static string GetTotalProfitByCategory(BookShopContext context)
+        {
+            var categories = context.Categories
+                .Include(c => c.CategoryBooks)
+                .ThenInclude(cb => cb.Book)
+                .Select(c => new
+                {
+                    Name = c.Name,
+                    Profit = c.CategoryBooks.Select(cb => cb.Book.Copies * cb.Book.Price).Sum()
+                })
+                .OrderByDescending(c => c.Profit)
+                .ThenBy(c => c.Name)
+                .ToList();
+
+            return JoinOnNewLine(categories, (c) => $"{c.Name} ${c.Profit:F2}");
+        }
+
+        public static string GetMostRecentBooks(BookShopContext context)
+        {
+            var categories = context.Categories
+                .Include(c => c.CategoryBooks)
+                .ThenInclude(cb => cb.Book)
+                .Select(c => new
+                {
+                    c.Name,
+                    Books = c.CategoryBooks
+                        .Select(cb => new
+                        {
+                            cb.Book.Title,
+                            cb.Book.ReleaseDate
+                        })
+                        .OrderByDescending(b => b.ReleaseDate)
+                        .Take(3)
+                        .ToList()
+                })
+                .OrderBy(c => c.Name)
+                .ToList();
+
+            StringBuilder output = new StringBuilder();
+
+            foreach (var category in categories)
+            {
+                output.AppendLine($"--{category.Name}");
+
+                foreach (var book in category.Books)
+                {
+                    output.AppendLine($"{book.Title} ({book.ReleaseDate.Value.Year})");
+                }
+            }
+
+            return output.ToString().TrimEnd();
         }
 
         private static string JoinOnNewLine<T>(IEnumerable<T> collection, Func<T, string> toString)
