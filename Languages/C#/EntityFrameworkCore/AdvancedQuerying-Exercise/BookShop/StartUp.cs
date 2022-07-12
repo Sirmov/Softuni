@@ -35,6 +35,9 @@
 
             // Problem 6
             //Console.WriteLine(GetBooksReleasedBefore(db , "12-04-1992"));
+
+            // Problem 7
+            //Console.WriteLine(GetAuthorNamesEndingIn(db, "e"));
         }
 
         public static string GetBooksByAgeRestriction(BookShopContext context, string command)
@@ -109,10 +112,10 @@
 
         public static string GetBooksReleasedBefore(BookShopContext context, string date)
         {
-            DateTime dateTime = DateTime.Parse(date);
+            DateTime dateTime = DateTime.ParseExact(date, "dd-MM-yyyy", CultureInfo.InvariantCulture);
 
             var books = context.Books
-                .Where(b => b.ReleaseDate.Value <= dateTime)
+                .Where(b => b.ReleaseDate.Value < dateTime)
                 .OrderByDescending(b => b.ReleaseDate)
                 .Select(b => new
                 {
@@ -123,6 +126,20 @@
                 .ToList();
 
             return JoinOnNewLine(books, (b) => $"{b.Title} - {b.EditionType} - ${b.Price:F2}");
+        }
+
+        public static string GetAuthorNamesEndingIn(BookShopContext context, string input)
+        {
+            var authors = context.Authors
+                .Where(a => a.FirstName.EndsWith(input))
+                .Select(a => new
+                {
+                    Name = $"{a.FirstName} {a.LastName}"
+                })
+                .OrderBy(a => a.Name)
+                .ToList();
+
+            return JoinOnNewLine(authors, (a) => a.Name);
         }
 
         private static string JoinOnNewLine<T>(IEnumerable<T> collection, Func<T, string> toString)
