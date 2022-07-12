@@ -38,6 +38,17 @@
 
             // Problem 7
             //Console.WriteLine(GetAuthorNamesEndingIn(db, "e"));
+
+            // Problem 8
+            //Console.WriteLine(GetBookTitlesContaining(db, "sK"));
+
+            // Problem 9
+            //Console.WriteLine(GetBooksByAuthor(db, "R"));
+
+            // Problem 10
+            //int lengthCheck = 12;
+            //int booksCount = CountBooks(db, lengthCheck);
+            //Console.WriteLine($"There are {booksCount} books with longer title than {lengthCheck} symbols");
         }
 
         public static string GetBooksByAgeRestriction(BookShopContext context, string command)
@@ -140,6 +151,44 @@
                 .ToList();
 
             return JoinOnNewLine(authors, (a) => a.Name);
+        }
+
+        public static string GetBookTitlesContaining(BookShopContext context, string input)
+        {
+            var bookTitles = context.Books
+                .Where(b => b.Title
+                    .Contains(input, StringComparison.InvariantCultureIgnoreCase))
+                .Select(b => b.Title)
+                .OrderBy(t => t)
+                .ToList();
+
+            return JoinOnNewLine(bookTitles, (bt) => bt);
+        }
+
+        public static string GetBooksByAuthor(BookShopContext context, string input)
+        {
+            var books = context.Books
+                .Include(b => b.Author)
+                .OrderBy(b => b.BookId)
+                .AsEnumerable()
+                .Where(b => b.Author.LastName.StartsWith(input, StringComparison.InvariantCultureIgnoreCase))
+                .Select(b => new
+                {
+                    b.Title,
+                    AuthorName = $"{b.Author.FirstName} {b.Author.LastName}"
+                })
+                .ToList();
+
+            return JoinOnNewLine(books, (b) => $"{b.Title} ({b.AuthorName})");
+        }
+
+        public static int CountBooks(BookShopContext context, int lengthCheck)
+        {
+            var booksCount = context.Books
+                .Where(b => b.Title.Length > lengthCheck)
+                .Count();
+
+            return booksCount;
         }
 
         private static string JoinOnNewLine<T>(IEnumerable<T> collection, Func<T, string> toString)
