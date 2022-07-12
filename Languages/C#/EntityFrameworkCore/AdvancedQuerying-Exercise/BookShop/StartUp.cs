@@ -57,7 +57,13 @@
             //Console.WriteLine(GetTotalProfitByCategory(db));
 
             // Problem 13
-            Console.WriteLine(GetMostRecentBooks(db));
+            //Console.WriteLine(GetMostRecentBooks(db));
+
+            // Problem 14
+            //IncreasePrices(db);
+
+            // Problem 15
+            //Console.WriteLine(RemoveBooks(db));
         }
 
         public static string GetBooksByAgeRestriction(BookShopContext context, string command)
@@ -266,6 +272,33 @@
             }
 
             return output.ToString().TrimEnd();
+        }
+
+        public static void IncreasePrices(BookShopContext context)
+        {
+            var books = context.Books
+                .Where(b => b.ReleaseDate.Value.Year < 2010)
+                .ToList();
+
+            foreach (var book in books)
+            {
+                book.Price += 5;
+            }
+
+            context.SaveChanges();
+        }
+
+        public static int RemoveBooks(BookShopContext context)
+        {
+            var books = context.Books
+                .Where(b => b.Copies < 4200)
+                .ToList();
+            int removedCount = books.Count;
+
+            context.RemoveRange(books);
+            context.SaveChanges();
+
+            return removedCount;
         }
 
         private static string JoinOnNewLine<T>(IEnumerable<T> collection, Func<T, string> toString)
