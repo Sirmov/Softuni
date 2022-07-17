@@ -1,6 +1,7 @@
 ﻿namespace ProductShop.Models
 {
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
 
     public class User
     {
@@ -10,16 +11,19 @@
             this.ProductsBought = new List<Product>();
         }
 
+        [Key]
         public int Id { get; set; }
 
         public string FirstName { get; set; }
 
+        [MinLength(3)]
+        [Required]
         public string LastName { get; set; }
 
         public int? Age { get; set; }
 
-        public ICollection<Product> ProductsSold { get; set; }
+        public virtual ICollection<Product> ProductsSold { get; set; }
 
-        public ICollection<Product> ProductsBought { get; set; }
+        public virtual ICollection<Product> ProductsBought { get; set; }
     }
 }
