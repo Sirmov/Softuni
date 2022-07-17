@@ -2,21 +2,47 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using AutoMapper;
+using AutoMapper.QueryableExtensions;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using ProductShop.Data;
+using ProductShop.DTOs;
 using ProductShop.Models;
 
 namespace ProductShop
 {
     public class StartUp
     {
+        // Newtonsoft Json Configuration
+
+        private static DefaultContractResolver defaultContractResolver = new DefaultContractResolver()
+        {
+            NamingStrategy = new CamelCaseNamingStrategy()
+        };
+
+        private static JsonSerializerSettings defaultJsonSerializerSettings = new JsonSerializerSettings()
+        {
+            ContractResolver = defaultContractResolver,
+            Formatting = Formatting.Indented
+        };
+
+        // Mapper Configuration
+
+        private static MapperConfiguration mapperConfiguration = new MapperConfiguration(config =>
+        {
+            config.AddProfile(new ProductShopProfile());
+        });
+
+        private static IMapper mapper = mapperConfiguration.CreateMapper();
+
         public static void Main(string[] args)
         {
             using (var dbContext = new ProductShopContext())
             {
                 // Test importing data
-                
+
                 //var usersJson = File.ReadAllText("Datasets/users.json");
                 //Console.WriteLine(ImportUsers(dbContext, usersJson));
 
@@ -28,6 +54,10 @@ namespace ProductShop
 
                 //var categoriesProductsJson = File.ReadAllText("Datasets/categories-products.json");
                 //Console.WriteLine(ImportCategoryProducts(dbContext, categoriesProductsJson));
+
+                // Test exporting data
+                var productsInRangeJson = GetProductsInRange(dbContext);
+                File.WriteAllText("../../../Exports/products-in-range.json", productsInRangeJson);
             }
         }
 
@@ -73,6 +103,22 @@ namespace ProductShop
             context.SaveChanges();
 
             return $"Successfully imported {categoryProducts.Count}";
+        }
+
+        // Exporting data
+
+        public static string GetProductsInRange(ProductShopContext context)
+        {
+            var products = context.Products
+                .Include(p => p.Seller)
+                .Where(p => p.Price >= 500 && p.Price <= 1000)
+                .ProjectTo<ProductPriceRangeDto>(mapper.ConfigurationProvider)
+                .OrderBy(p => p.Price)
+                .ToList();
+
+            var serialiezedJson = JsonConvert.SerializeObject(products, defaultJsonSerializerSettings);
+
+            return serialiezedJson;
         }
     }
 }
