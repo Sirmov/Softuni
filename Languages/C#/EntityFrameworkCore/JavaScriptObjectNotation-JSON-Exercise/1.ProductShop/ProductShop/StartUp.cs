@@ -56,8 +56,15 @@ namespace ProductShop
                 //Console.WriteLine(ImportCategoryProducts(dbContext, categoriesProductsJson));
 
                 // Test exporting data
-                var productsInRangeJson = GetProductsInRange(dbContext);
-                File.WriteAllText("../../../Exports/products-in-range.json", productsInRangeJson);
+
+                //var productsInRangeJson = GetProductsInRange(dbContext);
+                //File.WriteAllText("../../../Exports/products-in-range.json", productsInRangeJson);
+
+                //var usersSoldProducts = GetSoldProducts(dbContext);
+                //File.WriteAllText("../../../Exports/users-sold-products.json", usersSoldProducts);
+
+                var categoriesProducts = GetCategoriesByProductsCount(dbContext);
+                File.WriteAllText("../../../Exports/categories-by-products.json", categoriesProducts);
             }
         }
 
@@ -116,9 +123,39 @@ namespace ProductShop
                 .OrderBy(p => p.Price)
                 .ToList();
 
-            var serialiezedJson = JsonConvert.SerializeObject(products, defaultJsonSerializerSettings);
+            string serializedJson = JsonConvert.SerializeObject(products, defaultJsonSerializerSettings);
 
-            return serialiezedJson;
+            return serializedJson;
+        }
+
+        public static string GetSoldProducts(ProductShopContext context)
+        {
+            var users = context.Users
+                .Include(u => u.ProductsSold)
+                .ThenInclude(ps => ps.Buyer)
+                .Where(u => u.ProductsSold.Count(ps => ps.BuyerId.HasValue) > 0)
+                .ProjectTo<UserSoldProductsDto>(mapper.ConfigurationProvider)
+                .OrderBy(u => u.LastName)
+                .ThenBy(u => u.FirstName)
+                .ToList();
+
+            string serializedJson = JsonConvert.SerializeObject(users, defaultJsonSerializerSettings);
+
+            return serializedJson;
+        }
+
+        public static string GetCategoriesByProductsCount(ProductShopContext context)
+        {
+            var categories = context.Categories
+                .Include(c => c.CategoryProducts)
+                .ThenInclude(cp => cp.Product)
+                .ProjectTo<CategoryProductsDto>(mapper.ConfigurationProvider)
+                .OrderByDescending(c => c.ProductsCount)
+                .ToList();
+
+            string serializedJson = JsonConvert.SerializeObject(categories, defaultJsonSerializerSettings);
+
+            return serializedJson;
         }
     }
 }

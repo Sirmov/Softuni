@@ -6,7 +6,7 @@ using System.Text;
 namespace ProductShop.DTOs
 {
     [JsonObject]
-    public class ProductPriceRangeDto
+    public class SoldProductDto
     {
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -14,7 +14,10 @@ namespace ProductShop.DTOs
         [JsonProperty("price")]
         public decimal Price { get; set; }
 
-        [JsonProperty("seller")]
-        public string SellerFullName { get; set; }
+        [JsonProperty("buyerFirstName")]
+        public string BuyerFirstName { get; set; }
+
+        [JsonProperty("buyerLastName")]
+        public string BuyerLastName { get; set; }
     }
 }
