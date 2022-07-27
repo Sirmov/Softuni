@@ -1,6 +1,5 @@
 ﻿namespace ProductShop.Data
 {
-    using JetBrains.Annotations;
     using Microsoft.EntityFrameworkCore;
 
     using Models;
@@ -28,7 +27,7 @@
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Server=.;Database=ProductShop;Integrated Security=True");
+                optionsBuilder.UseSqlServer(@"Server=localhost;Database=ProductShop;User Id=username;Password=password");
             }
         }
 

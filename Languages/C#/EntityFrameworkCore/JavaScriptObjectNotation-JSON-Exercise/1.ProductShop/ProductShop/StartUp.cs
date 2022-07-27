@@ -28,6 +28,13 @@ namespace ProductShop
             Formatting = Formatting.Indented
         };
 
+        private static JsonSerializerSettings ingnoreNullJsonSerializerSettings = new JsonSerializerSettings()
+        {
+            ContractResolver = defaultContractResolver,
+            Formatting = Formatting.Indented,
+            NullValueHandling = NullValueHandling.Ignore,
+        };
+
         // Mapper Configuration
 
         private static MapperConfiguration mapperConfiguration = new MapperConfiguration(config =>
@@ -41,30 +48,33 @@ namespace ProductShop
         {
             using (var dbContext = new ProductShopContext())
             {
-                // Test importing data
+                //Test importing data
 
-                //var usersJson = File.ReadAllText("Datasets/users.json");
-                //Console.WriteLine(ImportUsers(dbContext, usersJson));
+                var usersJson = File.ReadAllText("Datasets/users.json");
+                Console.WriteLine(ImportUsers(dbContext, usersJson));
 
-                //var productsJson = File.ReadAllText("Datasets/products.json");
-                //Console.WriteLine(ImportProducts(dbContext, productsJson));
+                var productsJson = File.ReadAllText("Datasets/products.json");
+                Console.WriteLine(ImportProducts(dbContext, productsJson));
 
-                //var categoriesJson = File.ReadAllText("Datasets/categories.json");
-                //Console.WriteLine(ImportCategories(dbContext, categoriesJson));
+                var categoriesJson = File.ReadAllText("Datasets/categories.json");
+                Console.WriteLine(ImportCategories(dbContext, categoriesJson));
 
-                //var categoriesProductsJson = File.ReadAllText("Datasets/categories-products.json");
-                //Console.WriteLine(ImportCategoryProducts(dbContext, categoriesProductsJson));
+                var categoriesProductsJson = File.ReadAllText("Datasets/categories-products.json");
+                Console.WriteLine(ImportCategoryProducts(dbContext, categoriesProductsJson));
 
-                // Test exporting data
+                //Test exporting data
 
-                //var productsInRangeJson = GetProductsInRange(dbContext);
-                //File.WriteAllText("../../../Exports/products-in-range.json", productsInRangeJson);
+                var productsInRangeJson = GetProductsInRange(dbContext);
+                File.WriteAllText("../../../Exports/products-in-range.json", productsInRangeJson);
 
-                //var usersSoldProducts = GetSoldProducts(dbContext);
-                //File.WriteAllText("../../../Exports/users-sold-products.json", usersSoldProducts);
+                var usersSoldProducts = GetSoldProducts(dbContext);
+                File.WriteAllText("../../../Exports/users-sold-products.json", usersSoldProducts);
 
                 var categoriesProducts = GetCategoriesByProductsCount(dbContext);
                 File.WriteAllText("../../../Exports/categories-by-products.json", categoriesProducts);
+
+                var usersWithProducts = GetUsersWithProducts(dbContext);
+                File.WriteAllText("../../../Exports/users-and-products.json", usersWithProducts);
             }
         }
 
@@ -154,6 +164,40 @@ namespace ProductShop
                 .ToList();
 
             string serializedJson = JsonConvert.SerializeObject(categories, defaultJsonSerializerSettings);
+
+            return serializedJson;
+        }
+
+        public static string GetUsersWithProducts(ProductShopContext context)
+        {
+            var users = context.Users
+                .Include(u => u.ProductsSold)
+                .ThenInclude(ps => ps.Buyer)
+                .AsEnumerable()
+                .Where(u => u.ProductsSold.Count(ps => ps.BuyerId.HasValue) > 0)
+                .Select(u => new
+                {
+                    u.FirstName,
+                    u.LastName,
+                    u.Age,
+                    SoldProducts = new
+                    {
+                        Count = u.ProductsSold.Where(ps => ps.BuyerId.HasValue).Count(),
+                        Products = u.ProductsSold
+                        .Where(ps => ps.BuyerId.HasValue)
+                        .Select(ps => new
+                        {
+                            ps.Name,
+                            ps.Price
+                        })
+                    }
+                })
+                .OrderByDescending(u => u.SoldProducts.Count)
+                .ToList();
+
+            var jsonObject = new { UsersCount = users.Count, Users = users};
+
+            string serializedJson = JsonConvert.SerializeObject(jsonObject, ingnoreNullJsonSerializerSettings);
 
             return serializedJson;
         }
