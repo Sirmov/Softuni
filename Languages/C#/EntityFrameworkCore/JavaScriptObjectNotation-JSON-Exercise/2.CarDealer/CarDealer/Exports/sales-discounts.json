@@ -1,0 +1,112 @@
+[
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "Daytona",
+      "TravelledDistance": 30312194
+    },
+    "customerName": "Sylvie Mcelravy",
+    "Discount": "0.00",
+    "price": "2415.70",
+    "priceWithDiscount": "2415.70"
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "F430",
+      "TravelledDistance": 397106659
+    },
+    "customerName": "Marcelle Griego",
+    "Discount": "50.00",
+    "price": "383.97",
+    "priceWithDiscount": "333.97"
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "250 GTO",
+      "TravelledDistance": 245546172
+    },
+    "customerName": "Hipolito Lamoreaux",
+    "Discount": "30.00",
+    "price": "914.21",
+    "priceWithDiscount": "884.21"
+  },
+  {
+    "car": {
+      "Make": "Lamborghini",
+      "Model": "Diablo",
+      "TravelledDistance": 400917306
+    },
+    "customerName": "Johnette Derryberry",
+    "Discount": "15.00",
+    "price": "306.64",
+    "priceWithDiscount": "291.64"
+  },
+  {
+    "car": {
+      "Make": "Lamborghini",
+      "Model": "Gallardo",
+      "TravelledDistance": 240371960
+    },
+    "customerName": "Teddy Hobby",
+    "Discount": "20.00",
+    "price": "6568.17",
+    "priceWithDiscount": "6548.17"
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "206",
+      "TravelledDistance": 471512014
+    },
+    "customerName": "Cinthia Lasala",
+    "Discount": "30.00",
+    "price": "1284.21",
+    "priceWithDiscount": "1254.21"
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "405",
+      "TravelledDistance": 428581244
+    },
+    "customerName": "Donnetta Soliz",
+    "Discount": "15.00",
+    "price": "3560.72",
+    "priceWithDiscount": "3545.72"
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "206",
+      "TravelledDistance": 225031436
+    },
+    "customerName": "Garret Capron",
+    "Discount": "0.00",
+    "price": "235.41",
+    "priceWithDiscount": "235.41"
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "156",
+      "TravelledDistance": 434781563
+    },
+    "customerName": "Emmitt Benally",
+    "Discount": "10.00",
+    "price": "886.07",
+    "priceWithDiscount": "876.07"
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "Giulietta",
+      "TravelledDistance": 128074332
+    },
+    "customerName": "Johnette Derryberry",
+    "Discount": "0.00",
+    "price": "7308.94",
+    "priceWithDiscount": "7308.94"
+  }
+]

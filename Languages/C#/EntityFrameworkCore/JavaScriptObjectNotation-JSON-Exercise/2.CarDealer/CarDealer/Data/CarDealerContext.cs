@@ -12,22 +12,27 @@ namespace CarDealer.Data
         {
         }
 
-        protected CarDealerContext()
+        public CarDealerContext()
         {
         }
 
         public DbSet<Car> Cars { get; set; }
+
         public DbSet<Customer> Customers { get; set; }
+
         public DbSet<Part> Parts { get; set; }
+
         public DbSet<PartCar> PartCars { get; set; }
+
         public DbSet<Sale> Sales { get; set; }
+
         public DbSet<Supplier> Suppliers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=.;Database=CarDealer;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=localhost;Database=CarDealer;User Id=username;Password=password");
             }
         }
 
