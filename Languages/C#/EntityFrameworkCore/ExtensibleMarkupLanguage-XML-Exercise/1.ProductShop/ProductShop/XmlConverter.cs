@@ -14,8 +14,10 @@
 
             var builder = new StringBuilder();
 
-            using var write = new StringWriter(builder);
-            serializer.Serialize(write, dataTransferObjects, GetXmlNamespaces());
+            using (var write = new StringWriter(builder))
+            {
+                serializer.Serialize(write, dataTransferObjects, GetXmlNamespaces());
+            }
 
             return builder.ToString();
         }
@@ -28,8 +30,10 @@
 
             var builder = new StringBuilder();
 
-            using var writer = new StringWriter(builder);
-            serializer.Serialize(writer, dataTransferObjects, GetXmlNamespaces());
+            using (var writer = new StringWriter(builder))
+            {
+                serializer.Serialize(writer, dataTransferObjects, GetXmlNamespaces());
+            }
 
             return builder.ToString();
         }
