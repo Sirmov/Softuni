@@ -17,3 +17,4 @@
 | [JS Applications - February 2022](https://softuni.bg/trainings/3589/js-applications-february-2022)                 | [Certificate](https://softuni.bg/certificates/details/130450/12e1b118) |
 | [MS SQL - May 2022](https://softuni.bg/trainings/3714/ms-sql-may-2022)                                             | [Certificate](https://softuni.bg/certificates/details/134992/677a1df9) |
 | [Entity Framework Core - June 2022](https://softuni.bg/trainings/3709/entity-framework-core-june-2022)             | [Certificate](https://softuni.bg/certificates/details/138434/17fe6ec4) |
+| [ASP.NET Fundamentals - September 2022](https://softuni.bg/trainings/3853/asp-net-fundamentals-september-2022)     | [Certificate](https://softuni.bg/certificates/details/146625/a7512b17) |
