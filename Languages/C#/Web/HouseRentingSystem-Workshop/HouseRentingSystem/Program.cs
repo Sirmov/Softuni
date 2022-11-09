@@ -1,4 +1,6 @@
 using HouseRentingSystem.Data;
+using HouseRentingSystem.Services;
+using HouseRentingSystem.Services.Contracts;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,10 +18,15 @@ internal class Program
         builder.Services.AddDefaultIdentity<IdentityUser>(options =>
         {
             options.SignIn.RequireConfirmedAccount = false;
+            options.Password.RequireNonAlphanumeric = false;
+            options.Password.RequireUppercase = false;
         })
         .AddEntityFrameworkStores<HouseRentingDbContext>();
 
         builder.Services.AddControllersWithViews();
+
+        builder.Services.AddScoped<IHousesService, HousesService>();
+        builder.Services.AddScoped<IAgentsService, AgentsService>();
 
         var app = builder.Build();
 
