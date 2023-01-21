@@ -1,0 +1,72 @@
+.ul-square {
+    list-style: square;
+}
+
+.ul-disk {
+    list-style: disc;
+}
+
+.ul-circle {
+    list-style: circle;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    width: 85%;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid #d1d1d1;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #cccccc;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+blockquote {
+    border-left: 3px solid rgb(221, 221, 221);
+    font-style: italic;
+}
+
+blockquote p {
+    padding-left: 40px;
+}
+
+blockquote span {
+    display: block;
+    text-align: right;
+}
