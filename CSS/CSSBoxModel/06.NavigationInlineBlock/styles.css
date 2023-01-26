@@ -1,0 +1,29 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    border-bottom: 2px solid black;
+}
+
+nav h1 {
+    font-size: 36px;
+}
+
+nav *,
+nav {
+    display: inline-block;
+}
+
+nav ul li a {
+    margin-right: 20px;
+    color: #009984;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
