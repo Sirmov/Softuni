@@ -1,0 +1,29 @@
+body {
+    margin: 40px 50px 0px 50px;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin-right: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(0, 153, 0);
+}
+
+ul li:not(:last-child) {
+    margin-right: 10px;
+}
