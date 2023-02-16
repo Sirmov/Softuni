@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+}
+
+header {
+    border-bottom: 4px solid black;
+}
+
+header,
+main,
+footer {
+    padding: 0px 30px;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}

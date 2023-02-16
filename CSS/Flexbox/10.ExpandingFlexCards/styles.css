@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+
+section.container {
+    display: flex;
+    gap: 15px;
+}
+
+section.container img {
+    border-radius: 6px;
+    height: 400px;
+    width: 125px;
+    object-fit: cover;
+}
+
+/* section.container img:nth-child(2) {
+    width: 550px;
+} */
+
+/* Beyond the scope of the exercise */
+
+section.container img:hover {
+    width: 550px;
+}
+
+section.container img {
+    transition: all 300ms ease-out;
+}
