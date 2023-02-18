@@ -1,0 +1,31 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    margin: 60px 0px 0px 60px;
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    border-radius: 6px;
+}
+
+.card .content {
+    padding: 10px;
+}
+
+.card button {
+    margin-left: auto;
+    background-color: rgb(0, 153, 0);
+    color: white;
+    padding: 6px 16px;
+}
+
+.card .btn-wrapper {
+    text-align: right;
+}
