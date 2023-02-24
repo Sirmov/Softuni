@@ -1,0 +1,136 @@
+@media screen and (max-width: 600px) {
+    .Heading-2 {
+        font-size: 32px;
+    }
+
+    .Heading-3 {
+        font-size: 28px;
+    }
+   
+    /* Header */
+    
+    .home-container01 {
+        display: none;
+    }
+
+    .home-left, .home-right {
+        display: none;
+    }
+
+    .home-navbar1 {
+        display: block;
+    }
+    .home-middle {
+        justify-content: flex-start;
+    }
+
+    .navbar-logo-title {
+        margin-left: 0;
+    }
+
+    .home-text12 {
+        font-size: 16px;
+    }
+    
+    .home-text17 {
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .home-text18 {
+        font-size: 36px;
+    }
+
+    .home-btn-group .button {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 24px;
+        padding: 16px 26px;
+    }
+
+    /* Hero */
+
+    .home-hero1 {
+        flex-direction: column;
+    }
+
+    .home-container03 {
+        align-items: center;
+    }
+
+    /* Categories */
+
+    .section-container {
+        padding-top: 40px;
+    }
+
+    .home-cards-container {
+        grid-gap: 20px;
+    }
+
+    .category-card-category-card {
+        flex: 0 0 calc(50% - 14px);
+        height: 280px;
+    }
+
+    .category-card-image {
+        width: 100%;
+        height: calc(280px - 25px - 8px);
+        margin-bottom: 8px;
+    }
+
+    /* LookBooks */
+
+    .home-text29 {
+        font-size: 32px;
+    }
+
+    .home-text30 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .section-container.home-full-width-banner {
+        flex-direction: column;
+    }
+
+    .home-left4 {
+        padding: 32px 0;
+    }
+
+    .home-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .home-text30 {
+        width: 70%;
+    }
+
+    .home-image6 {
+        width: 100%;
+    }
+
+    /* Blog */
+
+    .blog-post-card-blog-post-card {
+        max-width: unset;
+    }
+
+    .section-heading-text1 {
+        font-size: 18px;
+    }
+
+    /* Footer */
+
+    .home-footer1 {
+        flex-direction: column-reverse;
+        padding-bottom: 32px;
+        padding-top: 50px;
+        row-gap: 50px;
+    }
+
+    .home-links-container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,187 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    padding-left: 0;
+}
+
+/* Global styles */
+
+.btn {
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 3px 28px;
+    cursor: pointer;
+}
+
+.btn.btn-primary {
+    background-color: #370511;
+    border-color: #370511;
+    color: white;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Hero */
+
+.hero {
+    width: 100%;
+    height: 75vh;
+    background-image: url(images/landing-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navigation {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.hero .logo {
+    font-size: 26px;
+    margin-right: 180px;
+}
+
+.links {
+    display: flex;
+    gap: 28px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero-information {
+    width: auto;
+    position: absolute;
+    top: calc(75vh - 70%);
+    right: calc(100vw - 50%);
+}
+
+.hero-title {
+    font-size: 64px;
+}
+
+.hero-subtitle {
+    font-size: 34px;
+    font-weight: 300;
+    margin-bottom: 26px;
+}
+
+.hero-information p {
+    font-size: 20px;
+}
+
+.hero-information .btn {
+    margin-top: 34px;
+}
+
+/* Content */
+
+.content {
+    padding: 82px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.content-title {
+    font-size: 36px;
+}
+
+.content-subtitle {
+    color: #636363;
+    margin-bottom: 36px;
+}
+
+.locations {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px 52px;
+}
+
+.location-card {
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 500px;
+}
+
+.card-image {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.card-title {
+    margin: 22px auto 18px auto;
+    font-size: 24px;
+}
+
+.card-text {
+    margin-bottom: 26px;
+}
+
+.btn.btn-rounded {
+    background-color: transparent;
+    padding: 16px 32px;
+    border-radius: 32px;
+    font-weight: 600;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    height: 25vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 360px;
+}
+
+.offers .offer a {
+    display: inline-block;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.contacts .link a {
+    display: inline-block;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+}
+
+.follow .social {
+    position: relative;
+}
+
+.follow .socials i {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
