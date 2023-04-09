@@ -1,0 +1,13 @@
+html {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url('images/background.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
